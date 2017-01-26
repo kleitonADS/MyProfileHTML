@@ -1,0 +1,40 @@
+{
+  "name": "ProjetoProfile",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "NodeJS",
+    "Gulp",
+    "Gulp-Jade",
+    "Gulp-autoprefixer",
+    "Gulp-imagemin",
+    "Gulp-uglyfi",
+    "Gulp-plumber",
+    "Sass",
+    "Browser-sync"
+  ],
+  "author": "Kleiton Azevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": " "
+  },
+  "homepage": " ",
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

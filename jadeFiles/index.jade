@@ -1,0 +1,531 @@
+doctype
+html
+  head 
+    title Kleiton Azevedo - Profile
+    link(rel="stylesheet", href="css/main.css")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+  body 
+    
+    // Icon Menu
+    div.hamburger 
+      div.line
+      div.line
+      div.line
+
+    // List Pages
+    ul.pages
+      li
+        a(href='#header' data-page-title='Home').is-active.header
+      li
+        a(href='#about-li' data-page-title='About').page-about-li
+      li
+        a(href='#carrer-li' data-page-title='Carrer').page-carrer-li
+      li
+        a(href='#skill-li' data-page-title='Skills').page-skill-li
+      li
+        a(href='#project-li' data-page-title='Projects').page-project-li  
+      //li
+        //a(href='#app-li' data-page-title='App').page-app-li
+      li
+        a(href='#contact-li' data-page-title='Contact').page-contact-li  
+  
+    // Menu Nav
+    ul.menu
+      li
+        a(href='#header') <span> Home </span>
+      li
+        a(href='#about-li') <span> About </span>
+      li
+        a(href='#carrer-li') <span> Carrer </span>
+      li
+        a(href='#skill-li') <span> Skills </span>
+      li
+        a(href='#project-li') <span> Project </span>
+      //li
+        //a(href='#app-li') <span> App </span>
+      li
+        a(href='#contact-li') <span> Contact </span>            
+
+    // Home
+    div.header.header-action#header
+      
+      // Fluting Menu
+      div.menu-nav#nav(data-position=42)
+        div.content-flex-nav
+          div.logo-header
+            h1 Logo header
+            span.name-menu
+              h2 Kleiton Azevedo
+          div.select-header
+            select#laguage
+              option Language
+              option Ingles
+              option Portugues  
+      // Content Menu          
+      div.content-flex-home
+        div.col-2flex
+          div.text-home( class="animated slideInLeft" ) 
+            hgroup
+              h2 Hello!</br>
+              h1 I am </br> Kleiton Azevedo
+              h3 Full Stack Web Developer
+        div.col-2flex      
+          div.picture-profile( class="animated slideInRight" )
+            div.picture-perfil-profile
+              img(src="img/FotoPerfilHome.png", name="picture-perfil-profile header")
+      div.content-move 
+          div.icon-move
+           a(href="#about-li")
+             i(class="fa fa-angle-down animated infinite bounce", aria-hidden="true") 
+    
+    // About
+    div.about#about-li
+      div.content-full-flex-about
+        div.about-2
+          div.col-flex2
+            div.picture-about
+              img( src="img/picture-about.png" name=" Picture About")
+          div.col-flex2
+            div.content-about
+              div.social-about
+                ul 
+                  li <i class="fa fa-github" aria-hidden="true"></i>
+                  li <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  li <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              div.text-about
+                h1 About me
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat
+
+                
+                h2 Kleiton Silva Souza de Azevedo    
+                input( type='button' value="My Resume")
+        div.col-flex1
+            div.plus-about
+              div.flex-obout
+                div.obj-about
+                  h2  <i class="fa fa-check" aria-hidden="true"></i> Objetives
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                div.qual-about
+                  h2  <i class="fa fa-check" aria-hidden="true"></i> Qualifiquetions 
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+    
+    
+    // Section Carrer
+    div.carrer#carrer-li
+      div.content-full-flex-carrer
+        div.title-flex-carrer
+          h2 Carrer
+        
+        // timeline
+        div.time-line-carrer
+          div#timeline
+            
+            // line 1 UCB
+            div.timeline-item
+              div.timeline-icon
+                i(class="fa fa-graduation-cap" aria-hidden="true")
+              div.timeline-content(class="right")
+                div.logotime-title
+                  div.flex-12
+                    img(src="img/ucb.png")
+                  div.flex-88 
+                    h2 Catholic University of Brasilia
+                h1 Analysis and systems development ( 2010 -2013 )
+                p O curso de Análise e Desenvolvimento de Sistemas da Universidade Católica de Brasília (UCB) tem como objetivo formar profissionais com sólidos conhecimentos teóricos e práticos voltados para a análise, projeto e desenvolvimento de sistemas, utilizando ferramentas computacionais, equipamentos de informática e metodologia de projetos.
+                ul
+                  li
+                    a(href="#")
+                      i(class="fa fa-external-link" aria-hidden="true")
+                    //h3 Site
+                  li
+                    a(href="#") 
+                      i(class="fa fa-file-pdf-o" aria-hidden="true")
+                    //h3 Grade
+                  li 
+                    a(href="#")
+                      i(class="fa fa-file-pdf-o" aria-hidden="true")
+                    //h3 Diploma  
+                //a(href="#", class="btn") button
+            
+            // line 2 freedon
+            div.timeline-item    
+              div.timeline-icon
+                i(class="fa fa-briefcase" aria-hidden="true")
+              div.timeline-content
+                div.logotime-title
+                  div.flex-12
+                      img(src="img/freedon.png")
+                  div.flex-88 
+                    h2 Agency freedom of expression
+                h1 ( January / Dezember 2013 )     
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elitAtque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+              //  a(href="#", class="btn") button  
+          
+            // line 3 Cast
+            div.timeline-item    
+              div.timeline-icon
+                i(class="fa fa-briefcase" aria-hidden="true")
+              div.timeline-content(class="right")
+                div.logotime-title
+                  div.flex-12
+                    img(src="img/cast.png")
+                  div.flex-88
+                    h2 think beyond
+                h1 ( January / Dezember 2013 )    
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elitAtque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                ul
+                  li
+                    a(href="#")
+                      i(class="fa fa-external-link" aria-hidden="true")
+                    //h3 Site
+                //a(href="#", class="btn") button 
+          
+            // line 4 Canada
+            div.timeline-item    
+              div.timeline-icon
+                i(class="fa fa-plane" aria-hidden="true")
+              div.timeline-content
+                div.logotime-title
+                  div.flex-12
+                    img(src="img/ca.png")
+                  div.flex-88 
+                    h2 Exchanges Canada
+                h1  ( 2016 )    
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elitAtque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                //a(href="#", class="btn") button 
+                
+            // line 5
+            div.timeline-item 
+              div.timeline-icon
+                i(class="fa fa-star" aria-hidden="true") 
+                  //h2 Exchanges Canada
+                
+    // Skills                
+    div.skill#skill-li
+      div.content-full-flex-skills
+        div.title-flex-skills
+          h2 Skills
+        
+        
+        div.content-skills
+          
+          // Frontend
+          div.types-skills
+            div.content-2skills
+              div.col-flex30-tecs
+                div.flex100title-tecs
+                  h1 Front-End
+                div.flex100content-tecs
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              
+              div.col-flex40-skills
+                
+                div.left-bar
+                  div.line-bar
+                
+                div#bars
+                  div.bar(data-percent="90") 
+                    canvas.bar-circle(width="100" height="100")
+                
+                div.right-bar
+                  div.line-bar 
+
+            div.col-flex30-logos
+              ul
+                li
+                  img(src="img/ps.png")
+                li
+                  img(src="img/html5.png")
+                li
+                  img(src="img/css3.png")
+                li
+                  img(src="img/js.png")
+              ul  
+                li
+                  img(src="img/bootstrap.png")
+                li
+                  img(src="img/ajax.png")
+                li
+                  img(src="img/sass.png")
+                li
+                  img(src="img/less.png")
+              ul  
+                li
+                  img(src="img/jquery.png")
+                li
+                  img(src="img/gulp.png")
+                li 
+                  img(src="img/jekyll.png")        
+          
+          // Backend
+          div.types-skills
+            div.content-2skills
+              div.col-flex30-tecs
+                div.flex100title-tecs
+                  h1 Back-End
+                div.flex100content-tecs
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              div.col-flex40-skills
+                
+                div.left-bar
+                  div.line-bar
+                
+                div#bars
+                  div.bar(data-percent="70") 
+                    canvas.bar-circle(width="100" height="100")
+                
+                div.right-bar 
+                  div.line-bar
+            
+            div.col-flex30-logos
+              ul
+                li
+                  img(src="img/php.png")
+                li
+                  img(src="img/zend.png")
+                li
+                  img(src="img/laravel.png")
+                li
+                  img(src="img/json.png")
+              ul  
+                li
+                  img(src="img/apache.png")
+                li
+                  img(src="img/mysql.png")
+                li
+                  img(src="img/workbench.png")
+                li
+                  img(src="img/postgree.png")
+              ul  
+                li
+                  img(src="img/mb_db.png")
+                li
+                  img(src="img/oop.png")
+                li
+                  img(src="img/mvc.png")
+                li 
+                  img(src="img/scrum.png")   
+          
+          // Mobile
+          div.types-skills
+            div.content-2skills
+              div.col-flex30-tecs
+                div.flex100title-tecs
+                  h1 Mobile
+                div.flex100content-tecs
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              div.col-flex40-skills
+                
+                div.left-bar
+                  div.line-bar
+                
+                div#bars
+                  div.bar(data-percent="50") 
+                    canvas.bar-circle(width="100" height="100")
+                
+                div.right-bar
+                  div.line-bar 
+            div.col-flex30-logos
+              ul
+                li
+                  img(src="img/nodejs.png")
+                li
+                  img(src="img/ionic.png")
+                li
+                  img(src="img/angular.png")
+                li
+                  img(src="img/redux.png")
+              ul  
+                li
+                  img(src="img/react.png")
+                li
+                  img(src="img/vue.png")
+                li
+                  img(src="img/cordova.png")
+                
+          // IDES      
+          div.types-skills
+            div.content-2skills
+              div.col-flex30-tecs
+                div.flex100title-tecs
+                  h1 IDES
+                div.flex100content-tecs
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              
+              div.col-flex40-skills
+                
+                div.left-bar
+                  div.line-bar
+                
+                div#bars
+                  div.bar(data-percent="90") 
+                    canvas.bar-circle(width="100" height="100")
+                
+                div.right-bar
+                  div.line-bar 
+                
+            div.col-flex30-logos
+              ul
+                li
+                  img(src="img/netbeans.png")
+                li
+                  img(src="img/sublime.png")
+                li
+                  img(src="img/atom.png")
+                li
+                  img(src="img/android_studio.png")
+                 
+          
+          // Subversio        
+          div.types-skills
+            div.content-2skills
+              div.col-flex30-tecs
+                div.flex100title-tecs
+                  h1 Subversion
+                div.flex100content-tecs
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              
+              div.col-flex40-skills
+                
+                div.left-bar
+                  div.line-bar
+                
+                div#bars
+                  div.bar(data-percent="70") 
+                    canvas.bar-circle(width="100" height="100")
+                
+                div.right-bar
+                  div.line-bar 
+            
+            div.col-flex30-logos 
+              ul
+                li
+                  img(src="img/svn.png")
+                li
+                  img(src="img/git.png")
+                li
+                  img(src="img/github.png")
+ 
+    // Project  
+    div.project#project-li
+      div.content-full-flex-projects
+        div.title-flex-projects-photo
+          //div.col-title-project
+          div.col-title-project
+            img(src="img/photo_profile_project.png")
+          //div.col-title-project
+          
+        div.title-flex-projects
+          div.col-title-project
+            h2 Projects
+          div.col-title-project
+          div.col-title-project 
+          
+        div.content-projects
+          div.projects-flex
+            div.video-project
+              div.select-project  
+                h1 Select Project
+                ul#listproject
+                  li(onclick="changeProject()")
+                    img#proj-link(src="img/IconProject.png", alt="https://www.youtube.com/embed/rsFCVjr5yxc?autoplay=1")
+                  li(onclick="changeProject()")
+                    img#proj-link(src="img/IconProject.png" alt="https://www.youtube.com/embed/NSmapCNcSyI?autoplay=1")
+                  li(onclick="changeProject()")
+                    img#proj-link(src="img/IconProject.png" alt="https://www.youtube.com/embed/LMfeZ6XD0No?autoplay=1")
+                  li(onclick="changeProject()")
+                    img#proj-link(src="img/IconProject.png" alt="https://www.youtube.com/embed/yCSSsBNBzso?autoplay=1")
+                  li(onclick="changeProject()")
+                    img#proj-link(src="img/IconProject.png" alt="https://www.youtube.com/embed/EANOXuQsglo?autoplay=1")
+                    //div.nbs-flexisel-nav-left
+                    //div.nbs-flexisel-nav-right      
+                div.clearout        
+                  
+                //ul
+                  //li 
+                    //img(src="img/IconProject.png")
+                  //li 
+                    //img(src="img/IconProject.png")
+                  //li 
+                    //img(src="img/IconProject.png")
+              div.img-mac-project 
+                img(src="img/macbook.png")
+                iframe#project-vi(width="" ,height="",
+                src="https://www.youtube.com/embed/XGSy3_Czz8k?autoplay=1")     
+            div.desc-project 
+              div.content-des
+                h1 project name
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              div.content-list-desc 
+                ul
+                  li
+                    i(class="fa fa-star" aria-hidden="true") 
+                  li
+                    i(class="fa fa-star" aria-hidden="true") 
+                  li
+                    i(class="fa fa-star" aria-hidden="true")  
+                  li
+                    i(class="fa fa-star" aria-hidden="true")       
+    // App
+    div.app#app-li
+      div.content-full-flex-app
+        div.text-link-app
+          h2 faça já o download do meu App  profile
+          
+          ul
+            li
+              i(class="fa fa-android" aria-hidden="true") 
+            li
+              i(class="fa fa-apple" aria-hidden="true")
+            li
+              i(class="fa fa-windows" aria-hidden="true")    
+        div.picture-smartyphone
+          img(src="img/iphone5.png")    
+
+    
+    // Contact
+    div.contact#contact-li
+      div.content-full-flex-contact
+        div.title-flex-contact
+          h2 Contact 
+        
+        div.contact-flex 
+          ul
+            li
+              i(class="fa fa-at" aria-hidden="true") 
+              h2 kleiton.ads@hotmail.com
+              
+            li
+              i(class="fa fa-mobile" aria-hidden="true")
+              h2 +1 647 920 7728 
+                
+            li
+              i(class="fa fa-map-marker" aria-hidden="true") 
+              h2 700 Ontario St , Toronto         
+        
+        
+        div.text-contact-flex
+          h3 Any question or suggestion</br>send me a message, thanks
+        div.button-contact
+          a(href="#")
+            i(class="fa fa-envelope" aria-hidden="true")
+        div.moveup-contact
+          a(href="#header")
+            i(class="fa fa-angle-up" aria-hidden="true")
+      
+    footer
+      div.content-full-flex-footer
+        div.left-footer
+          
+          img(src="img/logo-footer.png")
+          h3 Copyright <i class="fa fa-copyright" aria-hidden="true"></i>
+          
+        div.right-footer
+          i(class="fa fa-github", aria-hidden="true")
+          i(class="fa fa-linkedin", aria-hidden="true")
+          script(src="js/jquery.js", type="text/javascript")
+          script(src="js/jqueryflexisel.js", type="text/javascript")
+          script(src="js/functions.js", type="text/javascript")        
+  
+    
