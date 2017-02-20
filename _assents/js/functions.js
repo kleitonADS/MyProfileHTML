@@ -7,6 +7,8 @@ $('.hamburger').click(function(){
 });
 
 
+
+
 // выбор пункта меню //
 $('.menu li').click(function(){
 	$('.menu').removeClass('on');
@@ -19,15 +21,6 @@ $('.pages li a').click(function(){
 	$('.pages li a').parent().children().removeClass('is-active');
 	$(this).addClass('is-active');
 });
-
-/* // Выбор секции в навигации второй способ//
-$('.pages li a').click(function(){
-	$('.pages li a').each(function(){
-		$('.pages li a').removeClass('is-active');
-	});
-	$(this).addClass('is-active');
-});
-*/
 
 //плавный скролл
 	$(".menu").on("click","a", function (event) {
@@ -63,7 +56,7 @@ $(window).scroll(function(){
 			'top':'40px'
 		});
 		$('.logo-header').css({
-			'background': 'url("/img/logo-header.png")no-repeat'
+			'background': 'url("/img/logoheader_white.svg")no-repeat'
 		});
 		$('.line').css({
 			'background-color': '#fff'
@@ -269,7 +262,7 @@ $(window).scroll(function(){
 				index++;
 
 				var canvas = self.bars[index].querySelector( "canvas" );
-			
+
 				var prog = new Progress( canvas );
 
 				if( index == 4 ) { // self.bars.length
@@ -291,4 +284,18 @@ function changeProject(){
 	var link = document.getElementById('proj-link').alt;
 	document.getElementById('project-vi').src = link;
 	exit();
+}
+
+function chanceButton(x){
+	x.style.color      = "#1175ee";
+	x.style.border     = "2px solid";
+	x.style.border     = "radius: 10px";
+	x.style.background = "white";
+}
+
+function normalImg(x){
+	x.style.color      = "white";
+	x.style.border     = "2px solid";
+	x.style.border     = "radius: 10px";
+	x.style.background = "#1175ee";
 }

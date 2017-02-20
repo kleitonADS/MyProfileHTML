@@ -90,16 +90,22 @@ html
             div.content-about
               div.social-about
                 ul 
-                  li <i class="fa fa-github" aria-hidden="true"></i>
-                  li <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  li <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  li 
+                    a(href="#")
+                      i(class="fa fa-github" aria-hidden="true")
+                  li 
+                    a(href="#")
+                      i(class="fa fa-linkedin" aria-hidden="true")
+                  li
+                    a(href="#") 
+                      i(class="fa fa-youtube-play" aria-hidden="true")
               div.text-about
                 h1 About me
                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat
 
                 
                 h2 Kleiton Silva Souza de Azevedo    
-                input( type='button' value="My Resume")
+                input( type='button' value="My Resume" onmouseover="chanceButton(this)" onmouseout="normalImg(this)" )
         div.col-flex1
             div.plus-about
               div.flex-obout
@@ -475,11 +481,14 @@ html
           
           ul
             li
-              i(class="fa fa-android" aria-hidden="true") 
+              a(href="#")
+                i(class="fa fa-android" aria-hidden="true") 
             li
-              i(class="fa fa-apple" aria-hidden="true")
+              a(href="#")
+                i(class="fa fa-apple" aria-hidden="true")
             li
-              i(class="fa fa-windows" aria-hidden="true")    
+              a(href="#")
+                i(class="fa fa-windows" aria-hidden="true")    
         div.picture-smartyphone
           img(src="img/iphone5.png")    
 

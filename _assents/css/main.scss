@@ -156,6 +156,10 @@ body {
         color: #fff;
         :hover{
           color:$main-color;
+          border: 2px solid;
+          border-radius: 30px;
+          padding: 5px 12px 5px 12px;
+          background-color: white;
         }
       }
     }
@@ -265,11 +269,43 @@ body {
           // List Icon
           ul {
             display:flex;
-            li i {
-                font-size: 32px;
-                color: $main-color;
-                padding-left: 10px;
+            li{
+              padding: 10px 5px 10px 5px;
+              border: 2px solid yellow;
+              a{
+                  i{
+                    font-size: 32px;
+                    color: $main-color;
+                    //padding-left: 12px;
+                    }
+
+                    :hover{
+                      color:white;
+                      border: 2px solid;
+                      border-radius: 30px;
+                      padding: 6px 10px 6px 10px;
+                      background-color: $main-color;
+                    }
+
+              }
+
             }
+            /*li a{
+                i{
+                  font-size: 32px;
+                  color: $main-color;
+                  padding-left: 12px;
+                  }
+
+                  :hover{
+                    //color:$main-color;
+                    border: 2px solid;
+                    border-radius: 30px;
+                    padding: 0px 3px 0px 3px;
+                    background-color: white;
+                  }
+
+            }*/
           }
         }
 
@@ -328,7 +364,11 @@ body {
           margin-left: auto;
           margin-right: auto;
           text-align: center;
+
+
         }
+
+
       }
     }
   }
@@ -584,9 +624,16 @@ body {
                 width: 40px;
                 height: 40px;
                 padding-top: 10px;
+                }:hover{
+                  color:$main-color;
+                  border: 2px solid;
+                  border-radius: 30px;
+                  //padding: 6px 10px 6px 10px;
+                  background-color:white ;
+                }
 
-              }
             }
+
             h3{
               padding-top: 10px;
               padding-left:20px;
@@ -802,9 +849,10 @@ body {
           width: 40%;
           height: 250px;
           border: 2px solid red;
-          padding-top: 20px;
+          //padding-top: 20px;
           display: flex;
           flex-direction: column;
+          justify-content: center;
           ul{
             padding-top: 10px;
             display: flex;
@@ -825,7 +873,7 @@ body {
 
 }
 
-// Project
+// PROJECT
 .project {
   width: 100%;
   //min-height:800px;
@@ -1171,13 +1219,11 @@ body {
 
 }
 
-// App
+// APP
 .app {
   width: 100%;
   min-height:300px;
   background-color: #fff;
-  //display:flex;
-  //flex-direction: column;
 
   .content-full-flex-app{
     width: 100%;
@@ -1211,24 +1257,50 @@ body {
         justify-content: center;
         padding-top: 30px;
         border: 2px solid yellow;
+
         li{
+          padding: 10px 5px 10px 5px;
           border: 2px solid yellow;
-          display: inline-block;
-          padding-left: 10px;
+          a{
+              i{
+                font-size: 32px;
+                color: $main-color;
+                //padding-left: 12px;
+                }
 
-          i{
-            font-size: 34px;
-            //background-color: #fff;
-            //border: 1px solid #fff;
-            //border-radius: 20px;
-            //width: 40px;
-            //height: 40px;
-            color: $main-color;
-            //text-align: center;
+                :hover{
+                  color:white;
+                  border: 2px solid;
+                  border-radius: 30px;
+                  padding: 6px 10px 6px 10px;
+                  background-color: $main-color;
+                }
 
-            //padding-top: 12px;
           }
+
         }
+
+          /*li{
+            border: 2px solid yellow;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            a{
+              i{
+                font-size: 34px;
+                color: $main-color;
+              }
+            }
+            :hover{
+                color: #1175ee;
+                border: 2px solid;
+                border-radius: 30px;
+                //padding: 5px 12px 5px 12px;
+                background-color: white;
+              }
+          }*/
       }
     }
 
@@ -1248,25 +1320,23 @@ body {
   }
 }
 }
-// Contact
+// CONTACT
 .contact {
   width: 100%;
   min-height:800px;
   background: url('/img/background-home.jpg')center;
   background-size: cover;
   display:flex;
-  //flex-direction: column;
+
 
   .content-full-flex-contact {
     display: flex;
-    //justify-content: center;
     flex-direction: column;
     width: 100%;
     border: 2px solid red;
 
     // content Title
     .title-flex-contact {
-      //display: flex;
       height: 78px;
       width: 100%;
       background-color: $main-color ;
@@ -1285,8 +1355,7 @@ body {
     }
 
     .contact-flex {
-      //display: flex;
-      //justify-content: center;
+
       width: 40%;
       min-height: 370px;
       border: 2px solid red;
@@ -1299,13 +1368,10 @@ body {
       padding-bottom: 50px;
 
       ul {
-        //display: flex;
-        //justify-content: center;
-      li{
+
+        li{
 
         display:flex;
-        //flex-direction: column;
-        //justify-content: center;
         padding-top: 20px;
         padding-left: 50px;
 
@@ -1371,12 +1437,17 @@ body {
 
         }
       }
+      :hover {
+        color: #1175ee;
+        border-color:#1175ee;
+        background-color: white;
+        border-radius: 10px;
+      }
     }
 
     .moveup-contact{
       display: flex;
       justify-content:flex-end;
-      //padding-top: 10px;
       padding-bottom: 10px;
       padding-right: 50px;
       width: 100%;
@@ -1403,6 +1474,12 @@ body {
 
         }
       }
+      :hover {
+        color: #1175ee;
+        border-color: #1175ee;
+        border-radius: 30px;
+        background-color: white;
+    }
     }
 
   }
@@ -1757,8 +1834,26 @@ footer {
 }
 
 // Desktop and Tablets landcaspe
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 750px) {
+    // ABOUT
+    .about{
+      .content-full-flex-about{
+        .about-2{
+          .text-about{
+            margin-top: 120px;
+          }
+        }
+      }
+    }
 
+    // CONTACT
+    .contact{
+        .content-full-flex-contact {
+            .contact-flex{
+              width: 70%;
+            }
+        }
+    }
 }
 
 // Tablet
@@ -1884,7 +1979,7 @@ footer {
         }
       }
     }
-
+    // CARRER
     .carrer {
       .content-full-flex-carrer {
 
@@ -1898,6 +1993,62 @@ footer {
         }
         .time-line-carrer{
           padding-top: 50px;
+        }
+      }
+    }
+
+    // SKILLS
+    .skill{
+      .content-full-flex-skills{
+        .content-skills {
+          .types-skills{
+            .col-flex30-logos{
+              height: auto;
+              justify-content: center;
+              width: 65%;
+            }
+            .content-2skills{
+              .col-flex30-tecs{
+                width: 80%;
+              }
+
+              .col-flex40-skills{
+                .bar-circle{
+                  margin-top: 85px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //APP
+    .app{
+      .content-full-flex-app{
+        .text-link-app{
+          h2{
+              text-align: center;
+              padding-left: 30px;
+          }
+        }
+      }
+    }
+
+    // CONTACT
+    .contact {
+      .content-full-flex-contact{
+        .contact-flex {
+          display: flex;
+          margin-top: 100px;
+          justify-content: center;
+          width: 70%;
+          min-height: inherit;
+          padding-bottom: 70px;
+        }
+
+        .button-contact{
+          width: 70%;
         }
       }
     }
@@ -1997,8 +2148,10 @@ footer {
 
                 font-size: 14px;
                 text-align: left;
-                padding-top: 6px;
+                padding-top: 1px;
                 line-height: 15px;
+                padding-right: 10px;
+                padding-left: 5px;
 
             }
           }
@@ -2015,7 +2168,7 @@ footer {
 
     }
   }
-
+  // Skills
   .skill {
 
     .content-full-flex-skills{
@@ -2042,6 +2195,11 @@ footer {
             height: auto;
             padding-bottom: 20px;
 
+            ul{
+              margin-left: auto;
+              margin-right: auto;
+            }
+
           }
         }
 
@@ -2049,6 +2207,7 @@ footer {
     }
   }
 
+  // Projects
   .project .content-full-flex-projects {
 
     .title-flex-projects-photo{
@@ -2079,6 +2238,7 @@ footer {
 
     .content-projects{
       margin-top: 20px;
+      margin-bottom: 20px;
 
       .projects-flex{
         flex-direction: column;
@@ -2086,8 +2246,107 @@ footer {
 
         .video-project{
           width: 100%;
+
+          .img-mac-project iframe{
+            width: 75%;
+            height: 130px;
+            margin-top: -80px;
+          }
+        }
+
+        .desc-project{
+          width: 100%;
+
+          .content-des p{
+            text-align: center;
+          }
+        }
+
+        .content-list-desc{
+          margin-bottom: 30px;
         }
       }
+    }
+  }
+
+  // app
+  .app .content-full-flex-app {
+    flex-direction: column;
+
+    .text-link-app{
+      width: 100%;
+
+      h2{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+      }
+    }
+
+    .picture-smartyphone{
+      width: 100%;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-top: 30px;
+      padding-bottom: 0px;
+    }
+  }
+
+  // Contact
+  .contact {
+    min-height:inherit;
+
+    .content-full-flex-contact {
+
+      .contact-flex {
+        width: 90%;
+        margin-top: 20px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        min-height: inherit;
+
+        ul li{
+          padding-left: 0px;
+          justify-content: center;
+
+          i{
+            font-size: inherit;
+          }
+
+          h2{
+            font-size: inherit;
+          }
+        }
+      }
+
+      .text-contact-flex{
+
+        padding-top: 20px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+
+         h3{
+          font-size: inherit;
+         }
+      }
+      .button-contact{
+        width: 80%;
+        padding-top: 10px;
+      }
+
+      .moveup-contact{
+        display: none;
+      }
+    }
+  }
+
+  footer .content-full-flex-footer .left-footer {
+    width: 70%;
+
+    h3{
+      font-size: inherit;
+      margin-top: 10px;
     }
   }
 }
