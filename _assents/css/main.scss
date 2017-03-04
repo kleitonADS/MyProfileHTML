@@ -858,7 +858,14 @@ body {
             display: flex;
             li{
               display: inline-block;
-              padding-left: 10px;
+              //padding-left: 10px;
+              /* padding-left: 10px; */
+              background-color: white;
+              border-radius: 30px;
+              /* border: 2px solid red; */
+              margin-left: 10px;
+              width: 52px;
+              height: 52px;
             }
 
           }
@@ -1562,7 +1569,7 @@ footer {
     .logo-header {
       width: 50%;
       height:34px;
-      background: url('/img/logo-header.png')no-repeat;
+      background: url('/img/logo-header.svg')no-repeat;
       background-size:auto;
       margin-left: 5%;
 

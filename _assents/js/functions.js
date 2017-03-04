@@ -56,7 +56,7 @@ $(window).scroll(function(){
 			'top':'40px'
 		});
 		$('.logo-header').css({
-			'background': 'url("/img/logoheader_white.svg")no-repeat'
+			'background': 'url(/img/logo-header.svg)no-repeat'
 		});
 		$('.line').css({
 			'background-color': '#fff'
@@ -101,7 +101,7 @@ $(window).scroll(function(){
 			'top':'0px'
 		});
 		$('.logo-header').css({
-			'background': 'url("/img/logo-menu-floating.png")no-repeat'
+			'background': 'url("/img/logo-headerf.svg")no-repeat'
 		});
 
 		$('.line').css({
