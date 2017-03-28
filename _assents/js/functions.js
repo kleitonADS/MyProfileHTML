@@ -1,22 +1,68 @@
 
-//$('.fa fa-angle-down').addClass('animated infinite bounce');
-// Нажатие на кнопку меню //
+
+// Menu Toogle
 $('.hamburger').click(function(){
 	$(this).toggleClass('is-active');
 	$('.menu').toggleClass('on');
 });
 
+$('#form-main').hide();
+$('.link-resume').hide();
+$('.next-step ').hide();
+
+$(document).ready(function(){
+	$('#showform').click(function(event){
+		event.preventDefault();
+		var name = document.getElementById('showform').name;
+
+		if(name == 'show'){
+
+			$('#form-main').show('slow');
+			document.getElementById('showform').name = "";
 
 
+		}else{
 
-// выбор пункта меню //
+			$('#form-main').hide('slow');
+			document.getElementById('showform').name = "show";
+		}
+
+
+	});
+	//$(this).toggleClass('is-active');
+	//$('.menu').toggleClass('on');
+});
+
+$(document).ready(function(){
+	$('#showlink').click(function(event){
+		event.preventDefault();
+		var name = document.getElementById('showform').name;
+
+		if(name == 'show'){
+
+			$('.link-resume').show('slow');
+			document.getElementById('showform').name = "";
+
+
+		}else{
+
+			$('.link-resume').hide('slow');
+			document.getElementById('showform').name = "show";
+		}
+
+
+	});
+	//$(this).toggleClass('is-active');
+	//$('.menu').toggleClass('on');
+});
+
+// FLuting Menu
 $('.menu li').click(function(){
 	$('.menu').removeClass('on');
 	$('.hamburger').removeClass('is-active');
 });
 
 // Выбор секции в навигации первый способ//
-
 $('.pages li a').click(function(){
 	$('.pages li a').parent().children().removeClass('is-active');
 	$(this).addClass('is-active');
@@ -40,6 +86,8 @@ var tmenu = $('.menu-nav').position().top + $('.menu-nav').data('position');
 $('.menu-nav').css({
 	'top': tmenu
 });
+
+
 
 // функция для автоматической навигации или при скроле //
 $(window).scroll(function(){
@@ -165,6 +213,7 @@ $(window).scroll(function(){
 	if(wScroll > $('#skill-li').offset().top - 100){
 		$('.pages li a').parent().children().removeClass('is-active');
 		$('.pages li a.page-skill-li').addClass('is-active');
+
 	}
 
 	if(wScroll > $('#project-li').offset().top - 100){
@@ -181,6 +230,128 @@ $(window).scroll(function(){
 		$('.pages li a').parent().children().removeClass('is-active');
 		$('.pages li a.page-contact-li').addClass('is-active');
 	}
+
+	// step carrer 1 ( white )
+	if(wScroll > $('#step1').offset().top - 100) {
+
+		$('#step1 .timeline-icon ').css({
+			'border':' 2px solid #1175ee',
+			'color': '#1175ee',
+			'background-color': '#fff'
+		});
+
+	}
+
+	// step carrer 1 ( blue )
+	if(wScroll > $('#step1').offset().top - 50) {
+
+		$('#step1 .timeline-icon ').css({
+			'border':' 2px solid #1175ee',
+			'color': '#fff',
+			'background-color': '#1175ee'
+		});
+
+	}
+
+	// step carrer 2 ( white )
+	if(wScroll > $('#step2').offset().top - 100) {
+
+		$('#step2 .timeline-icon ').css({
+			'border':'2px solid #1175ee',
+			'color': '#1175ee',
+			'background-color': '#fff'
+		});
+
+	}
+
+	// step carrer 2 ( blue )
+	if(wScroll > $('#step2').offset().top - 50) {
+
+		$('#step2 .timeline-icon ').css({
+			'border':' 2px solid #1175ee',
+			'color': '#fff',
+			'background-color': '#1175ee'
+		});
+
+	}
+
+	// step carrer 3 ( white )
+	if(wScroll > $('#step3').offset().top - 100) {
+		//$('.pages li a.page-contact-li').addClass('is-active');
+
+		$('#step3 .timeline-icon ').css({
+			'border':'2px solid #1175ee',
+			'color': '#1175ee',
+			'background-color': '#fff'
+		});
+
+
+	}
+
+	// step carrer 3 ( blue )
+	if(wScroll > $('#step3').offset().top - 50) {
+
+		$('#step3 .timeline-icon ').css({
+			'border':' 2px solid #1175ee',
+			'color': '#fff',
+			'background-color': '#1175ee'
+		});
+
+	}
+
+	// step carrer 4 ( white )
+	if(wScroll > $('#step4').offset().top - 100) {
+		//$('.pages li a.page-contact-li').addClass('is-active');
+
+		$('#step4 .timeline-icon ').css({
+			'border':'2px solid #1175ee',
+			'color': '#1175ee',
+			'background-color': '#fff'
+		});
+
+
+
+	}
+
+	// step carrer 4 ( blue )
+	if(wScroll > $('#step4').offset().top - 50) {
+
+		$('#step4 .timeline-icon ').css({
+			'border':' 2px solid #1175ee',
+			'color': '#fff',
+			'background-color': '#1175ee'
+		});
+
+	}
+
+	// step carrer 5 ( white )
+	if(wScroll > $('#step5').offset().top - 250) {
+		//$('.pages li a.page-contact-li').addClass('is-active');
+
+		$('#step5 .timeline-icon ').css({
+			'border':'2px solid #1175ee',
+			'color': '#1175ee',
+			'background-color': '#fff'
+		});
+
+		$('.next-step ').show('slow');
+
+
+	}
+
+	// step carrer 5 ( blue )
+	if(wScroll > $('#step5').offset().top - 50) {
+
+		$('#step5 .timeline-icon ').css({
+			'border':' 2px solid #1175ee',
+			'color': '#fff',
+			'background-color': '#1175ee'
+		});
+
+	}
+
+
+
 
 });
 

@@ -20,7 +20,7 @@ $(window).ready(function() {
         var defaults = $.extend({
             visibleItems: 3,
             itemsToScroll: 3,
-            animationSpeed: 100,
+            animationSpeed: 700,
             infinite: true,
             navigationTargetSelector: null,
             autoPlay: {
