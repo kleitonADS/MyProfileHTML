@@ -7,24 +7,24 @@
 // Fonts
 @font-face {
     font-family: brandon;
-    src: url('/fonts/Brandon_thin.otf');
+    src: url('fonts/Brandon_thin.otf');
 }
 @font-face {
     font-family: futurabt;
-    src: url('/fonts/futurabtbold.otf');
+    src: url('fonts/futurabtbold.otf');
 }
 
 @font-face {
     font-family: futurabt-medium;
-    src: url('/fonts/futurabt-medium.otf');
+    src: url('fonts/futurabt-medium.otf');
 }
 @font-face {
     font-family: titillium;
-    src: url('/fonts/titilliumwebthin.ttf');
+    src: url('fonts/titilliumwebthin.ttf');
 }
 @font-face {
     font-family: advent-pro;
-    src: url('/fonts/adventpro-regular.ttf');
+    src: url('fonts/adventpro-regular.ttf');
 }
 @font-face {
     font-family: kaufman-bt;
@@ -69,7 +69,7 @@ body {
 .header-action {
   width: 100%;
   min-height:800px;
-  background: url('/img/background-home.jpg')center;
+  background: url('img/background-home.jpg')center;
   background-size: cover;
   display:flex;
   flex-direction: column;
