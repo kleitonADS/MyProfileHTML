@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <!-- content head-->
+  <head> 
+    <title>Kleiton Azevedo - Profile</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body> </body>
+</html>
+<body> 
+  <!-- Icon Menu-->
+  <div class="hamburger"> 
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <!-- List Pages-->
+  <ul class="pages">
+      <li><a href="#header" data-page-title="Home" class=".is-active.header"> </a></li>
+      <li><a href="#about-li" data-page-title="About" class=".page-about-li"> </a></li>
+      <li><a href="#carrer-li" data-page-title="Carrer" class=".page-carrer-li"> </a></li>
+      <li><a href="#skill-li" data-page-title="Skills" class=".page-skill-li"> </a></li>
+      <li><a href="#project-li" data-page-title="Projects" class=".page-project-li  "> </a></li>
+    <!--+page('#app-li', 'App', '.page-app-li')-->
+      <li><a href="#contact-li" data-page-title="Contact" class=".page-contact-li "> </a></li>
+  </ul>
+  <!-- Menu Nav-->
+  <ul class="menu">
+      <li><a href="#header"><span> Home </span></a></li>
+      <li><a href="#about-li"><span> About </span></a></li>
+      <li><a href="#carrer-li"><span> Carrer </span></a></li>
+      <li><a href="#skill-li"><span> Skills </span></a></li>
+      <li><a href="#project-li"><span> Projects </span></a></li>
+    <!--+nav('#app-li', 'App')-->
+      <li><a href="#contact-li"><span> Contact </span></a></li>
+  </ul>
+  <!-- Home-->
+  <div id="header" class="header header-action">
+    <!-- Fluting Menu-->
+    <div id="nav" data-position='42' class="menu-nav">
+      <div class="content-flex-nav">
+        <div class="logo-header">
+          <h1>Logo header</h1><span class="name-menu">
+            <h2>Kleiton Azevedo</h2></span>
+        </div>
+        <div class="select-header">
+          <select id="laguage">
+            <option>Language</option>
+            <option>Ingles</option>
+            <option>Portugues  </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- Content Menu          -->
+    <div class="content-flex-home">
+      <div class="col-2flex">
+        <div class="text-home animated slideInLeft"> 
+          <hgroup>
+            <h2>Hello!</br></h2>
+            <h1>I am </br> Kleiton Azevedo</h1>
+            <h3>Web Developer - PHP Developer</h3>
+          </hgroup>
+        </div>
+      </div>
+      <div class="col-2flex">     
+        <div class="picture-profile animated slideInRight">
+          <div class="picture-perfil-profile"><img src="img/FotoPerfilHome.png" name="picture-perfil-profile header"></div>
+        </div>
+      </div>
+    </div>
+    <div class="content-move"> 
+      <div class="icon-move"><a href="#about-li"><i aria-hidden="true" class="fa fa-angle-down animated infinite bounce"></i></a></div>
+    </div>
+  </div>
+  <!-- About-->
+  <div id="about-li" class="about">
+    <div class="content-full-flex-about">
+      <div class="about-2">
+        <div class="col-flex2">
+          <div class="picture-about"><img src="img/picture-about.png" name=" Picture About"></div>
+        </div>
+        <div class="col-flex2">
+          <div class="content-about">
+            <div class="social-about">
+              <ul> 
+                <li> <a href="https://github.com/kleitonADS" target="_blank"><i aria-hidden="true" class="fa fa-github"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/kleitonsouzaads/" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
+                <!--li
+                //a(href="#" target="_blank") 
+                  //i(class="fa fa-codepen" aria-hidden="true" )
+                -->
+              </ul>
+            </div>
+            <div class="text-about">
+              <h1>About me</h1>
+              <p>Hello! I am a PHP developer working with front-end and back-end web systems development, I have 3 years of proven experience, but currently working, developing private projects, I like this profession, to be able to develop systems that can facilitate people's lives is very rewarding. </p>
+              <h2>Kleiton Silva Souza de Azevedo    </h2>
+              <input type="button" id="showlink" value="My Resume" onmouseover="chanceButton(this)" onmouseout="normalImg(this)" name="show">
+            </div>
+            <div class="link-resume">
+              <ul>
+                <li><a href="/file/ResumeKleiton-eng.pdf" target="_blank"> <i aria-hidden="true" class="fa fa-check"> </i>
+                    <h3>Portugues</h3></a></li>
+                <li><a href="/file/ResumeKleiton-eng.pdf" target="_blank"> <i aria-hidden="true" class="fa fa-check"> </i>
+                    <h3>English</h3></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-flex1">
+        <div class="plus-about">
+          <div class="flex-obout">
+            <div class="obj-about">
+              <h2> <i class="fa fa-check" aria-hidden="true"></i> Objetives</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+            </div>
+            <div class="qual-about">
+              <h2> <i class="fa fa-check" aria-hidden="true"></i> Qualifiquetions </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="content-full-flex-footer">
+      <div class="left-footer"><a href="#"><img src="img/logo_footer.svg"></a>
+        <h3>Copyright <i class="fa fa-copyright" aria-hidden="true"></i></h3>
+      </div>
+      <div class="right-footer"><a href="#"><i aria-hidden="true" class="fa fa-github"></i></a><a href="#"> <i aria-hidden="true" class="fa fa-linkedin"></i></a>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jqueryflexisel.js" type="text/javascript"></script>
+        <script src="js/functions.js" type="text/javascript">       </script>
+      </div>
+    </div>
+  </footer>
+</body>
