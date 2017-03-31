@@ -113,13 +113,13 @@ $(window).scroll(function(){
 			'top':'40px'
 		});
 		$('.logo-header').css({
-			'background': 'url(/img/logo-header.svg)no-repeat'
+			'background': 'url(../img/logo-header.svg)no-repeat'
 		});
 		$('.line').css({
 			'background-color': '#fff'
 		});
 		$('.select-header select').css({
-			'background-image': 'url(/img/arrow_down.svg)',
+			'background-image': 'url(../img/arrow_down.svg)',
 			'border':' 2px solid #fff',
 			'color': '#fff',
 			'background-color': 'transparent'
@@ -131,7 +131,7 @@ $(window).scroll(function(){
 
 		$( "#laguage" ).mouseover(function() {
 			$('.select-header select').css({
-				'background-image': 'url(/img/arrow_down-b.svg)',
+				'background-image': 'url(../img/arrow_down-b.svg)',
 				'border':' 2px solid #1175ee',
 				'color': '#1175ee',
 				'background-color': '#fff'
@@ -141,7 +141,7 @@ $(window).scroll(function(){
 
 		$( "#laguage" ).mouseout(function() {
 			$('.select-header select').css({
-				'background-image': 'url(/img/arrow_down.svg)',
+				'background-image': 'url(../img/arrow_down.svg)',
 				'border':' 2px solid #fff',
 				'color': '#fff',
 				'background-color': 'transparent'
@@ -166,14 +166,14 @@ $(window).scroll(function(){
 			});
 		}
 
-		
+
 
 
 
 
 
 		$('.logo-header').css({
-			'background': 'url("/img/logo-headerf.svg")no-repeat'
+			'background': 'url("../img/logo-headerf.svg")no-repeat'
 		});
 
 		$('.line').css({
@@ -185,7 +185,7 @@ $(window).scroll(function(){
 		});
 
 		$('.select-header select').css({
-			'background-image': 'url(/img/arrow_down-b.svg)',
+			'background-image': 'url(../img/arrow_down-b.svg)',
 			'border':' 2px solid #1175ee',
 			'color': '#1175ee'
 
@@ -193,7 +193,7 @@ $(window).scroll(function(){
 
 		$( "#laguage" ).mouseover(function() {
 			$('.select-header select').css({
-				'background-image': 'url(/img/arrow_down.svg)',
+				'background-image': 'url(../img/arrow_down.svg)',
 				'border':' 2px solid #fff',
 				'color': '#fff',
 				'background-color': '#1175ee'
@@ -203,7 +203,7 @@ $(window).scroll(function(){
 
 		$( "#laguage" ).mouseout(function() {
 			$('.select-header select').css({
-				'background-image': 'url(/img/arrow_down-b.svg)',
+				'background-image': 'url(../img/arrow_down-b.svg)',
 				'border':' 2px solid #1175ee',
 				'color': '#1175ee',
 				'background-color': '#fff'

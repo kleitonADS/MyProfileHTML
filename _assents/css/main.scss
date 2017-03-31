@@ -28,7 +28,7 @@
 }
 @font-face {
     font-family: kaufman-bt;
-    src: url('/fonts/kaufmann-bt.ttf');
+    src: url('fonts/kaufmann-bt.ttf');
 }
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
@@ -69,7 +69,7 @@ body {
 .header-action {
   width: 100%;
   min-height:800px;
-  background: url('/img/background-home.jpg')center;
+  background: url('../background-home.jpg')center;
   background-size: cover;
   display:flex;
   flex-direction: column;
