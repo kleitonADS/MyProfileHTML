@@ -5964,7 +5964,7 @@ footer {
     .menu-nav .content-flex-nav .logo-header {
       width: 50%;
       height: 34px;
-      background: url("/img/logo-header.svg") no-repeat;
+      background: url("../img/logo-header.svg") no-repeat;
       background-size: auto;
       margin-left: 5%; }
       .menu-nav .content-flex-nav .logo-header h1 {
@@ -5994,7 +5994,7 @@ footer {
       .menu-nav .content-flex-nav .select-header select {
         background-color: transparent;
         border-radius: 60px;
-        background-image: url("/img/arrow_down.svg");
+        background-image: url("../img/arrow_down.svg");
         background-position: top -1px right 1px;
         background-repeat: no-repeat;
         display: block;
@@ -6019,7 +6019,7 @@ footer {
         .menu-nav .content-flex-nav .select-header select:hover {
           background-color: #fff;
           color: #1175ee;
-          background-image: url("/img/arrow_down-b.svg"); }
+          background-image: url("../img/arrow_down-b.svg"); }
 
 .js-active {
   position: fixed;
