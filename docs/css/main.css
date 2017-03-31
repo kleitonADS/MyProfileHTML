@@ -4775,7 +4775,7 @@ body {
 .header-action {
   width: 100%;
   min-height: 800px;
-  background: url("img/background-home.jpg") center;
+  background: url("/img/background-home.jpg") center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
