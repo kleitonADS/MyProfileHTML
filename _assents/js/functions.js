@@ -6,6 +6,17 @@ $('.hamburger').click(function(){
 	$('.menu').toggleClass('on');
 });
 
+$('#laguage').on('change', function() {
+	var nameSelect  = this.value;
+	if(nameSelect == 'Portugues'  ){
+		location.href = "index-br.html";
+	}
+	if(nameSelect == 'Ingles'  ){
+		location.href = "index.html";
+	}
+
+});
+
 $('#form-main').hide();
 $('.link-resume').hide();
 $('.next-step ').hide();
@@ -29,31 +40,29 @@ $(document).ready(function(){
 
 
 	});
-	//$(this).toggleClass('is-active');
-	//$('.menu').toggleClass('on');
+
 });
 
+// Link Resume
 $(document).ready(function(){
 	$('#showlink').click(function(event){
 		event.preventDefault();
-		var name = document.getElementById('showform').name;
-
-		if(name == 'show'){
+		var nameLink = document.getElementById('showlink').name;
+		if (nameLink  == 'show'){
 
 			$('.link-resume').show('slow');
-			document.getElementById('showform').name = "";
+			document.getElementById('showlink').name = "";
 
 
 		}else{
 
 			$('.link-resume').hide('slow');
-			document.getElementById('showform').name = "show";
+			document.getElementById('showlink').name = "show";
 		}
 
 
 	});
-	//$(this).toggleClass('is-active');
-	//$('.menu').toggleClass('on');
+
 });
 
 // FLuting Menu
@@ -148,6 +157,21 @@ $(window).scroll(function(){
 		$('.hamburger').css({
 			'top':'0px'
 		});
+
+
+
+		if($(".menu").hasClass("on") ){
+			$('.hamburger').css({
+				'top':'40px'
+			});
+		}
+
+		
+
+
+
+
+
 		$('.logo-header').css({
 			'background': 'url("/img/logo-headerf.svg")no-repeat'
 		});

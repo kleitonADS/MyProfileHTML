@@ -1,0 +1,66 @@
+// Icon Menu
+div.hamburger 
+  div.line
+  div.line
+  div.line
+
+// List Pages
+mixin page(rota, caption, status)
+    li
+      a(href='#{rota}' data-page-title='#{caption}' class='#{status}') 
+  
+  ul.pages
+    +page('#header', 'Home', '.is-active.header')
+    +page('#about-li', 'Sobre', '.page-about-li') 
+    +page('#carrer-li', 'Carreira', '.page-carrer-li') 
+    +page('#skill-li', 'Conhecimentos', '.page-skill-li') 
+    +page('#project-li', 'Projetos', '.page-project-li  ') 
+    //+page('#app-li', 'App', '.page-app-li')
+    +page('#contact-li', 'Contatos', '.page-contact-li ')   
+  
+
+// Menu Nav
+mixin nav(rota, name)
+    li
+      a(href='#{rota}') <span> #{name} </span>
+ul.menu
+  +nav('#header', 'Home')
+  +nav('#about-li', 'Sobre') 
+  +nav('#carrer-li', 'Carreira') 
+  +nav('#skill-li', 'Conhecimentos') 
+  +nav('#project-li', 'Projetos') 
+  //+nav('#app-li', 'App')
+  +nav('#contact-li', 'Contatos')    
+
+// Home
+div.header.header-action#header
+  
+  // Fluting Menu
+  div.menu-nav#nav(data-position=42)
+    div.content-flex-nav
+      div.logo-header
+        h1 Logo header
+        span.name-menu
+          h2 Kleiton Azevedo
+      div.select-header
+        select#laguage
+          option Language
+          option Ingles
+          option Portugues  
+  
+  // Content Menu          
+  div.content-flex-home
+    div.col-2flex
+      div.text-home( class="animated slideInLeft" ) 
+        hgroup
+          h2 Olá!</br>
+          h1 Eu sou </br> Kleiton Azevedo
+          h3 Desenvolvedor Web - Programador PHP
+    div.col-2flex      
+      div.picture-profile( class="animated slideInRight" )
+        div.picture-perfil-profile
+          img(src="img/FotoPerfilHome.png", name="picture-perfil-profile header")
+  div.content-move 
+      div.icon-move
+       a(href="#about-li")
+         i(class="fa fa-angle-down animated infinite bounce", aria-hidden="true")
