@@ -5964,7 +5964,7 @@ footer {
     .menu-nav .content-flex-nav .logo-header {
       width: 50%;
       height: 34px;
-      background-image: url("../img/logo-header.svg") no-repeat;
+      background-image: url("../img/logo-header.svg");
       margin-left: 5%; }
       .menu-nav .content-flex-nav .logo-header h1 {
         display: none; }

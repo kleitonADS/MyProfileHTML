@@ -113,7 +113,7 @@ $(window).scroll(function(){
 			'top':'40px'
 		});
 		$('.logo-header').css({
-			'background': 'url("img/logo-header.svg")no-repeat'
+			'background-image': 'url("img/logo-header.svg")no-repeat'
 		});
 		$('.line').css({
 			'background-color': '#fff'
@@ -173,7 +173,7 @@ $(window).scroll(function(){
 
 
 		$('.logo-header').css({
-			'background': 'url("img/logo-headerf.svg")no-repeat'
+			'background-image': 'url("img/logo-headerf.svg")no-repeat'
 		});
 
 		$('.line').css({
