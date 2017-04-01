@@ -5965,7 +5965,6 @@ footer {
       width: 50%;
       height: 34px;
       background-image: url("../img/logo-header.svg") no-repeat;
-      background-size: auto;
       margin-left: 5%; }
       .menu-nav .content-flex-nav .logo-header h1 {
         display: none; }
