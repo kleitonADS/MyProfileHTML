@@ -5775,28 +5775,28 @@ body {
         color: #1175ee;
         border: #1175ee solid 3px; }
       .contact .content-full-flex-contact #form-main #name {
-        background-image: url("/img/name.svg");
+        background-image: url("../img/name.svg");
         background-size: 30px 30px;
         background-position: 11px 8px;
         background-repeat: no-repeat; }
       .contact .content-full-flex-contact #form-main #name:focus {
-        background-image: url("/img/nameb.svg");
+        background-image: url("../img/nameb.svg");
         background-size: 30px 30px;
         background-position: 8px 5px;
         background-position: 11px 8px;
         background-repeat: no-repeat; }
       .contact .content-full-flex-contact #form-main #email {
-        background-image: url("/img/email.svg");
+        background-image: url("../img/email.svg");
         background-size: 30px 30px;
         background-position: 11px 8px;
         background-repeat: no-repeat; }
       .contact .content-full-flex-contact #form-main #email:focus {
-        background-image: url("/img/email.svg");
+        background-image: url("../img/email.svg");
         background-size: 30px 30px;
         background-position: 11px 8px;
         background-repeat: no-repeat; }
       .contact .content-full-flex-contact #form-main #comment {
-        background-image: url("/img/comment.svg");
+        background-image: url("../img/comment.svg");
         background-size: 30px 30px;
         background-position: 11px 8px;
         background-repeat: no-repeat; }
@@ -5811,11 +5811,11 @@ body {
         color: #1175ee;
         border: 2px solid #1175ee; }
       .contact .content-full-flex-contact #form-main #name:hover {
-        background-image: url("/img/nameb.svg"); }
+        background-image: url("../img/nameb.svg"); }
       .contact .content-full-flex-contact #form-main #email:hover {
-        background-image: url("/img/emailb.svg"); }
+        background-image: url("../img/emailb.svg"); }
       .contact .content-full-flex-contact #form-main #comment:hover {
-        background-image: url("/img/commentb.svg"); }
+        background-image: url("../img/commentb.svg"); }
       .contact .content-full-flex-contact #form-main #button-blue {
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
         float: left;
@@ -5964,7 +5964,7 @@ footer {
     .menu-nav .content-flex-nav .logo-header {
       width: 50%;
       height: 34px;
-      background: url("../img/logo-header.svg") no-repeat;
+      background-image: url("../img/logo-header.svg") no-repeat;
       background-size: auto;
       margin-left: 5%; }
       .menu-nav .content-flex-nav .logo-header h1 {

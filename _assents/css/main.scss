@@ -1402,14 +1402,14 @@ body {
 
       /* Icons ---------------------------------- */
       #name{
-      	background-image: url("/img/name.svg");
+      	background-image: url("../img/name.svg");
       	background-size: 30px 30px;
       	background-position: 11px 8px;
       	background-repeat: no-repeat;
       }
 
       #name:focus{
-      	background-image: url("/img/nameb.svg");
+      	background-image: url("../img/nameb.svg");
       	background-size: 30px 30px;
       	background-position: 8px 5px;
         background-position: 11px 8px;
@@ -1417,14 +1417,14 @@ body {
       }
 
       #email{
-      	background-image: url("/img/email.svg");
+      	background-image: url("../img/email.svg");
       	background-size: 30px 30px;
       	background-position: 11px 8px;
       	background-repeat: no-repeat;
       }
 
       #email:focus{
-      	background-image: url("/img/email.svg");
+      	background-image: url("../img/email.svg");
       	background-size: 30px 30px;
         background-position: 11px 8px;
       	background-repeat: no-repeat;
@@ -1432,7 +1432,7 @@ body {
       }
 
       #comment{
-      	background-image: url("/img/comment.svg");
+      	background-image: url("../img/comment.svg");
       	background-size: 30px 30px;
       	background-position: 11px 8px;
       	background-repeat: no-repeat;
@@ -1453,15 +1453,15 @@ body {
       }
 
       #name:hover{
-        background-image: url("/img/nameb.svg");
+        background-image: url("../img/nameb.svg");
       }
 
       #email:hover{
-        background-image: url("/img/emailb.svg");
+        background-image: url("../img/emailb.svg");
       }
 
       #comment:hover{
-        background-image: url("/img/commentb.svg");
+        background-image: url("../img/commentb.svg");
       }
 
       #button-blue{
@@ -1633,7 +1633,7 @@ footer {
     .logo-header {
       width: 50%;
       height:34px;
-      background: url('../img/logo-header.svg')no-repeat;
+      background-image: url('../img/logo-header.svg')no-repeat;
       background-size:auto;
       margin-left: 5%;
 
