@@ -1,10 +1,11 @@
+
+
 // Menu Toogle
 $('.hamburger').click(function(){
 	$(this).toggleClass('is-active');
 	$('.menu').toggleClass('on');
 });
 
-// Select Menu
 $('#laguage').on('change', function() {
 	var nameSelect  = this.value;
 	if(nameSelect == 'Portugues'  ){
@@ -16,44 +17,118 @@ $('#laguage').on('change', function() {
 
 });
 
-/////// Menu ////////
-// Action Scroll menu
+$('#form-main').hide();
+$('.link-resume').hide();
+$('.next-step ').hide();
+
+$(document).ready(function(){
+	$('#showform').click(function(event){
+		event.preventDefault();
+		var name = document.getElementById('showform').name;
+
+		if(name == 'show'){
+
+			$('#form-main').show('slow');
+			document.getElementById('showform').name = "";
+
+
+		}else{
+
+			$('#form-main').hide('slow');
+			document.getElementById('showform').name = "show";
+		}
+
+
+	});
+
+});
+
+// Link Resume
+$(document).ready(function(){
+	$('#showlink').click(function(event){
+		event.preventDefault();
+		var nameLink = document.getElementById('showlink').name;
+		if (nameLink  == 'show'){
+
+			$('.link-resume').show('slow');
+			document.getElementById('showlink').name = "";
+
+
+		}else{
+
+			$('.link-resume').hide('slow');
+			document.getElementById('showlink').name = "show";
+		}
+
+
+	});
+
+});
+
+// FLuting Menu
+$('.menu li').click(function(){
+	$('.menu').removeClass('on');
+	$('.hamburger').removeClass('is-active');
+});
+
+// Выбор секции в навигации первый способ//
+$('.pages li a').click(function(){
+	$('.pages li a').parent().children().removeClass('is-active');
+	$(this).addClass('is-active');
+});
+
+//плавный скролл
+	$(".menu").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+		top = $(id).offset().top;
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1000 );
+
+	});
+
+// устанваливаем отступ сверху фиксированного меню
+var tmenu = $('.menu-nav').position().top + $('.menu-nav').data('position');
+$('.menu-nav').css({
+	'top': tmenu
+});
+
+
+
+// функция для автоматической навигации или при скроле //
 $(window).scroll(function(){
 
 	var wScroll = $(this).scrollTop();
 	var heightheader = $('#header').height()-80;
 
-	// Move scrollTop
+	/// Фиксированое меню ...
+  // фиксируем меню при скроле
 	if (wScroll < (heightheader ) ) {
 
-    // Menu transparent
 		$('.menu-nav').addClass('js-active-transparent');
 		$('.hamburger').css({
 			'top':'40px'
 		});
-
-    // Change logo-header menu
-    $('.logo-header img' ).attr('src','img/logo-header.png' );
-
-    // Icom menu
+		$('.logo-header').css({
+			'background-image': 'url("img/logo-header.svg")no-repeat'
+		});
 		$('.line').css({
 			'background-color': '#fff'
 		});
-
-    // Icon select color white
 		$('.select-header select').css({
 			'background-image': 'url("img/arrow_down.svg")',
 			'border':' 2px solid #fff',
 			'color': '#fff',
 			'background-color': 'transparent'
-		});
 
-    // Remove .name-menu
+		});
 		$('.menu-nav .content-flex-nav .logo-header .name-menu').css({
 			'display': 'none'
 		});
 
-    // Efeito select mouseover
 		$( "#laguage" ).mouseover(function() {
 			$('.select-header select').css({
 				'background-image': 'url("img/arrow_down-b.svg")',
@@ -64,7 +139,6 @@ $(window).scroll(function(){
 			});
 		});
 
-    // Efeito select mouseout
 		$( "#laguage" ).mouseout(function() {
 			$('.select-header select').css({
 				'background-image': 'url("img/arrow_down.svg")',
@@ -77,58 +151,56 @@ $(window).scroll(function(){
 
 	}
 
-  // Scrolll white menu
 	if (wScroll >= heightheader ) {
-
-    // Remove class js-active-transparent
-    $('.menu-nav').removeClass('js-active-transparent');
-
-    // Add js-action menu
-    $('.menu-nav').addClass('js-active');
-
-    // Change top icon menu-nav
-    $('.hamburger').css({
+		$('.menu-nav').removeClass('js-active-transparent');
+		$('.menu-nav').addClass('js-active');
+		$('.hamburger').css({
 			'top':'0px'
 		});
 
-    // Change top icon menu - menu ON
+
+
 		if($(".menu").hasClass("on") ){
 			$('.hamburger').css({
 				'top':'40px'
 			});
 		}
 
-    // Change logo-header menu for blue logo
-		$('.logo-header img' ).attr('src','img/logo-headerf.png' );
 
-		// Change color icon menu for blue
+
+
+
+
+
+		$('.logo-header').css({
+			'background-image': 'url("img/logo-headerf.svg")no-repeat'
+		});
+
 		$('.line').css({
 			'background-color': '#1175ee'
 		});
 
-    // Change menu-nav for display flex
 		$('.menu-nav .content-flex-nav .logo-header .name-menu').css({
 			'display': 'flex'
 		});
 
-    // Change color input select
 		$('.select-header select').css({
 			'background-image': 'url(img/arrow_down-b.svg)',
 			'border':' 2px solid #1175ee',
 			'color': '#1175ee'
+
 		});
 
-    // Efeito mouseover input select
 		$( "#laguage" ).mouseover(function() {
 			$('.select-header select').css({
 				'background-image': 'url(img/arrow_down.svg)',
 				'border':' 2px solid #fff',
 				'color': '#fff',
 				'background-color': '#1175ee'
+
 			});
 		});
 
-    // Efeito mouseout input select
 		$( "#laguage" ).mouseout(function() {
 			$('.select-header select').css({
 				'background-image': 'url(img/arrow_down-b.svg)',
@@ -136,18 +208,17 @@ $(window).scroll(function(){
 				'color': '#1175ee',
 				'background-color': '#fff'
 			});
+
 		});
+
 
 	}
 
-  // RemoveClass js-active menu-nav
 	if ( tmenu > wScroll) {
 		$('.menu-nav').removeClass('js-active');
 	}
 
-	///// PAGES //////
-
-  // Header page
+	/// навигация по сайту
 	if(wScroll > $('#header').offset().top -100) {
 		$('.pages li a').parent().children().removeClass('is-active');
 		$('.pages li a.header').addClass('is-active');
@@ -303,28 +374,119 @@ $(window).scroll(function(){
 
 	}
 
+
+
+
 });
 
-// Link Resume
-$('.link-resume').hide();
 
-$(document).ready(function(){
-	$('#showlink').click(function(event){
-		event.preventDefault();
-		var nameLink = document.getElementById('showlink').name;
-		if (nameLink  == 'show'){
+/* Credits:
+ * https://www.developphp.com/video/JavaScript/Circular-Progress-Loader-Canvas-JavaScript-Programming-Tutorial
+ */
+//require("http").globalAgent.maxSockets = Infinity;
+(function() {
 
-			$('.link-resume').show('slow');
-			document.getElementById('showlink').name = "";
+	var Progress = function( element ) {
 
+		this.context = element.getContext( "2d" );
+		this.refElement = element.parentNode;
+		this.loaded = 0;
+		this.start = -0.5;
+		this.width = this.context.canvas.width;
+		this.height = this.context.canvas.height;
+		this.total = parseInt( this.refElement.dataset.percent, 10 );
+		this.timer = null;
 
-		}else{
+		this.diff = 0;
 
-			$('.link-resume').hide('slow');
-			document.getElementById('showlink').name = "show";
+		this.init();
+	};
+
+	Progress.prototype = {
+		init: function() {
+			var self = this;
+			self.timer = setInterval(function() {
+				self.run();
+			}, 25);
+		},
+		run: function() {
+			var self = this;
+
+			self.diff = ( ( self.loaded / 100 ) * Math.PI * 2 * 10 ).toFixed( 20 );
+			self.context.clearRect( 0, 0, self.width, self.height );
+			self.context.lineWidth = 12;
+			self.context.fillStyle = "#fff";
+			self.context.strokeStyle = "#fff";
+			self.context.textAlign = "center";
+			self.context.font = "20px futurabt";
+			self.context.fillText( self.loaded + "%", self.width * .5 , self.height * .5 + 4, self.width );
+			self.context.beginPath();
+			self.context.arc( 50, 50, 50, self.start, self.diff / 10 + self.start, false );
+			self.context.stroke();
+
+			if( self.loaded >= self.total ) {
+				clearInterval( self.timer );
+			}
+
+			self.loaded++;
 		}
+	};
+
+	var CircularSkillBar = function( elements ) {
+		this.bars = document.querySelectorAll( elements );
+		if( this.bars.length > 0 ) {
+			this.init();
+		}
+	};
+
+	CircularSkillBar.prototype = {
+		init: function() {
+			this.tick = 25;
+			this.progress();
+
+		},
+		progress: function() {
+			var self = this;
+			var index = 0;
+			var firstCanvas = self.bars[0].querySelector( "canvas" );
+			var firstProg = new Progress( firstCanvas );
 
 
+
+			var timer = setInterval(function() {
+				index++;
+
+				var canvas = self.bars[index].querySelector( "canvas" );
+
+				var prog = new Progress( canvas );
+
+				if( index == 4 ) { // self.bars.length
+						clearInterval( timer );
+				}
+
+			}, self.tick * 100);
+
+		}
+	};
+
+	document.addEventListener( "DOMContentLoaded", function() {
+		var circularBars = new CircularSkillBar( "#bars .bar" );
 	});
 
-});
+})();
+
+
+
+function chanceButton(x){
+	x.style.color      = "#1175ee";
+	x.style.border     = "2px solid";
+	x.style.border     = "radius: 10px";
+	x.style.background = "white";
+}
+
+function normalImg(x){
+	x.style.color      = "white";
+	x.style.border     = "2px solid";
+	x.style.border     = "radius: 10px";
+	x.style.background = "#1175ee";
+}
