@@ -5357,6 +5357,111 @@ footer {
         color: #fff;
         padding-left: 10px; }
 
+@media screen and (max-width: 750px) {
+  .about .content-full-flex-about .about-2 .text-about {
+    margin-top: 120px; }
+  .contact .content-full-flex-contact .contact-flex {
+    width: 70%; } }
+
+@media screen and (max-width: 979px) {
+  .menu-nav .content-flex-nav .select-header select {
+    padding-left: 20px;
+    padding-right: 25px;
+    margin-right: 110px; }
+  .header-action .content-flex-home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 150px; }
+    .header-action .content-flex-home .col-2flex {
+      width: 100%; }
+      .header-action .content-flex-home .col-2flex .text-home {
+        margin-left: 0px;
+        margin-top: 10px; }
+        .header-action .content-flex-home .col-2flex .text-home h1 {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 50px; }
+        .header-action .content-flex-home .col-2flex .text-home h2 {
+          font-size: 30px;
+          text-align: center; }
+        .header-action .content-flex-home .col-2flex .text-home h3 {
+          font-size: 20px;
+          text-align: center; }
+    .header-action .content-flex-home .picture-perfil-profile {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding-right: 0px; }
+      .header-action .content-flex-home .picture-perfil-profile img {
+        width: 225px;
+        height: 250px;
+        padding-top: 20px; }
+  .about .content-full-flex-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .about .content-full-flex-about .about-2 {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .about .content-full-flex-about .about-2 .col-flex2 {
+        width: 100%; }
+        .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about {
+          padding-top: 50px; }
+          .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about ul li i {
+            font-size: 25px; }
+      .about .content-full-flex-about .about-2 .text-about {
+        margin-top: 80px;
+        margin-bottom: 40px; }
+      .about .content-full-flex-about .about-2 .picture-about img {
+        padding-top: 100px; }
+    .about .content-full-flex-about .col-flex1 {
+      width: 100%; }
+      .about .content-full-flex-about .col-flex1 .plus-about .obj-about .flex-obout {
+        padding-top: 40px; }
+      .about .content-full-flex-about .col-flex1 .plus-about .qual-about .flex-obout {
+        padding-top: 40px;
+        padding-bottom: 40px; }
+  .carrer .content-full-flex-carrer .title-flex-carrer {
+    height: 78px;
+    background-color: #fff; }
+    .carrer .content-full-flex-carrer .title-flex-carrer h2 {
+      color: #1175ee; }
+  .carrer .content-full-flex-carrer .time-line-carrer {
+    padding-top: 50px; }
+  .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos {
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 65%; }
+  .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs {
+    width: 80%; }
+  .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .bar-circle {
+    margin-top: 85px; }
+  .app .content-full-flex-app .text-link-app h2 {
+    text-align: center;
+    padding-left: 30px; }
+  .contact .content-full-flex-contact .contact-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 70%;
+    min-height: inherit;
+    padding-bottom: 70px; }
+  .contact .content-full-flex-contact #form-main {
+    width: 70%; }
+  .contact .content-full-flex-contact .button-contact {
+    width: 70%; } }
+
 @media screen and (max-width: 500px) {
   .menu-nav .content-flex-nav .logo-header {
     width: 30%; }
@@ -5537,108 +5642,3 @@ footer {
     footer .content-full-flex-footer .left-footer h3 {
       font-size: inherit;
       margin-top: 10px; } }
-
-@media screen and (max-width: 979px) {
-  .menu-nav .content-flex-nav .select-header select {
-    padding-left: 20px;
-    padding-right: 25px;
-    margin-right: 110px; }
-  .header-action .content-flex-home {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: 150px; }
-    .header-action .content-flex-home .col-2flex {
-      width: 100%; }
-      .header-action .content-flex-home .col-2flex .text-home {
-        margin-left: 0px;
-        margin-top: 10px; }
-        .header-action .content-flex-home .col-2flex .text-home h1 {
-          text-align: center;
-          font-size: 30px;
-          margin-top: 50px; }
-        .header-action .content-flex-home .col-2flex .text-home h2 {
-          font-size: 30px;
-          text-align: center; }
-        .header-action .content-flex-home .col-2flex .text-home h3 {
-          font-size: 20px;
-          text-align: center; }
-    .header-action .content-flex-home .picture-perfil-profile {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      padding-right: 0px; }
-      .header-action .content-flex-home .picture-perfil-profile img {
-        width: 225px;
-        height: 250px;
-        padding-top: 20px; }
-  .about .content-full-flex-about {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    .about .content-full-flex-about .about-2 {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row; }
-      .about .content-full-flex-about .about-2 .col-flex2 {
-        width: 100%; }
-        .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about {
-          padding-top: 50px; }
-          .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about ul li i {
-            font-size: 25px; }
-      .about .content-full-flex-about .about-2 .text-about {
-        margin-top: 80px;
-        margin-bottom: 40px; }
-      .about .content-full-flex-about .about-2 .picture-about img {
-        padding-top: 100px; }
-    .about .content-full-flex-about .col-flex1 {
-      width: 100%; }
-      .about .content-full-flex-about .col-flex1 .plus-about .obj-about .flex-obout {
-        padding-top: 40px; }
-      .about .content-full-flex-about .col-flex1 .plus-about .qual-about .flex-obout {
-        padding-top: 40px;
-        padding-bottom: 40px; }
-  .carrer .content-full-flex-carrer .title-flex-carrer {
-    height: 78px;
-    background-color: #fff; }
-    .carrer .content-full-flex-carrer .title-flex-carrer h2 {
-      color: #1175ee; }
-  .carrer .content-full-flex-carrer .time-line-carrer {
-    padding-top: 50px; }
-  .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos {
-    height: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 65%; }
-  .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs {
-    width: 80%; }
-  .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .bar-circle {
-    margin-top: 85px; }
-  .app .content-full-flex-app .text-link-app h2 {
-    text-align: center;
-    padding-left: 30px; }
-  .contact .content-full-flex-contact .contact-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 100px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 70%;
-    min-height: inherit;
-    padding-bottom: 70px; }
-  .contact .content-full-flex-contact #form-main {
-    width: 70%; }
-  .contact .content-full-flex-contact .button-contact {
-    width: 70%; } }
-
-@media screen and (max-width: 750px) {
-  .about .content-full-flex-about .about-2 .text-about {
-    margin-top: 120px; }
-  .contact .content-full-flex-contact .contact-flex {
-    width: 70%; } }
