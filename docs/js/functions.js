@@ -328,3 +328,19 @@ $(document).ready(function(){
 	});
 
 });
+
+// change color button resume
+function chanceButton(x){
+	x.style.color      = "#1175ee";
+	x.style.border     = "2px solid";
+	x.style.border     = "radius: 10px";
+	x.style.background = "white";
+}
+
+// back color button resume
+function normalImg(x){
+	x.style.color      = "white";
+	x.style.border     = "2px solid";
+	x.style.border     = "radius: 10px";
+	x.style.background = "#1175ee";
+}
