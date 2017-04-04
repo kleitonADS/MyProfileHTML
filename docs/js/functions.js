@@ -39,6 +39,10 @@ $(window).scroll(function(){
 			'top':'40px'
 		});
 
+		$('.menu-nav').css({
+			'margin-top':'40px'
+		});
+
     // Change logo-header menu
     $('.logo-header img' ).attr('src','img/logo-header.png' );
 
@@ -96,6 +100,10 @@ $(window).scroll(function(){
     // Change top icon menu-nav
     $('.hamburger').css({
 			'top':'0px'
+		});
+
+		$('.menu-nav').css({
+			'margin-top':'0px'
 		});
 
     // Change top icon menu - menu ON

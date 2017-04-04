@@ -5472,15 +5472,19 @@ footer {
     width: 70%; } }
 
 @media screen and (max-width: 500px) {
-  .menu-nav .content-flex-nav .logo-header {
-    width: 30%; }
-  .menu-nav .content-flex-nav .select-header select {
-    padding-left: 12px;
-    padding-right: 25px;
-    margin-right: 60px;
-    font-size: 12px; }
-  .menu-nav .content-flex-nav .logo-header .name-menu h2 {
-    display: none; }
+  .menu-nav {
+    margin-top: 0px; }
+    .menu-nav .content-flex-nav .logo-header {
+      width: 30%; }
+      .menu-nav .content-flex-nav .logo-header img {
+        margin-left: -10px; }
+    .menu-nav .content-flex-nav .select-header select {
+      padding-left: 12px;
+      padding-right: 25px;
+      margin-right: 60px;
+      font-size: 12px; }
+    .menu-nav .content-flex-nav .logo-header .name-menu h2 {
+      display: none; }
   .about {
     margin-top: -60px; }
   .about .content-full-flex-about .about-2 {

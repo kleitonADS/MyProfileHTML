@@ -1006,12 +1006,17 @@ footer {
   // Menu
   .menu-nav {
 
+    margin-top: 0px;
+
     // Content Menu Flex
     .content-flex-nav {
 
       // Logo Menu
       .logo-header {
         width: 30%;
+        img{
+          margin-left: -10px;
+        }
       }
 
       // Select Menu
