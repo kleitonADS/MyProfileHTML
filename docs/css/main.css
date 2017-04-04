@@ -5485,6 +5485,8 @@ footer {
       font-size: 12px; }
     .menu-nav .content-flex-nav .logo-header .name-menu h2 {
       display: none; }
+  .header-action .content-flex-home {
+    margin-top: 100px; }
   .about {
     margin-top: -60px; }
   .about .content-full-flex-about .about-2 {
