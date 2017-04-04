@@ -213,7 +213,7 @@ $(window).scroll(function(){
 
 
 	}
-
+  alert(tmenu);
 	if ( tmenu > wScroll) {
 		$('.menu-nav').removeClass('js-active');
 	}

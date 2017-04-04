@@ -17,6 +17,13 @@ $('#laguage').on('change', function() {
 });
 
 /////// Menu ////////
+
+// Define var tmenu
+var tmenu = $('.menu-nav').position().top + $('.menu-nav').data('position');
+$('.menu-nav').css({
+	'top': tmenu
+});
+
 // Action Scroll menu
 $(window).scroll(function(){
 
