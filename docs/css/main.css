@@ -5496,6 +5496,8 @@ footer {
             flex-direction: column-reverse; }
     .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about {
       padding-top: 80px; }
+      .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about ul li i {
+        font-size: 32px; }
     .about .content-full-flex-about .about-2 .picture-about img {
       padding-top: 60px; }
   .carrer .content-full-flex-carrer .title-flex-carrer {
