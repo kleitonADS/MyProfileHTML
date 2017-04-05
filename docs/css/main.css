@@ -5660,4 +5660,6 @@ footer {
     width: 70%; }
     footer .content-full-flex-footer .left-footer h3 {
       font-size: inherit;
-      margin-top: 18px; } }
+      margin-top: 18px; }
+  footer .content-full-flex-footer .right-footer {
+    padding-top: 30px; } }

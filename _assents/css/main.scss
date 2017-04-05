@@ -1323,12 +1323,21 @@ footer {
     }
   }
 
-  footer .content-full-flex-footer .left-footer {
-    width: 70%;
+  footer .content-full-flex-footer {
+    .left-footer {
+      width: 70%;
 
-    h3{
-      font-size: inherit;
-      margin-top: 18px;
+      h3{
+        font-size: inherit;
+        margin-top: 18px;
+      }
     }
+
+    .right-footer {
+      padding-top: 30px;
+    }
+
   }
+
+
 }
