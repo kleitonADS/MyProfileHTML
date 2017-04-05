@@ -604,6 +604,8 @@ body {
       // Content About Me
       .text-about {
         width:80%;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         margin-top:190px;
         margin-left: auto;
@@ -641,7 +643,7 @@ body {
 
         // Button Resume
         input {
-          display: flex;
+          //display: flex;
           justify-content: center;
           width: 100%;
           height: 50px;
