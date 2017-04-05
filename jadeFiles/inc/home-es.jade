@@ -10,6 +10,7 @@ mixin page(rota, caption, status)
     li
       a(href='#{rota}' data-page-title='#{caption}' class='#{status}') 
   
+  // Pages
   ul.pages
     +page('#header', 'Home', '.is-active.header')
     +page('#about-li', 'About', '.page-about-li') 
@@ -24,6 +25,8 @@ mixin page(rota, caption, status)
 mixin nav(rota, name)
     li
       a(href='#{rota}') <span> #{name} </span>
+
+// list Menu
 ul.menu
   +nav('#header', 'Home')
   +nav('#about-li', 'About') 
@@ -47,8 +50,8 @@ div.header.header-action#header
       div.select-header
         select#laguage
           option Language
-          option Ingles
-          option Portugues  
+          option English
+          option Portuguese  
   
   // Content Menu          
   div.content-flex-home
@@ -57,7 +60,7 @@ div.header.header-action#header
         hgroup
           h2 Hello!</br>
           h1 I am </br> Kleiton Azevedo
-          h3 Web Developer - PHP Developer
+          h3 Web Developer / PHP Programmer
     div.col-2flex      
       div.picture-profile( class="animated slideInRight" )
         div.picture-perfil-profile

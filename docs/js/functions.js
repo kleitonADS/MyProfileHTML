@@ -7,12 +7,36 @@ $('.hamburger').click(function(){
 // Select Menu
 $('#laguage').on('change', function() {
 	var nameSelect  = this.value;
-	if(nameSelect == 'Portugues'  ){
-		location.href = "index-br.html";
+
+	switch (nameSelect) {
+
+		case 'Idioma':
+        location.href = "index-br.html";
+        break;
+
+		case 'Portuguese':
+        location.href = "index-br.html";
+        break;
+
+		case 'Português':
+				location.href = "index-br.html";
+        break;
+
+    case 'Language':
+        location.href = "index.html";
+        break;
+
+		case 'Inglês':
+        location.href = "index.html";
+        break;
+
+		case 'English':
+        location.href = "index.html";
+        break;
+
 	}
-	if(nameSelect == 'Ingles'  ){
-		location.href = "index.html";
-	}
+
+	
 
 });
 

@@ -4,11 +4,13 @@ div.hamburger
   div.line
   div.line
 
+
 // List Pages
 mixin page(rota, caption, status)
     li
       a(href='#{rota}' data-page-title='#{caption}' class='#{status}') 
   
+  // Pages
   ul.pages
     +page('#header', 'Home', '.is-active.header')
     +page('#about-li', 'Sobre', '.page-about-li') 
@@ -23,6 +25,8 @@ mixin page(rota, caption, status)
 mixin nav(rota, name)
     li
       a(href='#{rota}') <span> #{name} </span>
+
+// list Menu
 ul.menu
   +nav('#header', 'Home')
   +nav('#about-li', 'Sobre') 
@@ -30,7 +34,8 @@ ul.menu
   +nav('#skill-li', 'Habilidades') 
   +nav('#project-li', 'Projetos') 
   //+nav('#app-li', 'App')
-  +nav('#contact-li', 'Contatos')    
+  +nav('#contact-li', 'Contatos') 
+             
 
 // Home
 div.header.header-action#header
@@ -44,9 +49,9 @@ div.header.header-action#header
           h2 Kleiton Azevedo
       div.select-header
         select#laguage
-          option Language
-          option Ingles
-          option Portugues  
+          option Idioma
+          option Inglês
+          option Português 
   
   // Content Menu          
   div.content-flex-home
@@ -55,7 +60,7 @@ div.header.header-action#header
         hgroup
           h2 Olá!</br>
           h1 Eu sou </br> Kleiton Azevedo
-          h3 Desenvolvedor Web - Programador PHP
+          h3 Desenvolvedor Web / Programador PHP
     div.col-2flex      
       div.picture-profile( class="animated slideInRight" )
         div.picture-perfil-profile
