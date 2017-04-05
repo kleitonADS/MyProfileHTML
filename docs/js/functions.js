@@ -18,6 +18,10 @@ $('#laguage').on('change', function() {
 
 /////// Menu ////////
 
+$('.menu-nav').css({
+	'top': '0px'
+});
+
 // Define var tmenu
 var tmenu = $('.menu-nav').position().top + $('.menu-nav').data('position');
 $('.menu-nav').css({
@@ -40,7 +44,7 @@ $(window).scroll(function(){
 		});
 
 		$('.menu-nav').css({
-			'margin-top':'40px'
+			'margin-top':'42px'
 		});
 
     // Change logo-header menu
