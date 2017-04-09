@@ -10,7 +10,6 @@ mixin page(rota, caption, status)
     li
       a(href='#{rota}' data-page-title='#{caption}' class='#{status}') 
   
-  // Pages
   ul.pages
     +page('#header', 'Home', '.is-active.header')
     +page('#about-li', 'About', '.page-about-li') 

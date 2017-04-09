@@ -5477,12 +5477,15 @@ footer {
     width: 70%; } }
 
 @media screen and (max-width: 500px) {
+  .hamburger {
+    top: 20px;
+    right: 10px; }
   .menu-nav {
-    margin-top: 0px; }
+    margin-top: -18px; }
     .menu-nav .content-flex-nav .logo-header {
       width: 30%; }
       .menu-nav .content-flex-nav .logo-header img {
-        margin-left: -10px; }
+        margin-left: -20px; }
     .menu-nav .content-flex-nav .select-header select {
       padding-left: 12px;
       padding-right: 25px;
@@ -5490,8 +5493,12 @@ footer {
       font-size: 12px; }
     .menu-nav .content-flex-nav .logo-header .name-menu h2 {
       display: none; }
-  .header-action .content-flex-home {
-    margin-top: 100px; }
+  .header-action {
+    min-height: 760px; }
+    .header-action .content-flex-home {
+      margin-top: 90px; }
+      .header-action .content-flex-home .col-2flex .text-home h3 {
+        font-size: 16px; }
   .menu li a span {
     font-size: 20px; }
   .about {

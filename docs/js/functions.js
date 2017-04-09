@@ -36,7 +36,7 @@ $('#laguage').on('change', function() {
 
 	}
 
-	
+
 
 });
 
@@ -60,16 +60,33 @@ $(window).scroll(function(){
 
 	// Move scrollTop
 	if (wScroll < (heightheader ) ) {
-
+    var tamanho = $(window).width();
+		//alert(tamanho);
     // Menu transparent
 		$('.menu-nav').addClass('js-active-transparent');
-		$('.hamburger').css({
-			'top':'40px'
-		});
 
-		$('.menu-nav').css({
-			'margin-top':'42px'
-		});
+		if(tamanho >= 550){
+			$('.hamburger').css({
+				'top':'40px'
+			});
+			$('.menu-nav').css({
+				'margin-top':'42px'
+			});
+
+		}else {
+
+			$('.hamburger').css({
+				'top':'20px'
+			});
+
+			$('.menu-nav').css({
+				'margin-top':'22px'
+			});
+
+		}
+
+
+
 
     // Change logo-header menu
     $('.logo-header img' ).attr('src','img/logo-header.png' );

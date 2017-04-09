@@ -676,7 +676,7 @@ body {
 
           // Itens list resume
           li{
-            
+
             padding-top: 15px;
             margin-left: auto;
             margin-right: auto;
@@ -1009,10 +1009,15 @@ footer {
 // SMARTYPHONES
 @media screen and (max-width: 500px) {
 
+  // Icon menu
+  .hamburger{
+    top: 20px;
+    right: 10px;
+  }
   // Menu
   .menu-nav {
 
-    margin-top: 0px;
+    margin-top: -18px;
 
     // Content Menu Flex
     .content-flex-nav {
@@ -1021,7 +1026,7 @@ footer {
       .logo-header {
         width: 30%;
         img{
-          margin-left: -10px;
+          margin-left: -20px;
         }
       }
 
@@ -1040,8 +1045,19 @@ footer {
     }
   }
 
-  .header-action .content-flex-home {
-    margin-top: 100px;
+  .header-action {
+    min-height: 760px;
+    .content-flex-home {
+      margin-top: 90px;
+
+      .col-2flex{
+        .text-home{
+          h3{
+            font-size: 16px;
+          }
+        }
+      }
+    }
   }
 
   .menu li a span {
