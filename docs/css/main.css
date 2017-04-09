@@ -4775,6 +4775,7 @@ body {
   padding: 3px 12px;
   top: 40px;
   right: 5%;
+  z-index: 100;
   cursor: pointer;
   -webkit-transition: all cubic-bezier(0.4, 0.6, 0.24, 1.2) 0.5s;
   transition: all cubic-bezier(0.4, 0.6, 0.24, 1.2) 0.5s; }

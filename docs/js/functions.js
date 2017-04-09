@@ -156,13 +156,6 @@ $(window).scroll(function(){
 			'margin-top':'0px'
 		});
 
-    // Change top icon menu - menu ON
-		//if($(".menu").hasClass("on") ){
-			//$('.hamburger').css({
-				//'top':'60px'
-			//});
-		//}
-
     // Change logo-header menu for blue logo
 		$('.logo-header img' ).attr('src','img/logo-headerf.png' );
 
