@@ -27,14 +27,15 @@ mixin nav(rota, name)
 
 // list Menu
 ul.menu
+  div.back-title-menu
+    h1 MENU
   +nav('#header', 'Home')
   +nav('#about-li', 'About') 
   +nav('#carrer-li', 'Carrer') 
   +nav('#skill-li', 'Skills') 
   +nav('#project-li', 'Projects') 
-  //+nav('#app-li', 'App')
-  +nav('#contact-li', 'Contact') 
-             
+  //+nav('#app-li', 'App') 
+  +nav('#contact-li', 'Contact')          
 
 // Home
 div.header.header-action#header

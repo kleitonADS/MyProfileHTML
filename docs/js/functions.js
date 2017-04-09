@@ -85,15 +85,20 @@ $(window).scroll(function(){
 
 		}
 
-
-
-
     // Change logo-header menu
     $('.logo-header img' ).attr('src','img/logo-header.png' );
 
     // Icom menu
 		$('.line').css({
 			'background-color': '#fff'
+		});
+
+		$('.back-title-menu').css({
+			'background-color': '#1175ee'
+		});
+
+		$('.back-title-menu h1').css({
+			'color': '#fff'
 		});
 
     // Icon select color white
@@ -165,6 +170,16 @@ $(window).scroll(function(){
 		$('.line').css({
 			'background-color': '#1175ee'
 		});
+
+		$('.back-title-menu').css({
+			'background-color': '#fff'
+		});
+
+		$('.back-title-menu h1').css({
+			'color': '#1175ee'
+		});
+
+
 
     // Change menu-nav for display flex
 		$('.menu-nav .content-flex-nav .logo-header .name-menu').css({
