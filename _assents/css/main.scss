@@ -78,7 +78,7 @@ body {
   padding: 3px 12px;
   top:40px;
   right: 5%;
-  z-index: 100;
+  //z-index: 100;
   cursor: pointer;
   transition: all cubic-bezier(0.4, 0.6, 0.24, 1.2) 0.5s;
 
@@ -95,6 +95,8 @@ body {
   // Efeito Menu
   &.is-active {
     transform: rotate(90deg);
+    margin-top: 20px;
+
     .line:nth-child(1) {
       width: 20px;
     }
