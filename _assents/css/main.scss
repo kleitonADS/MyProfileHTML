@@ -692,20 +692,28 @@ body {
         // list link resume
         ul{
           display: flex;
-          flex-direction: column;
-
+          flex-direction: row;
+          width: 85%;
 
           // Itens list resume
           li{
 
-            padding-top: 15px;
-            margin-left: auto;
-            margin-right: auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 2px solid $main-color-blue;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+
 
             // Icon list resume
             i{
               color: $main-color-blue;
-              display: none;
+
             }
 
             // link-resume
@@ -728,14 +736,8 @@ body {
               //padding: 5px 20px 5px 10px;
 
               h3{
-                border-color: transparent;
+                //color: $main-color-white;
                 padding: 0px 0px 0px 5px;
-              }
-              i {
-                border-color: transparent;
-                padding: 0px 0px 0px 5px;
-                display: inline;
-
               }
             }
           }
@@ -812,6 +814,10 @@ footer {
         .about-2{
           .text-about{
             margin-top: 120px;
+          }
+
+          .link-resume{
+            margin-top: -30px;
           }
         }
       }
@@ -1107,6 +1113,11 @@ footer {
     .picture-about img {
       padding-top: 60px;
     }
+
+    .link-resume{
+      margin-top: -30px;
+      width: 90%;
+    }
   }
 
 
@@ -1382,5 +1393,68 @@ footer {
 
   }
 
+
+}
+// Smatphone 320
+@media screen and (max-width: 320px) {
+
+  .header-action {
+    min-height: 620px;
+
+    .content-flex-home {
+      margin-top: 90px;
+
+      .col-2flex{
+        .text-home{
+          h1{
+            font-size: 25px;
+            margin-top: 40px;
+          }
+
+          h2{
+            font-size: 25px;
+          }
+          h3{
+            font-size: 16px;
+          }
+
+        }
+      }
+    }
+    .content-move{
+      margin-top: 15px;
+    }
+  }
+
+  // Content Flex About
+  .about .content-full-flex-about .about-2 {
+    flex-direction: column-reverse;
+    .text-about{
+      margin-top: 50px;
+    }
+    // Content Rede Social
+    .col-flex2 .content-about .social-about {
+      padding-top: 50px;
+
+      ul li i{
+        font-size: 32px;
+      }
+    }
+
+    // link-resume
+    .link-resume{
+      margin-top: -30px;
+      width: 80%;
+
+      ul{
+        width: 100%;
+      }
+    }
+
+    // Picture About
+    .picture-about img {
+      padding-top: 60px;
+    }
+  }
 
 }

@@ -5309,17 +5309,28 @@ body {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
-          -webkit-box-orient: vertical;
+          -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column; }
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          width: 85%; }
           .about .content-full-flex-about .about-2 .link-resume ul li {
-            padding-top: 15px;
-            margin-left: auto;
-            margin-right: auto; }
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 2px solid #1175ee;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            margin-top: 10px;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-right: 10px; }
             .about .content-full-flex-about .about-2 .link-resume ul li i {
-              color: #1175ee;
-              display: none; }
+              color: #1175ee; }
             .about .content-full-flex-about .about-2 .link-resume ul li a {
               display: -webkit-box;
               display: -ms-flexbox;
@@ -5330,12 +5341,7 @@ body {
                 padding-left: 5px;
                 padding-right: 5px; }
             .about .content-full-flex-about .about-2 .link-resume ul li :hover h3 {
-              border-color: transparent;
               padding: 0px 0px 0px 5px; }
-            .about .content-full-flex-about .about-2 .link-resume ul li :hover i {
-              border-color: transparent;
-              padding: 0px 0px 0px 5px;
-              display: inline; }
 
 footer {
   width: 100%;
@@ -5388,6 +5394,8 @@ footer {
 @media screen and (max-width: 750px) {
   .about .content-full-flex-about .about-2 .text-about {
     margin-top: 120px; }
+  .about .content-full-flex-about .about-2 .link-resume {
+    margin-top: -30px; }
   .contact .content-full-flex-contact .contact-flex {
     width: 70%; } }
 
@@ -5528,6 +5536,9 @@ footer {
         font-size: 32px; }
     .about .content-full-flex-about .about-2 .picture-about img {
       padding-top: 60px; }
+    .about .content-full-flex-about .about-2 .link-resume {
+      margin-top: -30px;
+      width: 90%; }
   .carrer .content-full-flex-carrer .title-flex-carrer {
     background-color: #fff; }
     .carrer .content-full-flex-carrer .title-flex-carrer h2 {
@@ -5689,3 +5700,36 @@ footer {
       margin-top: 18px; }
   footer .content-full-flex-footer .right-footer {
     padding-top: 30px; } }
+
+@media screen and (max-width: 320px) {
+  .header-action {
+    min-height: 620px; }
+    .header-action .content-flex-home {
+      margin-top: 90px; }
+      .header-action .content-flex-home .col-2flex .text-home h1 {
+        font-size: 25px;
+        margin-top: 40px; }
+      .header-action .content-flex-home .col-2flex .text-home h2 {
+        font-size: 25px; }
+      .header-action .content-flex-home .col-2flex .text-home h3 {
+        font-size: 16px; }
+    .header-action .content-move {
+      margin-top: 15px; }
+  .about .content-full-flex-about .about-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+    .about .content-full-flex-about .about-2 .text-about {
+      margin-top: 50px; }
+    .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about {
+      padding-top: 50px; }
+      .about .content-full-flex-about .about-2 .col-flex2 .content-about .social-about ul li i {
+        font-size: 32px; }
+    .about .content-full-flex-about .about-2 .link-resume {
+      margin-top: -30px;
+      width: 80%; }
+      .about .content-full-flex-about .about-2 .link-resume ul {
+        width: 100%; }
+    .about .content-full-flex-about .about-2 .picture-about img {
+      padding-top: 60px; } }
