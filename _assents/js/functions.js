@@ -61,7 +61,7 @@ $(window).scroll(function(){
 	// Move scrollTop
 	if (wScroll < (heightheader ) ) {
     var tamanho = $(window).width();
-		alert(tamanho);
+		//alert(tamanho);
     // Menu transparent
 		$('.menu-nav').addClass('js-active-transparent');
 
