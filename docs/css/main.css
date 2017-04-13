@@ -5531,6 +5531,8 @@ footer {
       margin-top: 90px; }
       .header-action .content-flex-home .col-2flex .text-home h3 {
         font-size: 16px; }
+  .menu li {
+    height: 15%; }
   .menu li a span {
     font-size: 20px; }
   .about {
