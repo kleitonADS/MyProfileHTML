@@ -808,6 +808,16 @@ footer {
 
 // Desktop and Tablets landcaspe
 @media screen and (max-width: 750px) {
+
+
+  .menu li{
+    height: 20%;
+  }
+  .menu li a span {
+    font-size: 20px;
+  }
+
+
     // ABOUT
     .about{
       .content-full-flex-about{
