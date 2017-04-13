@@ -27,14 +27,15 @@ mixin nav(rota, name)
 
 // list Menu
 ul.menu
+  div.back-title-menu
+    h1 MENU
   +nav('#header', 'Home')
   +nav('#about-li', 'Sobre') 
   +nav('#carrer-li', 'Carreira') 
   +nav('#skill-li', 'Habilidades') 
   +nav('#project-li', 'Projetos') 
-  //+nav('#app-li', 'App')
-  +nav('#contact-li', 'Contatos') 
-             
+  //+nav('#app-li', 'App') 
+  +nav('#contact-li', 'Contatos')          
 
 // Home
 div.header.header-action#header
@@ -50,14 +51,14 @@ div.header.header-action#header
         select#laguage
           option Idioma
           option Inglês
-          option Português 
+          option Português  
   
   // Content Menu          
   div.content-flex-home
     div.col-2flex
       div.text-home( class="animated slideInLeft" ) 
         hgroup
-          h2 Olá!</br>
+          h2 Ola!</br>
           h1 Eu sou </br> Kleiton Azevedo
           h3 Desenvolvedor Web / Programador PHP
     div.col-2flex      
