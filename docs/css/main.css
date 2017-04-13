@@ -5500,7 +5500,8 @@ footer {
 
 @media screen and (max-width: 500px) {
   .hamburger {
-    top: 20px; }
+    top: 20px;
+    right: 5%; }
   .menu-nav {
     margin-top: -18px; }
     .menu-nav .content-flex-nav .logo-header {
