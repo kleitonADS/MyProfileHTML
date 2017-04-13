@@ -264,7 +264,7 @@ body {
           display: block;
           transform: scale(1.1);
         }
-    }  
+    }
 	}
 }
 
@@ -818,6 +818,29 @@ footer {
 
           .link-resume{
             margin-top: -30px;
+          }
+        }
+      }
+    }
+
+    // CONTACT
+    .contact{
+        .content-full-flex-contact {
+            .contact-flex{
+              width: 70%;
+            }
+        }
+    }
+}
+
+// Desktop and Tablets landcaspe
+@media screen and (max-width: 750px) {
+    // ABOUT
+    .about{
+      .content-full-flex-about{
+        .about-2{
+          .text-about{
+            margin-top: 120px;
           }
         }
       }
