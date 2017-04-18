@@ -448,14 +448,14 @@ function normalImg(x){
 
 			self.diff = ( ( self.loaded / 100 ) * Math.PI * 2 * 10 ).toFixed( 20 );
 			self.context.clearRect( 0, 0, self.width, self.height );
-			self.context.lineWidth = 12;
+			self.context.lineWidth = 10;
 			self.context.fillStyle = "#fff";
 			self.context.strokeStyle = "#fff";
 			self.context.textAlign = "center";
 			self.context.font = "20px futurabt";
 			self.context.fillText( self.loaded + "%", self.width * .5 , self.height * .5 + 4, self.width );
 			self.context.beginPath();
-			self.context.arc( 50, 50, 50, self.start, self.diff / 10 + self.start, false );
+			self.context.arc( 76, 75, 71, self.start, self.diff / 10 + self.start, false );
 			self.context.stroke();
 
 			if( self.loaded >= self.total ) {

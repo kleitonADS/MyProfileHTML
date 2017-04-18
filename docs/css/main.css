@@ -5345,7 +5345,7 @@ body {
 
 .skill {
   width: 100%;
-  background: url("/img/background-home.jpg") center;
+  background: url("../img/background-home.jpg") center;
   background-size: cover; }
   .skill .content-full-flex-skills {
     width: 100%; }
@@ -5381,7 +5381,8 @@ body {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
-                flex-direction: row; }
+                flex-direction: row;
+        margin-bottom: 40px; }
         .skill .content-full-flex-skills .content-skills .types-skills .content-2skills {
           width: 100%;
           display: -webkit-box;
@@ -5443,9 +5444,11 @@ body {
               display: flex;
               width: 36%;
               height: 100%;
-              overflow: hidden; }
+              overflow: hidden;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
             .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .bar {
-              height: 50%;
               margin-top: auto;
               margin-bottom: auto;
               text-align: center; }
@@ -5749,7 +5752,8 @@ footer {
       .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos {
         width: 100%;
         height: auto;
-        padding-bottom: 20px; }
+        padding-bottom: 20px;
+        padding-top: 30px; }
         .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos ul {
           margin-left: auto;
           margin-right: auto; }
