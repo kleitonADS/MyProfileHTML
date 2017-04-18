@@ -280,6 +280,7 @@ body {
   transition: all ease-out 0.3s;
   transform-origin: top right;
   opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .menu .back-title-menu{
@@ -353,7 +354,7 @@ body {
 .menu li a {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  //background-color: rgba(0, 0, 0, 0.8);
   transition: all 0.2s ease-in-out;
   text-align: center;
   display: block;
