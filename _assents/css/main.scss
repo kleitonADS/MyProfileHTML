@@ -1217,20 +1217,37 @@ footer {
     // SKILLS
     .skill{
       .content-full-flex-skills{
+        .title-flex-skills{
+          background-color: $main-color-white;
+          h2{
+            color: $main-color-blue;
+          }
+        }
         .content-skills {
           .types-skills{
+            flex-direction: column;
             .col-flex30-logos{
               height: auto;
               justify-content: center;
-              width: 65%;
+              width: 100%;
+              display: grid;
+              padding-top: 30px;
             }
             .content-2skills{
+              flex-direction: column-reverse;
               .col-flex30-tecs{
-                width: 80%;
+                width: 100%;
+
+                .flex100content-tecs{
+                  justify-content: center;
+                  ul{
+                    padding-left: 0px;
+                  }
+                }
               }
 
               .col-flex40-skills{
-
+                width: 100%;
               }
             }
           }

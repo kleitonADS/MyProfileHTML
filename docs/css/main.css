@@ -5631,14 +5631,39 @@ footer {
       color: #1175ee; }
   .carrer .content-full-flex-carrer .time-line-carrer {
     padding-top: 50px; }
-  .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos {
-    height: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 65%; }
-  .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs {
-    width: 80%; }
+  .skill .content-full-flex-skills .title-flex-skills {
+    background-color: #fff; }
+    .skill .content-full-flex-skills .title-flex-skills h2 {
+      color: #1175ee; }
+  .skill .content-full-flex-skills .content-skills .types-skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos {
+      height: auto;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 100%;
+      display: -ms-grid;
+      display: grid;
+      padding-top: 30px; }
+    .skill .content-full-flex-skills .content-skills .types-skills .content-2skills {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse; }
+      .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs {
+        width: 100%; }
+        .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs {
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs ul {
+            padding-left: 0px; }
+      .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills {
+        width: 100%; }
   .app .content-full-flex-app .text-link-app h2 {
     text-align: center;
     padding-left: 30px; }
