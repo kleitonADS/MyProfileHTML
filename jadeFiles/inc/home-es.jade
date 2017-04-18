@@ -11,13 +11,13 @@ mixin page(rota, caption, status)
       a(href='#{rota}' data-page-title='#{caption}' class='#{status}') 
   
   ul.pages
-    +page('#header', 'Home', '.is-active.header')
-    +page('#about-li', 'About', '.page-about-li') 
-    +page('#carrer-li', 'Carrer', '.page-carrer-li') 
-    +page('#skill-li', 'Skills', '.page-skill-li') 
-    +page('#project-li', 'Projects', '.page-project-li  ') 
-    //+page('#app-li', 'App', '.page-app-li')
-    +page('#contact-li', 'Contact', '.page-contact-li ')   
+    +page('#header', 'Home', 'is-active header')
+    +page('#about-li', 'About', ' page-about-li') 
+    +page('#carrer-li', 'Carrer', ' page-carrer-li') 
+    +page('#skill-li', 'Skills', ' page-skill-li') 
+    +page('#project-li', 'Projects', ' page-project-li  ') 
+    //+page('#app-li', 'App', ' page-app-li')
+    +page('#contact-li', 'Contact', ' page-contact-li ')   
   
 
 // Menu Nav
