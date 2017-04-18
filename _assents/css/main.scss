@@ -819,15 +819,13 @@ body {
 
             // Content description
             .flex100content-tecs{
-
-              p{
-
-                font-family: 'Titillium Web', sans-serif;
-                font-size: 14px;
-                text-align: left;
-                line-height: 24px;
-
-
+              display: flex;
+              //justify-content: center;
+              ul{
+                padding-left: 50px;
+                li{
+                  padding-top: 5px;
+                }
               }
             }
           }

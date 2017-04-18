@@ -5405,11 +5405,14 @@ body {
                 font-family: 'futurabt', arial;
                 font-size: 24px;
                 color: #fff; }
-            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs p {
-              font-family: 'Titillium Web', sans-serif;
-              font-size: 14px;
-              text-align: left;
-              line-height: 24px; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex; }
+              .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs ul {
+                padding-left: 50px; }
+                .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs ul li {
+                  padding-top: 5px; }
           .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills {
             width: 60%;
             height: auto;
