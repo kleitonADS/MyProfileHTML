@@ -5343,6 +5343,152 @@ body {
             .about .content-full-flex-about .about-2 .link-resume ul li :hover h3 {
               padding: 0px 0px 0px 5px; }
 
+.skill {
+  width: 100%;
+  background: url("/img/background-home.jpg") center;
+  background-size: cover; }
+  .skill .content-full-flex-skills {
+    width: 100%; }
+    .skill .content-full-flex-skills .title-flex-skills {
+      height: 78px;
+      background-color: #1175ee; }
+      .skill .content-full-flex-skills .title-flex-skills h2 {
+        font-family: 'futurabt', arial;
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px; }
+    .skill .content-full-flex-skills .content-skills {
+      width: 85%;
+      height: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 100px;
+      padding-bottom: 0px; }
+      .skill .content-full-flex-skills .content-skills .types-skills {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .skill .content-full-flex-skills .content-skills .types-skills .content-2skills {
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row; }
+          .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs {
+            width: calc(40%);
+            height: auto;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100title-tecs {
+              padding-top: 40px; }
+              .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100title-tecs h1 {
+                font-family: 'futurabt', arial;
+                font-size: 24px;
+                color: #fff; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs p {
+              font-family: 'Titillium Web', sans-serif;
+              font-size: 14px;
+              text-align: left;
+              line-height: 24px; }
+          .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills {
+            width: 60%;
+            height: auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .left-bar {
+              width: 32%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex; }
+              .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .left-bar .line-bar {
+                width: 100%;
+                height: 2px;
+                background-color: #fff;
+                margin-top: auto;
+                margin-bottom: auto; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .right-bar {
+              width: 32%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex; }
+              .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .right-bar .line-bar {
+                width: 100%;
+                height: 2px;
+                background-color: #fff;
+                margin-top: auto;
+                margin-bottom: auto; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills #bars {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              width: 36%;
+              height: 100%;
+              overflow: hidden; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .bar {
+              height: 50%;
+              margin-top: auto;
+              margin-bottom: auto;
+              text-align: center; }
+            .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .bar-circle {
+              margin: 0.7em auto;
+              background-color: #1175ee;
+              border-radius: 50%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              width: 100%; }
+        .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos {
+          width: 40%;
+          height: 250px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos ul {
+            padding-top: 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+            .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos ul a li {
+              display: inline-block;
+              background-color: #fff;
+              border-radius: 30px;
+              margin-left: 10px;
+              width: 52px;
+              height: 52px; }
+            .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos ul a :hover {
+              background-color: #1175ee;
+              border-radius: 30px; }
+              .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos ul a :hover svg g {
+                fill: #fff;
+                stroke: none; }
+
 footer {
   width: 100%;
   height: 90px;
@@ -5487,8 +5633,6 @@ footer {
     width: 65%; }
   .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex30-tecs {
     width: 80%; }
-  .skill .content-full-flex-skills .content-skills .types-skills .content-2skills .col-flex40-skills .bar-circle {
-    margin-top: 85px; }
   .app .content-full-flex-app .text-link-app h2 {
     text-align: center;
     padding-left: 30px; }

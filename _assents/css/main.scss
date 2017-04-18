@@ -750,6 +750,212 @@ body {
 
 
 
+// skills
+.skill {
+  width: 100%;
+  background: url('/img/background-home.jpg') center;
+  background-size: cover;
+
+  //Content Full Skills
+  .content-full-flex-skills {
+    width: 100%;
+
+    // content Title
+    .title-flex-skills {
+      height: 78px;
+      background-color: $main-color-blue;
+      // title
+      h2 {
+        font-family: 'futurabt', arial;
+        font-size: 24px;
+        color: $main-color-white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px;
+      }
+    }
+
+    // Content skils
+    .content-skills{
+      width: 85%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 100px;
+      padding-bottom:0px;
+
+      // Types Skills
+      .types-skills{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        // Content skills 2
+        .content-2skills{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+
+          // Content flex
+          .col-flex30-tecs{
+            width: calc(40%);
+            height: auto;
+            flex-direction: column;
+
+            // content text tecnologias
+            .flex100title-tecs{
+              padding-top: 40px;
+
+              // text tecnologias
+              h1{
+                font-family: 'futurabt', arial;
+                font-size: 24px;
+                color: $main-color-white;
+              }
+            }
+
+            // Content description
+            .flex100content-tecs{
+
+              p{
+
+                font-family: 'Titillium Web', sans-serif;
+                font-size: 14px;
+                text-align: left;
+                line-height: 24px;
+
+
+              }
+            }
+          }
+
+          // Content flex bars
+          .col-flex40-skills{
+            width: 60%;
+            height: auto;
+            display: flex;
+
+            // Left bars
+            .left-bar{
+              width: 32%;
+              display: flex;
+
+              // Line bars
+              .line-bar{
+                width:100%;
+                height: 2px;
+                background-color: $main-color-white;
+                margin-top: auto;
+                margin-bottom: auto;
+              }
+            }
+
+            // Right bars
+            .right-bar{
+              width: 32%;
+              display: flex;
+
+              // Line bars
+              .line-bar{
+                width:100%;
+                height: 2px;
+                background-color: $main-color-white;
+                margin-top: auto;
+                margin-bottom: auto;
+              }
+
+            }
+
+            // Content circ bars
+            #bars {
+              display: flex;
+              width: 36%;
+              height: 100%;
+            	overflow: hidden;
+
+
+            }
+
+            // bars
+            .bar {
+              height: 50%;
+              margin-top: auto;
+              margin-bottom: auto;
+            	text-align: center;
+            }
+
+            // Circuls bars
+            .bar-circle {
+            	margin: 0.7em auto;
+              background-color: $main-color-blue;
+              border-radius:50%;
+              //margin-top: 40px;
+              display: flex;
+              width: 100%;
+
+            }
+          }
+        }
+
+        // Content logos
+        .col-flex30-logos{
+          width: 40%;
+          height: 250px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          // list logos
+          ul{
+            padding-top: 10px;
+            display: flex;
+
+            // link logos
+            a{
+
+              // Itens list logos
+              li{
+                display: inline-block;
+                background-color: $main-color-white;
+                border-radius: 30px;
+                margin-left: 10px;
+                width: 52px;
+                height: 52px;
+              }
+
+              // Hover list logos
+              :hover{
+                background-color: $main-color-blue;
+                border-radius: 30px;
+
+                 svg g {
+                  fill: $main-color-white;
+                  stroke: none;
+                }
+
+
+            }
+
+            }
+
+
+
+
+          }
+        }
+
+      }
+
+    }
+  }
+
+
+
+}
+
+
 
 
 
@@ -1023,9 +1229,7 @@ footer {
               }
 
               .col-flex40-skills{
-                .bar-circle{
-                  margin-top: 85px;
-                }
+
               }
             }
           }
