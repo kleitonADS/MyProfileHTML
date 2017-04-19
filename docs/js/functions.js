@@ -494,7 +494,7 @@ function normalImg(x){
 
 				var prog = new Progress( canvas );
 
-				if( index == 4 ) { // self.bars.length
+				if( index == 5 ) { // self.bars.length
 						clearInterval( timer );
 				}
 
