@@ -5495,6 +5495,81 @@ body {
                 fill: #fff;
                 stroke: none; }
 
+.project {
+  width: 100%;
+  background: url("/img/background-home.jpg") center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .project .content-full-flex-projects {
+    width: 100%; }
+    .project .content-full-flex-projects .title-flex-projects-photo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
+        width: calc(100%/3);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
+      width: 100%; }
+      .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+    .project .content-full-flex-projects .title-flex-projects {
+      height: 78px;
+      background-color: #1175ee;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: -120px; }
+      .project .content-full-flex-projects .title-flex-projects .col-title-project {
+        width: calc(100%/3);
+        border: 2px solid red; }
+        .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
+          font-family: 'futurabt', arial;
+          font-size: 24px;
+          color: #fff;
+          text-transform: uppercase;
+          text-align: center;
+          padding-top: 30px; }
+    .project .content-full-flex-projects .content-projects {
+      width: 90%;
+      max-height: 480px;
+      border: 2px solid white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50px;
+      padding-bottom: 0px;
+      margin-top: 60px;
+      margin-bottom: 20px; }
+      .project .content-full-flex-projects .content-projects .card-projeto {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid red; }
+        .project .content-full-flex-projects .content-projects .card-projeto .size-proj {
+          width: calc(100% / 3); }
+
 footer {
   width: 100%;
   height: 90px;

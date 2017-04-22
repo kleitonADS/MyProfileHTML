@@ -751,7 +751,7 @@ body {
 
 
 
-// skills
+//  SKILLS
 .skill {
   width: 100%;
   background: url('../img/background-home.jpg') center;
@@ -935,24 +935,97 @@ body {
                   fill: $main-color-white;
                   stroke: none;
                 }
-
-
+              }
             }
-
-            }
-
-
-
-
           }
         }
-
       }
-
     }
   }
+}
 
+// PROJECT
+.project {
+  width: 100%;
+  background: url('/img/background-home.jpg')center;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  .content-full-flex-projects {
+    width: 100%;
+    .title-flex-projects-photo {
+      display: flex;
+      .col-title-project{
+        width: calc(100%/3);
+        display: flex;
+        justify-content: center;
+      }
+    }
 
+    // Content Title Photo
+    .title-flex-projects-photo{
+
+      .col-title-project {
+        width: 100%;
+        img{
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    // content Title
+    .title-flex-projects {
+
+      height: 78px;
+      background-color: $main-color-blue;
+      display: flex;
+      margin-top: -120px;
+
+      .col-title-project {
+        width: calc(100%/3);
+        border: 2px solid red;
+        //display: flex;
+        // title
+        h2 {
+          //display: flex;
+          //justify-content: center;
+          font-family: 'futurabt', arial;
+          font-size: 24px;
+          color: #fff;
+          text-transform: uppercase;
+          text-align: center;
+          padding-top: 30px;
+        }
+      }
+    }
+
+    .content-projects {
+
+      width: 90%;
+      max-height: 480px;
+      border: 2px solid white;
+      display: flex;
+      //flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50px;
+      padding-bottom:0px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      //background-color: $main-color-blue;
+      .card-projeto{
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid red;
+
+        .size-proj{
+          width: calc(100% / 3);
+        }
+      }
+    }
+  }
 
 }
 
