@@ -242,15 +242,15 @@ $(window).scroll(function(){
 		$('.pages li a.page-project-li').addClass('is-active');
 	}
 
-	if(wScroll > $('#app-li').offset().top - 100){
-		$('.pages li a').parent().children().removeClass('is-active');
-		$('.pages li a.page-app-li').addClass('is-active');
-	}
+	// if(wScroll > $('#app-li').offset().top - 100){
+	// 	$('.pages li a').parent().children().removeClass('is-active');
+	// 	$('.pages li a.page-app-li').addClass('is-active');
+	// }
 
-	if(wScroll > $('#contact-li').offset().top - 100){
-		$('.pages li a').parent().children().removeClass('is-active');
-		$('.pages li a.page-contact-li').addClass('is-active');
-	}
+	// if(wScroll > $('#contact-li').offset().top - 100){
+	// 	$('.pages li a').parent().children().removeClass('is-active');
+	// 	$('.pages li a.page-contact-li').addClass('is-active');
+	// }
 
 	// step carrer 1 ( white )
 	if(wScroll > $('#step1').offset().top - 100) {
