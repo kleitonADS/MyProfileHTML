@@ -786,13 +786,12 @@ body {
     .time-line-carrer {
       width: 85%;
       height: auto;
-      border: 2px solid $main-color-white;
       display: flex;
       flex-direction: row;
       margin-left: auto;
       margin-right: auto;
       padding-top: 100px;
-      padding-bottom: 10px;
+      padding-bottom: 50px;
 
         // Mixins and Placeholders
         %clearfix {
