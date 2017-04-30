@@ -6208,4 +6208,27 @@ footer {
       .about .content-full-flex-about .about-2 .link-resume ul {
         width: 100%; }
     .about .content-full-flex-about .about-2 .picture-about img {
-      padding-top: 60px; } }
+      padding-top: 60px; }
+  .carrer .content-full-flex-carrer .time-line-carrer {
+    width: 100%; }
+    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-icon {
+      width: 40px;
+      height: 40px;
+      margin-left: -20px; }
+      .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-icon i {
+        top: 10px;
+        font-size: 20px; }
+    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title {
+      padding-top: 15px; }
+      .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title .flex-12 {
+        width: 20%; }
+      .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title .flex-88 h2 {
+        font-size: 12px;
+        padding-top: 10px; }
+  .carrer .content-full-flex-carrer .next-step {
+    width: 80%;
+    margin-bottom: 50px;
+    margin-top: -60px;
+    border: 2px solid #1175ee; }
+    .carrer .content-full-flex-carrer .next-step h1 {
+      font-size: 12px; } }

@@ -2090,4 +2090,47 @@ footer {
     }
   }
 
+  // CARRER
+  .carrer{
+    .content-full-flex-carrer{
+      .time-line-carrer{
+        width: 100%;
+
+        #timeline .timeline-item{
+          .timeline-icon{
+            width: 40px;
+            height: 40px;
+            margin-left: -20px;
+
+            i{
+              top: 10px;
+              font-size: 20px;}
+          }
+          .timeline-content{
+            .logotime-title{
+              padding-top: 15px;
+              .flex-12{
+                width: 20%;
+              }
+              .flex-88 h2{
+                font-size: 12px;
+                padding-top: 10px;
+              }
+            }
+          }
+        }
+      }
+
+      .next-step{
+        width: 80%;
+        margin-bottom: 50px;
+        margin-top: -60px;
+        border: 2px solid $main-color-blue;
+        h1{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
 }
