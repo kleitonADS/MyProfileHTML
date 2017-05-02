@@ -1024,14 +1024,12 @@ body {
         }
 
     }
-
+    // Next step
     .next-step{
-
       display: none;
-      //width: calc(100%/3);
-      border:2px solid white;
+      border:2px solid $main-color-white;
       width: 40%;
-      background: white;
+      background: $main-color-white;
       margin-left: auto;
       margin-right: auto;
       justify-content: center;
@@ -1042,12 +1040,9 @@ body {
           font-size: 18px;
           color: $main-color-blue;
           text-transform: uppercase;
-          //background: #1175ee;
           text-align: center;
           padding-top: 50px;
           line-height: 0px;
-
-          //border-radius: 3px 3px 0 0;
         }
     }
   }
@@ -1087,7 +1082,7 @@ body {
       margin-left: auto;
       margin-right: auto;
       padding-top: 100px;
-      padding-bottom:0px;
+      padding-bottom:50px;
 
       // Types Skills
       .types-skills{
@@ -1249,12 +1244,16 @@ body {
 // PROJECT
 .project {
   width: 100%;
-  background: url('/img/background-home.jpg')center;
-  background-size: cover;
+  //background: url('../img/background-home.jpg')center;
+  //background-size: cover;
+  background-color: $main-color-white;
   display:flex;
   flex-direction: column;
+
+  // content-full-flex-projects
   .content-full-flex-projects {
     width: 100%;
+
     .title-flex-projects-photo {
       display: flex;
       .col-title-project{
@@ -1272,6 +1271,7 @@ body {
         img{
           display: flex;
           justify-content: center;
+          margin-top: -120px;
         }
       }
     }
@@ -1281,19 +1281,14 @@ body {
       height: 78px;
       background-color: $main-color-blue;
       display: flex;
-      margin-top: -120px;
+      margin-top: -190px;
 
       .col-title-project {
         width: calc(100%/3);
-        border: 2px solid red;
-        //display: flex;
-        // title
         h2 {
-          //display: flex;
-          //justify-content: center;
           font-family: 'futurabt', arial;
           font-size: 24px;
-          color: #fff;
+          color: $main-color-white;
           text-transform: uppercase;
           text-align: center;
           padding-top: 30px;
@@ -1304,8 +1299,8 @@ body {
     .content-projects {
 
       width: 90%;
+      height: 480px;
       max-height: 480px;
-      border: 2px solid white;
       display: flex;
       //flex-direction: column;
       margin-left: auto;
@@ -1314,17 +1309,16 @@ body {
       padding-bottom:0px;
       margin-top: 60px;
       margin-bottom: 20px;
-      //background-color: $main-color-blue;
-      .card-projeto{
-        display: flex;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        border: 2px solid red;
+      background-color: $main-color-blue;
 
-        .size-proj{
-          width: calc(100% / 3);
-        }
+      .content-proj{
+        width:50%;
+        border: 2px solid white;
+      }
+
+      .content-desc{
+        width:50%;
+        border: 2px solid white;
       }
     }
   }
@@ -1891,22 +1885,22 @@ footer {
     margin-right: auto;
 
       .col-title-project img{
-      width: 100%;
-      height: 90%;
+      width: 60%;
+      height: 100%;
       }
     }
 
     .title-flex-projects{
-      margin-top: -50px;
+      margin-top: -20px;
       flex-direction: column;
-      background-color: $main-color-white;
+      //background-color: $main-color-white;
 
       .col-title-project{
         width: 100%;
 
 
         h2{
-          color: $main-color-blue;
+        //  color: $main-color-blue;
         }
       }
     }
@@ -2151,6 +2145,33 @@ footer {
         border: 2px solid $main-color-blue;
         h1{
           font-size: 12px;
+        }
+      }
+    }
+  }
+
+  //PROJECTS
+  .project {
+    .content-full-flex-projects {
+      .title-flex-projects{
+        height: 150px;
+        margin-top: -95px;
+        .col-title-project{
+          h2{
+            padding-top: 110px;
+          }
+        }
+
+      }
+      .title-flex-projects-photo {
+        .col-title-project{
+          height: 100%;
+
+          img{
+            width: 70%;
+            height: 100%;
+            margin-top: -80px;
+          }
         }
       }
     }

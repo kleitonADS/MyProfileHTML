@@ -5537,9 +5537,9 @@ body {
             left: 0; } }
     .carrer .content-full-flex-carrer .next-step {
       display: none;
-      border: 2px solid white;
+      border: 2px solid #fff;
       width: 40%;
-      background: white;
+      background: #fff;
       margin-left: auto;
       margin-right: auto;
       -webkit-box-pack: center;
@@ -5585,7 +5585,7 @@ body {
       margin-left: auto;
       margin-right: auto;
       padding-top: 100px;
-      padding-bottom: 0px; }
+      padding-bottom: 50px; }
       .skill .content-full-flex-skills .content-skills .types-skills {
         width: 100%;
         display: -webkit-box;
@@ -5710,8 +5710,7 @@ body {
 
 .project {
   width: 100%;
-  background: url("/img/background-home.jpg") center;
-  background-size: cover;
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5741,17 +5740,17 @@ body {
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; }
+                justify-content: center;
+        margin-top: -120px; }
     .project .content-full-flex-projects .title-flex-projects {
       height: 78px;
       background-color: #1175ee;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: -120px; }
+      margin-top: -190px; }
       .project .content-full-flex-projects .title-flex-projects .col-title-project {
-        width: calc(100%/3);
-        border: 2px solid red; }
+        width: calc(100%/3); }
         .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
           font-family: 'futurabt', arial;
           font-size: 24px;
@@ -5761,8 +5760,8 @@ body {
           padding-top: 30px; }
     .project .content-full-flex-projects .content-projects {
       width: 90%;
+      height: 480px;
       max-height: 480px;
-      border: 2px solid white;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -5771,17 +5770,14 @@ body {
       padding-top: 50px;
       padding-bottom: 0px;
       margin-top: 60px;
-      margin-bottom: 20px; }
-      .project .content-full-flex-projects .content-projects .card-projeto {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        border: 2px solid red; }
-        .project .content-full-flex-projects .content-projects .card-projeto .size-proj {
-          width: calc(100% / 3); }
+      margin-bottom: 20px;
+      background-color: #1175ee; }
+      .project .content-full-flex-projects .content-projects .content-proj {
+        width: 50%;
+        border: 2px solid white; }
+      .project .content-full-flex-projects .content-projects .content-desc {
+        width: 50%;
+        border: 2px solid white; }
 
 footer {
   width: 100%;
@@ -6098,19 +6094,16 @@ footer {
     margin-left: auto;
     margin-right: auto; }
     .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
-      width: 100%;
-      height: 90%; }
+      width: 60%;
+      height: 100%; }
   .project .content-full-flex-projects .title-flex-projects {
-    margin-top: -50px;
+    margin-top: -20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: #fff; }
+            flex-direction: column; }
     .project .content-full-flex-projects .title-flex-projects .col-title-project {
       width: 100%; }
-      .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
-        color: #1175ee; }
   .project .content-full-flex-projects .content-projects {
     margin-top: 20px;
     margin-bottom: 20px; }
@@ -6249,4 +6242,15 @@ footer {
     margin-left: 50px;
     border: 2px solid #1175ee; }
     .carrer .content-full-flex-carrer .next-step h1 {
-      font-size: 12px; } }
+      font-size: 12px; }
+  .project .content-full-flex-projects .title-flex-projects {
+    height: 150px;
+    margin-top: -95px; }
+    .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
+      padding-top: 110px; }
+  .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
+    height: 100%; }
+    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
+      width: 70%;
+      height: 100%;
+      margin-top: -80px; } }
