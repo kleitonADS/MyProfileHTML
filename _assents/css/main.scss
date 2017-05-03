@@ -1244,9 +1244,9 @@ body {
 // PROJECT
 .project {
   width: 100%;
-  //background: url('../img/background-home.jpg')center;
-  //background-size: cover;
-  background-color: $main-color-white;
+  background: url('../img/background-home.jpg')center;
+  background-size: cover;
+  //background-color: $main-color-white;
   display:flex;
   flex-direction: column;
 
@@ -1281,7 +1281,7 @@ body {
       height: 78px;
       background-color: $main-color-blue;
       display: flex;
-      margin-top: -190px;
+      margin-top: -200px;
 
       .col-title-project {
         width: calc(100%/3);
@@ -1299,26 +1299,79 @@ body {
     .content-projects {
 
       width: 90%;
-      height: 480px;
-      max-height: 480px;
+      //height: 480px;
+      //max-height: 480px;
       display: flex;
       //flex-direction: column;
       margin-left: auto;
       margin-right: auto;
-      padding-top: 50px;
+      padding-top: 100px;
       padding-bottom:0px;
       margin-top: 60px;
       margin-bottom: 20px;
-      background-color: $main-color-blue;
+      //background-color: $main-color-blue;
 
       .content-proj{
         width:50%;
-        border: 2px solid white;
+        //border: 2px solid red;
+        .title-typeproject{
+
+          h1{
+            font-family: 'futurabt', arial;
+            font-size: 20px;
+            color: $main-color-white;
+            //text-transform: uppercase;
+            text-align: center;
+            padding-top: 50px;
+          }
+        }
+
+        .typelistproj{
+          color: $main-color-white;
+          display: flex;
+          justify-content: center;
+          margin-top: -20px;
+          li{
+            font-size: 16px;
+            font-family: 'Titillium Web', sans-serif;
+            //text-decoration: underline;
+            border: 1px solid $main-color-blue;
+            border-radius: 20px;
+            padding-top: 2px;
+            padding-bottom: 4px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 10px;
+            background-color: $main-color-blue;
+
+          }
+        }
+
+        .select-project{
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10px;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          background-color: rgba(17, 117, 238, 0.2);
+          border-radius:20px 20px 0px 0px;
+          width: 75%;
+        }
+
+        .macbook{
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: -10px;
+        }
       }
 
       .content-desc{
         width:50%;
-        border: 2px solid white;
+        //border: 2px solid white;
       }
     }
   }
@@ -1883,24 +1936,27 @@ footer {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+      .col-title-project{
+        height: 100%;
 
-      .col-title-project img{
-      width: 60%;
-      height: 100%;
+        img{
+          width: 70%;
+          height: 100%;
+          margin-top: -80px;
+        }
       }
     }
 
     .title-flex-projects{
-      margin-top: -20px;
+      height: 200px;
+      margin-top: -125px;
       flex-direction: column;
-      //background-color: $main-color-white;
-
       .col-title-project{
         width: 100%;
 
 
         h2{
-        //  color: $main-color-blue;
+          padding-top:140px;
         }
       }
     }

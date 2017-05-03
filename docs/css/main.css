@@ -5710,7 +5710,8 @@ body {
 
 .project {
   width: 100%;
-  background-color: #fff;
+  background: url("../img/background-home.jpg") center;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5748,7 +5749,7 @@ body {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: -190px; }
+      margin-top: -200px; }
       .project .content-full-flex-projects .title-flex-projects .col-title-project {
         width: calc(100%/3); }
         .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
@@ -5760,24 +5761,70 @@ body {
           padding-top: 30px; }
     .project .content-full-flex-projects .content-projects {
       width: 90%;
-      height: 480px;
-      max-height: 480px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin-left: auto;
       margin-right: auto;
-      padding-top: 50px;
+      padding-top: 100px;
       padding-bottom: 0px;
       margin-top: 60px;
-      margin-bottom: 20px;
-      background-color: #1175ee; }
+      margin-bottom: 20px; }
       .project .content-full-flex-projects .content-projects .content-proj {
-        width: 50%;
-        border: 2px solid white; }
+        width: 50%; }
+        .project .content-full-flex-projects .content-projects .content-proj .title-typeproject h1 {
+          font-family: 'futurabt', arial;
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+          padding-top: 50px; }
+        .project .content-full-flex-projects .content-projects .content-proj .typelistproj {
+          color: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          margin-top: -20px; }
+          .project .content-full-flex-projects .content-projects .content-proj .typelistproj li {
+            font-size: 16px;
+            font-family: 'Titillium Web', sans-serif;
+            border: 1px solid #1175ee;
+            border-radius: 20px;
+            padding-top: 2px;
+            padding-bottom: 4px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 10px;
+            background-color: #1175ee; }
+        .project .content-full-flex-projects .content-projects .content-proj .select-project {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10px;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          background-color: rgba(17, 117, 238, 0.2);
+          border-radius: 20px 20px 0px 0px;
+          width: 75%; }
+        .project .content-full-flex-projects .content-projects .content-proj .macbook {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: -10px; }
       .project .content-full-flex-projects .content-projects .content-desc {
-        width: 50%;
-        border: 2px solid white; }
+        width: 50%; }
 
 footer {
   width: 100%;
@@ -6093,17 +6140,23 @@ footer {
             justify-content: center;
     margin-left: auto;
     margin-right: auto; }
-    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
-      width: 60%;
+    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
       height: 100%; }
+      .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
+        width: 70%;
+        height: 100%;
+        margin-top: -80px; }
   .project .content-full-flex-projects .title-flex-projects {
-    margin-top: -20px;
+    height: 200px;
+    margin-top: -125px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
     .project .content-full-flex-projects .title-flex-projects .col-title-project {
       width: 100%; }
+      .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
+        padding-top: 140px; }
   .project .content-full-flex-projects .content-projects {
     margin-top: 20px;
     margin-bottom: 20px; }
