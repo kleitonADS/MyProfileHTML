@@ -508,3 +508,9 @@ function normalImg(x){
 	});
 
 })();
+
+var imgmac = document.getElementsByClassName('macbook')['0'].height;
+
+var newheightgif = (imgmac - 52);
+
+document.getElementsByClassName('gifmac')['0'].height = newheightgif;

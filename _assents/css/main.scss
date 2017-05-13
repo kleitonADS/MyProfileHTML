@@ -6,6 +6,7 @@
 @import "tools/fontawesome/font-awesome";
 @import "tools/animate";
 
+
 // FONTS
 @font-face {
     font-family: brandon;
@@ -1249,10 +1250,12 @@ body {
   //background-color: $main-color-white;
   display:flex;
   flex-direction: column;
+  padding-bottom: 100px;
 
   // content-full-flex-projects
   .content-full-flex-projects {
     width: 100%;
+    //display: flex;
 
     .title-flex-projects-photo {
       display: flex;
@@ -1298,22 +1301,24 @@ body {
 
     .content-projects {
 
-      width: 90%;
+      width: 100%;
       //height: 480px;
       //max-height: 480px;
       display: flex;
       //flex-direction: column;
       margin-left: auto;
       margin-right: auto;
-      padding-top: 100px;
+      padding-top: 40px;
       padding-bottom:0px;
-      margin-top: 60px;
+      margin-top: 160px;
       margin-bottom: 20px;
-      //background-color: $main-color-blue;
+      background-color: gray;
+      padding-left: 100px;
+      padding-right: 100px;
 
       .content-proj{
         width:50%;
-        //border: 2px solid red;
+        border: 2px solid red;
         .title-typeproject{
 
           h1{
@@ -1326,38 +1331,72 @@ body {
           }
         }
 
-        .typelistproj{
-          color: $main-color-white;
-          display: flex;
-          justify-content: center;
-          margin-top: -20px;
-          li{
-            font-size: 16px;
-            font-family: 'Titillium Web', sans-serif;
-            //text-decoration: underline;
-            border: 1px solid $main-color-blue;
-            border-radius: 20px;
-            padding-top: 2px;
-            padding-bottom: 4px;
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-left: 10px;
-            background-color: $main-color-blue;
-
-          }
-        }
-
         .select-project{
           display: flex;
           justify-content: center;
           margin-left: auto;
           margin-right: auto;
-          margin-top: 10px;
-          padding-top: 50px;
-          padding-bottom: 50px;
-          background-color: rgba(17, 117, 238, 0.2);
-          border-radius:20px 20px 0px 0px;
+          margin-top: -20px;
+          padding-top: 20px;
+          padding-bottom: 40px;
+          //background-color: rgba(17, 117, 238, 0.2);
+          //border-radius:20px 20px 0px 0px;
           width: 75%;
+          flex-direction:row;
+
+          .leftlist{
+            padding-left:30px;
+            padding-right: 30px;
+            a{
+              border: 2px solid $main-color-white;
+              padding: 8px 12px 8px 12px;
+              display: flex;
+              border-radius: 20px;
+              text-decoration: none;
+              color: $main-color-white;
+            }
+            :hover{
+              color: $main-color-blue;
+              background-color: $main-color-white;
+              border: 2px solid $main-color-blue;
+            }
+          }
+
+          .slider{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            ul li img{
+              display: flex;
+              justify-content: center;
+              width: 40px;
+              margin-left: auto;
+              margin-right: auto;
+
+            }
+          }
+
+          .rightlist{
+            padding-right: 30px;
+            padding-left:30px;
+
+            a{
+              border: 2px solid $main-color-white;
+              padding: 8px 12px 8px 12px;
+              display: flex;
+              border-radius: 20px;
+              text-decoration: none;
+              color: $main-color-white;
+            }
+            :hover{
+              color: $main-color-blue;
+              background-color: $main-color-white;
+              border: 2px solid $main-color-blue;
+            }
+          }
+
+
+
         }
 
         .macbook{
@@ -1366,14 +1405,28 @@ body {
           margin-left: auto;
           margin-right: auto;
           margin-top: -10px;
+          margin-bottom: -60px;
+          width: 100%;
+        }
+
+        .gifmac{
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: -300px;
+          //margin-bottom: -60px;
+          width: 75%;
         }
       }
 
       .content-desc{
         width:50%;
-        //border: 2px solid white;
+        height: 40px;
+        border: 2px solid white;
       }
     }
+
   }
 
 }
@@ -1962,38 +2015,35 @@ footer {
     }
 
     .content-projects{
+      flex-direction: column;
       margin-top: 20px;
       margin-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
 
-      .projects-flex{
-        flex-direction: column;
-        width: 90%;
+      .content-proj{
+        width: 100%;
 
-        .video-project{
-          width: 100%;
+        .select-project{
+          width: 90%;
+          .rightlist{
+            padding-right: 5px;
+            padding-left: 5px;
+          }
 
-          .img-mac-project{
-            #project-vi{
-              height: 100px;
-                //margin-left: auto;
-                //margin-right: auto;
-              margin-top: -130px;
-            }
+          .leftlist{
+            padding-right: 5px;
+            padding-left: 5px;
           }
         }
-
-        .desc-project{
-          width: 100%;
-          padding-top: 100px;
-
-          .content-des p{
-            text-align: center;
-          }
+        .gifmac{
+          margin-top: -190px;
         }
+      }
 
-        .content-list-desc{
-          margin-bottom: 30px;
-        }
+      .content-desc{
+        width: 100%;
+        margin-top: 100px;
       }
     }
   }
@@ -2228,6 +2278,39 @@ footer {
             height: 100%;
             margin-top: -80px;
           }
+        }
+      }
+
+      .content-projects{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .content-proj{
+          width: 100%;
+
+          .select-project{
+            width: 90%;
+            .rightlist{
+              padding-right: 5px;
+              padding-left: 5px;
+            }
+
+            .leftlist{
+              padding-right: 5px;
+              padding-left: 5px;
+            }
+          }
+          .gifmac{
+            margin-top: -150px;
+          }
+        }
+
+        .content-desc{
+          width: 100%;
+          margin-top: 100px;
         }
       }
     }
