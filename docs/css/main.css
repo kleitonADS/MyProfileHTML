@@ -5771,7 +5771,7 @@ body {
       padding-bottom: 0px;
       margin-top: 160px;
       margin-bottom: 20px;
-      background-color: gray;
+      background-color: #1175ee;
       padding-left: 100px;
       padding-right: 100px; }
       .project .content-full-flex-projects .content-projects .content-proj {
@@ -5876,8 +5876,36 @@ body {
           width: 75%; }
       .project .content-full-flex-projects .content-projects .content-desc {
         width: 50%;
-        height: 40px;
-        border: 2px solid white; }
+        border: 2px solid white;
+        padding-top: 150px;
+        padding-left: 100px;
+        padding-right: 100px; }
+        .project .content-full-flex-projects .content-projects .content-desc .title-des-proj h1 {
+          font-family: 'futurabt', arial;
+          font-size: 20px;
+          color: #fff;
+          text-transform: uppercase;
+          text-align: center; }
+        .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+          font-family: 'Titillium Web', sans-serif;
+          color: #fff;
+          font-size: 14px;
+          line-height: 20px; }
+        .project .content-full-flex-projects .content-projects .content-desc .links-desc-proj {
+          margin-top: 30px; }
+          .project .content-full-flex-projects .content-projects .content-desc .links-desc-proj ul {
+            text-align: center; }
+          .project .content-full-flex-projects .content-projects .content-desc .links-desc-proj li {
+            display: inline-block;
+            padding-right: 10px; }
+          .project .content-full-flex-projects .content-projects .content-desc .links-desc-proj a {
+            color: #fff; }
+            .project .content-full-flex-projects .content-projects .content-desc .links-desc-proj a i {
+              border: 2px solid #fff;
+              border-radius: 30px;
+              width: 40px;
+              height: 40px;
+              padding-top: 10px; }
 
 footer {
   width: 100%;
@@ -6059,6 +6087,19 @@ footer {
   .app .content-full-flex-app .text-link-app h2 {
     text-align: center;
     padding-left: 30px; }
+  .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
+    height: 100%; }
+    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
+      width: 25%;
+      height: 100%;
+      margin-top: -40px; }
+  .project .content-full-flex-projects .title-flex-projects {
+    margin-top: -140px; }
+  .project .content-full-flex-projects .content-projects {
+    padding-left: 50px;
+    padding-right: 50px; }
+    .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+      margin-top: -170px; }
   .contact .content-full-flex-contact .contact-flex {
     display: -webkit-box;
     display: -ms-flexbox;

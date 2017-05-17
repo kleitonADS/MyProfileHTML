@@ -1312,7 +1312,7 @@ body {
       padding-bottom:0px;
       margin-top: 160px;
       margin-bottom: 20px;
-      background-color: gray;
+      background-color: $main-color-blue;
       padding-left: 100px;
       padding-right: 100px;
 
@@ -1422,8 +1422,58 @@ body {
 
       .content-desc{
         width:50%;
-        height: 40px;
+        //height: 40px;
         border: 2px solid white;
+        padding-top: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        .title-des-proj{
+          h1{
+            //margin-top: -100px;
+            font-family: 'futurabt', arial;
+            font-size: 20px;
+            color: $main-color-white;
+            text-transform: uppercase;
+            text-align: center;
+          }
+        }
+        .desc-proj-select{
+          p{
+            font-family: 'Titillium Web', sans-serif;
+            color: $main-color-white;
+            font-size: 14px;
+            //margin-top: -10px;
+            line-height: 20px;
+          }
+
+        }
+
+        .links-desc-proj{
+          margin-top: 30px;
+          ul{
+            //padding-bottom: 30px;
+            text-align: center;
+          }
+          li{
+            display: inline-block;
+            padding-right: 10px
+          }
+
+          a{
+            color: $main-color-white;
+
+            i{
+              border: 2px solid $main-color-white;
+              border-radius: 30px;
+              width: 40px;
+              height: 40px;
+              padding-top: 10px;}
+          }
+
+        }
+
+
       }
     }
 
@@ -1752,6 +1802,41 @@ footer {
         }
       }
     }
+
+    // PROJECT
+    .project {
+      .content-full-flex-projects {
+        .title-flex-projects-photo {
+          .col-title-project{
+            height: 100%;
+
+            img{
+              width: 25%;
+              height: 100%;
+              margin-top: -40px;
+            }
+          }
+        }
+
+        .title-flex-projects{
+          margin-top: -140px;
+        }
+
+        .content-projects {
+          padding-left: 50px;
+          padding-right: 50px;
+          .content-proj .gifmac{
+            margin-top: -170px;
+        }
+      }
+      }
+
+    }
+
+
+
+
+
 
     // CONTACT
     .contact {
