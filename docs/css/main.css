@@ -5775,8 +5775,7 @@ body {
       padding-left: 100px;
       padding-right: 100px; }
       .project .content-full-flex-projects .content-projects .content-proj {
-        width: 50%;
-        border: 2px solid red; }
+        width: 50%; }
         .project .content-full-flex-projects .content-projects .content-proj .title-typeproject h1 {
           font-family: 'futurabt', arial;
           font-size: 20px;
@@ -5876,7 +5875,6 @@ body {
           width: 75%; }
       .project .content-full-flex-projects .content-projects .content-desc {
         width: 50%;
-        border: 2px solid white;
         padding-top: 150px;
         padding-left: 100px;
         padding-right: 100px; }
@@ -6227,54 +6225,59 @@ footer {
         .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos ul {
           margin-left: auto;
           margin-right: auto; }
-  .project .content-full-flex-projects .title-flex-projects-photo {
-    width: 80%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: auto;
-    margin-right: auto; }
-    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
-      height: 100%; }
-      .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
-        width: 70%;
-        height: 100%;
-        margin-top: -80px; }
-  .project .content-full-flex-projects .title-flex-projects {
-    height: 200px;
-    margin-top: -125px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    .project .content-full-flex-projects .title-flex-projects .col-title-project {
-      width: 100%; }
-      .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
-        padding-top: 140px; }
-  .project .content-full-flex-projects .content-projects {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px; }
-    .project .content-full-flex-projects .content-projects .content-proj {
-      width: 100%; }
-      .project .content-full-flex-projects .content-projects .content-proj .select-project {
-        width: 90%; }
-        .project .content-full-flex-projects .content-projects .content-proj .select-project .rightlist {
-          padding-right: 5px;
-          padding-left: 5px; }
-        .project .content-full-flex-projects .content-projects .content-proj .select-project .leftlist {
-          padding-right: 5px;
-          padding-left: 5px; }
-      .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-        margin-top: -190px; }
-    .project .content-full-flex-projects .content-projects .content-desc {
-      width: 100%;
-      margin-top: 100px; }
+  .project {
+    padding-bottom: 10px; }
+    .project .content-full-flex-projects .title-flex-projects-photo {
+      width: 80%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-left: auto;
+      margin-right: auto; }
+      .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
+        height: 100%; }
+        .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
+          width: 70%;
+          height: 100%;
+          margin-top: -80px; }
+    .project .content-full-flex-projects .title-flex-projects {
+      height: 200px;
+      margin-top: -125px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .project .content-full-flex-projects .title-flex-projects .col-title-project {
+        width: 100%; }
+        .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
+          padding-top: 140px; }
+    .project .content-full-flex-projects .content-projects {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .project .content-full-flex-projects .content-projects .content-proj {
+        width: 100%; }
+        .project .content-full-flex-projects .content-projects .content-proj .select-project {
+          width: 90%; }
+          .project .content-full-flex-projects .content-projects .content-proj .select-project .rightlist {
+            padding-right: 5px;
+            padding-left: 5px; }
+          .project .content-full-flex-projects .content-projects .content-proj .select-project .leftlist {
+            padding-right: 5px;
+            padding-left: 5px; }
+        .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+          margin-top: -185px; }
+      .project .content-full-flex-projects .content-projects .content-desc {
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px; }
   .app .content-full-flex-app {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6393,38 +6396,45 @@ footer {
     border: 2px solid #1175ee; }
     .carrer .content-full-flex-carrer .next-step h1 {
       font-size: 12px; }
-  .project .content-full-flex-projects .title-flex-projects {
-    height: 150px;
-    margin-top: -95px; }
-    .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
-      padding-top: 110px; }
-  .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
-    height: 100%; }
-    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
-      width: 70%;
-      height: 100%;
-      margin-top: -80px; }
-  .project .content-full-flex-projects .content-projects {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px; }
-    .project .content-full-flex-projects .content-projects .content-proj {
-      width: 100%; }
-      .project .content-full-flex-projects .content-projects .content-proj .select-project {
-        width: 90%; }
-        .project .content-full-flex-projects .content-projects .content-proj .select-project .rightlist {
-          padding-right: 5px;
-          padding-left: 5px; }
-        .project .content-full-flex-projects .content-projects .content-proj .select-project .leftlist {
-          padding-right: 5px;
-          padding-left: 5px; }
-      .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-        margin-top: -150px; }
-    .project .content-full-flex-projects .content-projects .content-desc {
-      width: 100%;
-      margin-top: 100px; } }
+  .project {
+    padding-bottom: 10px; }
+    .project .content-full-flex-projects .title-flex-projects {
+      height: 150px;
+      margin-top: -95px; }
+      .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
+        padding-top: 110px; }
+    .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
+      height: 100%; }
+      .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
+        width: 70%;
+        height: 100%;
+        margin-top: -80px; }
+    .project .content-full-flex-projects .content-projects {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .project .content-full-flex-projects .content-projects .content-proj {
+        width: 100%; }
+        .project .content-full-flex-projects .content-projects .content-proj .select-project {
+          width: 90%; }
+          .project .content-full-flex-projects .content-projects .content-proj .select-project .rightlist {
+            padding-right: 5px;
+            padding-left: 5px; }
+          .project .content-full-flex-projects .content-projects .content-proj .select-project .leftlist {
+            padding-right: 5px;
+            padding-left: 5px; }
+        .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+          margin-top: -150px; }
+      .project .content-full-flex-projects .content-projects .content-desc {
+        width: 100%;
+        margin-top: -50px;
+        padding-left: 20px;
+        padding-right: 22px;
+        padding-bottom: 40px; }
+        .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+          text-align: center; } }

@@ -514,3 +514,50 @@ var imgmac = document.getElementsByClassName('macbook')['0'].height;
 var newheightgif = (imgmac - 52);
 
 document.getElementsByClassName('gifmac')['0'].height = newheightgif;
+
+
+var itensImgProj = document.getElementsByClassName("imglist-proj");
+var titlePro = document.getElementById('nameproj');
+var descPro = document.getElementById('descproj');
+
+		for (var i = 0; i < itensImgProj.length; i++) {
+			itensImgProj[i].addEventListener('click', function() {
+				var itenp = this.children[0].name;
+				switch (itenp) {
+					case 'Project Calc':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "Project Calc, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
+
+						break;
+
+
+					case 'Project TimeSheet':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "PROJETO TIMESHEEET, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
+
+						break;
+
+					case 'Project X':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "Project X, consectetur adipisicinelitAtque,facilis quo maiores magnam modi ab libero praesentiublanditiis.facilis quo maiores magnam modi ab libero praesentiublanditiis.facilis quo maiores magnam modi ab libero praesentiublanditiis.div.links-desc-proj"
+
+						break;
+
+					case 'Project Y':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "Project Y, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
+
+						break;
+
+					case 'Project Z':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "Project Z, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
+
+						break;
+
+
+					default:
+
+				}
+			});
+		}

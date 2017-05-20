@@ -1247,7 +1247,6 @@ body {
   width: 100%;
   background: url('../img/background-home.jpg')center;
   background-size: cover;
-  //background-color: $main-color-white;
   display:flex;
   flex-direction: column;
   padding-bottom: 100px;
@@ -1255,7 +1254,6 @@ body {
   // content-full-flex-projects
   .content-full-flex-projects {
     width: 100%;
-    //display: flex;
 
     .title-flex-projects-photo {
       display: flex;
@@ -1318,7 +1316,7 @@ body {
 
       .content-proj{
         width:50%;
-        border: 2px solid red;
+        //border: 2px solid red;
         .title-typeproject{
 
           h1{
@@ -1423,7 +1421,7 @@ body {
       .content-desc{
         width:50%;
         //height: 40px;
-        border: 2px solid white;
+        //border: 2px solid white;
         padding-top: 150px;
         padding-left: 100px;
         padding-right: 100px;
@@ -2067,7 +2065,9 @@ footer {
   }
 
   // Projects
-  .project .content-full-flex-projects {
+  .project {
+    padding-bottom: 10px;
+    .content-full-flex-projects {
 
     .title-flex-projects-photo{
     width: 80%;
@@ -2122,15 +2122,19 @@ footer {
           }
         }
         .gifmac{
-          margin-top: -190px;
+          margin-top: -185px;
         }
       }
 
       .content-desc{
         width: 100%;
-        margin-top: 100px;
+        padding-top: 80px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
       }
     }
+  }
   }
 
   // app
@@ -2343,6 +2347,7 @@ footer {
 
   //PROJECTS
   .project {
+    padding-bottom: 10px;
     .content-full-flex-projects {
       .title-flex-projects{
         height: 150px;
@@ -2395,7 +2400,14 @@ footer {
 
         .content-desc{
           width: 100%;
-          margin-top: 100px;
+          margin-top: -50px;
+          padding-left: 20px;
+          padding-right: 22px;
+          padding-bottom: 40px;
+
+          .desc-proj-select p{
+            text-align: center;
+          }
         }
       }
     }
