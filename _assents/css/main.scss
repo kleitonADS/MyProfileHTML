@@ -1482,6 +1482,87 @@ body {
 
 
 
+// APP
+.app {
+  width: 100%;
+  min-height:300px;
+  background-color: $main-color-white;
+
+  .content-full-flex-app{
+    width: 100%;
+    display: flex;
+
+    .text-link-app{
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 20px;
+      width: 60%;
+
+      h2{
+        display: flex;
+        justify-content: center;
+        font-family: 'futurabt', arial;
+        font-size: 24px;
+        color:$main-color-blue;
+        text-transform: uppercase;
+
+      }
+
+      ul{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+
+
+        li{
+          padding: 10px 5px 10px 5px;
+
+          a{
+              i{
+                font-size: 32px;
+                color: $main-color-blue;
+                //padding-left: 12px;
+                }
+
+                :hover{
+                  color:$main-color-white;
+                  border: 2px solid;
+                  border-radius: 30px;
+                  padding: 6px 10px 6px 10px;
+                  background-color: $main-color-blue;
+                }
+
+          }
+
+        }
+
+      }
+    }
+
+    .picture-smartyphone{
+
+      display: flex;
+      justify-content: center;
+      width: 40%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: $main-color-blue;
+
+      img{
+        width: 70%;
+        padding-left: 20%;
+        padding-right: 20%;
+        height: 100%;
+      }
+  }
+}
+}
+
+
+
+
 
 footer {
   width: 100%;
@@ -1803,6 +1884,7 @@ footer {
 
     // PROJECT
     .project {
+      padding-bottom: 20px;
       .content-full-flex-projects {
         .title-flex-projects-photo {
           .col-title-project{
@@ -1823,8 +1905,15 @@ footer {
         .content-projects {
           padding-left: 50px;
           padding-right: 50px;
+          margin-top: 10px;
           .content-proj .gifmac{
             margin-top: -170px;
+        }
+        .content-desc{
+          padding-top: 100px;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-bottom: 50px;
         }
       }
       }
@@ -2400,7 +2489,7 @@ footer {
 
         .content-desc{
           width: 100%;
-          margin-top: -50px;
+          margin-top: -20px;
           padding-left: 20px;
           padding-right: 22px;
           padding-bottom: 40px;

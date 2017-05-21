@@ -519,6 +519,8 @@ document.getElementsByClassName('gifmac')['0'].height = newheightgif;
 var itensImgProj = document.getElementsByClassName("imglist-proj");
 var titlePro = document.getElementById('nameproj');
 var descPro = document.getElementById('descproj');
+var linkvproj = document.getElementById('linkviewproj');
+var linkcproj = document.getElementById('linkcodeproj');
 
 		for (var i = 0; i < itensImgProj.length; i++) {
 			itensImgProj[i].addEventListener('click', function() {
@@ -526,7 +528,9 @@ var descPro = document.getElementById('descproj');
 				switch (itenp) {
 					case 'Project Calc':
 						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "Project Calc, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
+						descPro.innerHTML = "Project Calc, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
+						linkvproj.href = "#testeprojectview";
+						linkcproj.href = "#testeprojectCode";
 
 						break;
 
