@@ -5967,7 +5967,7 @@ body {
       width: 40%;
       padding-top: 50px;
       padding-bottom: 50px;
-      background-color: #1175ee; }
+      background-color: #fff; }
       .app .content-full-flex-app .picture-smartyphone img {
         width: 70%;
         padding-left: 20%;
@@ -5977,7 +5977,7 @@ body {
 .contact {
   width: 100%;
   min-height: 800px;
-  background: url("/img/background-home.jpg") center;
+  background: url("../img/background-home.jpg") center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6740,12 +6740,15 @@ footer {
     .carrer .content-full-flex-carrer .next-step h1 {
       font-size: 12px; }
   .project {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    margin-bottom: -30px; }
     .project .content-full-flex-projects .title-flex-projects {
+      background-color: inherit;
       height: 150px;
       margin-top: -95px; }
       .project .content-full-flex-projects .title-flex-projects .col-title-project h2 {
-        padding-top: 110px; }
+        padding-top: 110px;
+        color: #fff; }
     .project .content-full-flex-projects .title-flex-projects-photo .col-title-project {
       height: 100%; }
       .project .content-full-flex-projects .title-flex-projects-photo .col-title-project img {
@@ -6757,7 +6760,7 @@ footer {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      margin-top: 20px;
+      margin-top: 30px;
       margin-bottom: 20px;
       padding-left: 10px;
       padding-right: 10px; }
@@ -6772,7 +6775,7 @@ footer {
             padding-right: 5px;
             padding-left: 5px; }
         .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-          margin-top: -150px; }
+          margin-top: -155px; }
       .project .content-full-flex-projects .content-projects .content-desc {
         width: 100%;
         margin-top: -20px;
@@ -6780,4 +6783,8 @@ footer {
         padding-right: 22px;
         padding-bottom: 40px; }
         .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
-          text-align: center; } }
+          text-align: center; }
+  .app .content-full-flex-app .text-link-app {
+    padding-top: 60px; }
+    .app .content-full-flex-app .text-link-app ul {
+      padding-bottom: 20px; } }
