@@ -247,10 +247,10 @@ $(window).scroll(function(){
 	// 	$('.pages li a.page-app-li').addClass('is-active');
 	// }
 
-	// if(wScroll > $('#contact-li').offset().top - 100){
-	// 	$('.pages li a').parent().children().removeClass('is-active');
-	// 	$('.pages li a.page-contact-li').addClass('is-active');
-	// }
+	if(wScroll > $('#contact-li').offset().top - 100){
+		$('.pages li a').parent().children().removeClass('is-active');
+		$('.pages li a.page-contact-li').addClass('is-active');
+	}
 
 	// step carrer 1 ( white )
 	if(wScroll > $('#step1').offset().top - 100) {
@@ -390,6 +390,31 @@ $(document).ready(function(){
 
 			$('.link-resume').hide('slow');
 			document.getElementById('showlink').name = "show";
+		}
+
+
+	});
+
+});
+
+// Formulari
+$('#form-main').hide();
+
+$(document).ready(function(){
+	$('#showform').click(function(event){
+		event.preventDefault();
+		var name = document.getElementById('showform').name;
+
+		if(name == 'show'){
+
+			$('#form-main').show('slow');
+			document.getElementById('showform').name = "";
+
+
+		}else{
+
+			$('#form-main').hide('slow');
+			document.getElementById('showform').name = "show";
 		}
 
 

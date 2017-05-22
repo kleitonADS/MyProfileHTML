@@ -1,0 +1,42 @@
+// Contact
+div.contact#contact-li
+  div.content-full-flex-contact
+    div.title-flex-contact
+      h2 Contact 
+    
+    div.contact-flex 
+      ul
+        li
+          i(class="fa fa-at" aria-hidden="true") 
+          h2 kleiton.ads@hotmail.com
+          
+        li
+          i(class="fa fa-mobile" aria-hidden="true")
+          h2 +1 647 920 7728 
+            
+        li
+          i(class="fa fa-map-marker" aria-hidden="true") 
+          h2 700 Ontario St , Toronto         
+    
+    
+    div.text-contact-flex
+      h3 Any question or suggestion</br>send me a message, thanks
+    div.button-contact
+      a(href="" id="showform" name="show" )
+        i(class="fa fa-envelope" aria-hidden="true")
+    div#form-main
+      div#form-div
+        form#form1.form
+          p.name
+            input#name.feedback-input(name='name', type='text', class='validate[required,custom[onlyLetter],length[0,100]]', placeholder='Name')
+          p.email
+            input#email.feedback-input(name='email', type='email',  placeholder='Email')
+          p.text
+            textarea#comment.feedback-input(name='text', class='validate[required,length[6,300]]', placeholder='Comment')
+          div.submit
+            input#button-blue(type='submit', value='SEND')
+            //div.ease   
+    
+    div.moveup-contact
+      a(href="#header")
+        i(class="fa fa-angle-up" aria-hidden="true")
