@@ -1310,7 +1310,7 @@ body {
       padding-bottom:0px;
       margin-top: 160px;
       margin-bottom: 20px;
-      background-color: $main-color-blue;
+      //background-color: $main-color-blue;
       padding-left: 100px;
       padding-right: 100px;
 
@@ -2542,7 +2542,6 @@ footer {
       margin-bottom: 20px;
       padding-left: 10px;
       padding-right: 10px;
-      background-color: inherit;
 
       .content-proj{
         width: 100%;
@@ -2678,11 +2677,71 @@ footer {
 
 
 }
+// Smatphone Ipad mimi
+@media screen and (max-width: 768px){
 
+  .project .content-full-flex-projects .content-projects{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    .content-proj{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+
+      .gifmac{
+        margin-top: -300px;
+      }
+    }
+
+    .content-desc{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .app .content-full-flex-app .picture-smartyphone img{
+    width: 90%;
+  }
+
+}
 // Smatphone Iphone Plus
 @media screen and (max-width: 414px){
   .project .content-full-flex-projects .content-projects .content-proj .gifmac{
     margin-top: -210px;
+  }
+}
+
+// Smatphone Nexus
+@media screen and (max-width: 412px){
+  .project .content-full-flex-projects .content-projects {
+    padding-top: 20px;
+    .content-proj .gifmac{
+    margin-top: -160px;
+    }
+  }
+}
+
+// Smatphone Iphone 6
+@media screen and (max-width: 375px){
+  .project .content-full-flex-projects .content-projects {
+    padding-top: 20px;
+    .content-proj .gifmac{
+    margin-top: -145px;
+    }
+  }
+}
+
+// Smartphone Blaclberry
+@media screen and (max-width: 360px){
+  .project .content-full-flex-projects .content-projects {
+    padding-top: 20px;
+    .content-proj{
+      .gifmac{
+      margin-top: -140px;
+      }
+    }
   }
 }
 // Smatphone 320 Iphone 5
@@ -2827,7 +2886,6 @@ footer {
         margin-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
-        background-color: inherit;
 
         .content-proj{
           width: 100%;
