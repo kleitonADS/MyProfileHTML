@@ -2538,10 +2538,11 @@ footer {
 
     .content-projects{
       flex-direction: column;
-      margin-top: 20px;
+      margin-top: 0px;
       margin-bottom: 20px;
       padding-left: 10px;
       padding-right: 10px;
+      background-color: inherit;
 
       .content-proj{
         width: 100%;
@@ -2580,6 +2581,7 @@ footer {
 
     .text-link-app{
       width: 100%;
+      padding-top: 70px;
 
       h2{
         padding-left: 20px;
@@ -2676,7 +2678,14 @@ footer {
 
 
 }
-// Smatphone 320
+
+// Smatphone Iphone Plus
+@media screen and (max-width: 414px){
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac{
+    margin-top: -210px;
+  }
+}
+// Smatphone 320 Iphone 5
 @media screen and (max-width: 320px) {
 
   .header-action {
@@ -2788,7 +2797,7 @@ footer {
     margin-bottom: -30px;
     .content-full-flex-projects {
       .title-flex-projects{
-        background-color: inherit;
+
         height: 150px;
         margin-top: -95px;
 
@@ -2814,10 +2823,11 @@ footer {
 
       .content-projects{
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
+        background-color: inherit;
 
         .content-proj{
           width: 100%;
