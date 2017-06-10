@@ -1598,13 +1598,12 @@ body {
     // Contact flex
     .contact-flex {
       width: 40%;
-      min-height: 370px;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 150px;
+      margin-top: 120px;
       background:rgba(17, 117, 238, 0.5);
-      padding-top: 70px;
-      padding-bottom: 50px;
+      padding-top: 80px;
+      padding-bottom: 100px;
 
       // List contacts
       ul {
@@ -1872,7 +1871,7 @@ body {
     .moveup-contact{
       display: flex;
       justify-content:flex-end;
-      padding-bottom: 10px;
+      padding-bottom: 30px;
       padding-right: 50px;
       width: 100%;
 
@@ -2015,11 +2014,34 @@ footer {
       }
     }
 
+    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2{
+
+      font-size: 16px;
+    }
+
+    .project .content-full-flex-projects .content-projects {
+      .content-proj {
+        .gifmac{
+        margin-top: -220px;
+        }
+      }
+      .content-desc .desc-proj-select p{
+        text-align: center;
+      }
+    }
+
     // CONTACT
     .contact{
         .content-full-flex-contact {
             .contact-flex{
               width: 70%;
+
+              ul li{
+                padding-left: 150px;
+              }
+            }
+            .button-contact{
+              width: 60%;
             }
         }
     }
@@ -2408,7 +2430,6 @@ footer {
 
     .timeline-item {
       .timeline-content {
-        width: 95%;
         float: right;
 
         &:before, &.right:before {
@@ -2705,11 +2726,75 @@ footer {
     width: 90%;
   }
 
+  .contact .content-full-flex-contact .contact-flex ul li {
+    padding-left: 0px;
+  }
+
 }
+
+// Iphone plus
+@media screen and (max-width: 736px){
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -280px;
+  }
+}
+//Smartphone 732
+@media screen and (max-width: 732px){
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -280px;
+  }
+
+  .contact .content-full-flex-contact .contact-flex ul li {
+    padding-left: 0px;
+  }
+}
+
+// Smartphone 667
+@media screen and (max-width: 667px){
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -245px;
+  }
+}
+// Smatphone 640
+@media screen and (max-width: 640px){
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac{
+    margin-top: -235px;
+  }
+
+  .contact .content-full-flex-contact {
+    .contact-flex ul li{
+    padding-left: 0px;
+      h2{
+      font-size: 20px;
+      }
+    }
+    .text-contact-flex h3{
+      font-size: 25px;
+    }
+  }
+}
+
+// Smartphne 568
+@media screen and (max-width: 568px){
+  .project .content-full-flex-projects .content-projects .content-proj {
+
+    width: 90%;
+    .gifmac {
+    //margin-top: -200px;
+    }
+  }
+}
+// Smartphone 480px
+@media screen and (max-width: 480px){
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -195px;
+  }
+}
+
 // Smatphone Iphone Plus
 @media screen and (max-width: 414px){
   .project .content-full-flex-projects .content-projects .content-proj .gifmac{
-    margin-top: -210px;
+    margin-top: -185px;
   }
 }
 
@@ -2728,7 +2813,7 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px;
     .content-proj .gifmac{
-    margin-top: -145px;
+    margin-top: -165px;
     }
   }
 }
@@ -2742,6 +2827,10 @@ footer {
       margin-top: -140px;
       }
     }
+  }
+
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p{
+    text-align: center;
   }
 }
 // Smatphone 320 Iphone 5
@@ -2932,6 +3021,18 @@ footer {
           padding-bottom: 20px;
         }
       }
+    }
+  }
+
+  .contact .content-full-flex-contact {
+    .contact-flex ul li{
+    padding-left: 0px;
+      h2{
+      font-size: 15px;
+      }
+    }
+    .text-contact-flex h3{
+      font-size: 15px;
     }
   }
 

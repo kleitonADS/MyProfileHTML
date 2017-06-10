@@ -6003,13 +6003,12 @@ body {
         padding-top: 30px; }
     .contact .content-full-flex-contact .contact-flex {
       width: 40%;
-      min-height: 370px;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 150px;
+      margin-top: 120px;
       background: rgba(17, 117, 238, 0.5);
-      padding-top: 70px;
-      padding-bottom: 50px; }
+      padding-top: 80px;
+      padding-bottom: 100px; }
       .contact .content-full-flex-contact .contact-flex ul li {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -6206,7 +6205,7 @@ body {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      padding-bottom: 10px;
+      padding-bottom: 30px;
       padding-right: 50px;
       width: 100%; }
       .contact .content-full-flex-contact .moveup-contact a {
@@ -6302,8 +6301,18 @@ footer {
 @media screen and (max-width: 1024px) {
   .about .content-full-flex-about .about-2 .text-about {
     margin-top: 90px; }
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2 {
+    font-size: 16px; }
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -220px; }
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    text-align: center; }
   .contact .content-full-flex-contact .contact-flex {
-    width: 70%; } }
+    width: 70%; }
+    .contact .content-full-flex-contact .contact-flex ul li {
+      padding-left: 150px; }
+  .contact .content-full-flex-contact .button-contact {
+    width: 60%; } }
 
 @media screen and (max-width: 979px) {
   .menu-nav .content-flex-nav .select-header select {
@@ -6513,7 +6522,6 @@ footer {
       .carrer .content-full-flex-carrer .time-line-carrer #timeline:before {
         left: 0; }
       .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content {
-        width: 95%;
         float: right; }
         .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content:before, .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content.right:before {
           left: 10%;
@@ -6704,11 +6712,45 @@ footer {
       margin-left: auto;
       margin-right: auto; }
   .app .content-full-flex-app .picture-smartyphone img {
+    width: 90%; }
+  .contact .content-full-flex-contact .contact-flex ul li {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 736px) {
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -280px; } }
+
+@media screen and (max-width: 732px) {
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -280px; }
+  .contact .content-full-flex-contact .contact-flex ul li {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 667px) {
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -245px; } }
+
+@media screen and (max-width: 640px) {
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -235px; }
+  .contact .content-full-flex-contact .contact-flex ul li {
+    padding-left: 0px; }
+    .contact .content-full-flex-contact .contact-flex ul li h2 {
+      font-size: 20px; }
+  .contact .content-full-flex-contact .text-contact-flex h3 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 568px) {
+  .project .content-full-flex-projects .content-projects .content-proj {
     width: 90%; } }
+
+@media screen and (max-width: 480px) {
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -195px; } }
 
 @media screen and (max-width: 414px) {
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -210px; } }
+    margin-top: -185px; } }
 
 @media screen and (max-width: 412px) {
   .project .content-full-flex-projects .content-projects {
@@ -6720,13 +6762,15 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -145px; } }
+      margin-top: -165px; } }
 
 @media screen and (max-width: 360px) {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -140px; } }
+      margin-top: -140px; }
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    text-align: center; } }
 
 @media screen and (max-width: 320px) {
   .header-action {
@@ -6831,4 +6875,10 @@ footer {
   .app .content-full-flex-app .text-link-app {
     padding-top: 60px; }
     .app .content-full-flex-app .text-link-app ul {
-      padding-bottom: 20px; } }
+      padding-bottom: 20px; }
+  .contact .content-full-flex-contact .contact-flex ul li {
+    padding-left: 0px; }
+    .contact .content-full-flex-contact .contact-flex ul li h2 {
+      font-size: 15px; }
+  .contact .content-full-flex-contact .text-contact-flex h3 {
+    font-size: 15px; } }
