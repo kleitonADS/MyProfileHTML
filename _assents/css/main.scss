@@ -2000,7 +2000,16 @@ footer {
         }
     }
 }
-
+// Ipad pro landscap
+@media screen and (max-width: 1366px) {
+  .project .content-full-flex-projects .content-projects {
+    .content-proj {
+      .gifmac{
+      margin-top: -325px;
+      }
+    }
+  }
+}
 // Desktop and Tablets landcaspe
 @media screen and (max-width: 1024px) {
     // ABOUT
@@ -2022,7 +2031,7 @@ footer {
     .project .content-full-flex-projects .content-projects {
       .content-proj {
         .gifmac{
-        margin-top: -220px;
+        margin-top: -225px;
         }
       }
       .content-desc .desc-proj-select p{
@@ -2749,10 +2758,12 @@ footer {
   }
 }
 
+
+
 // Smartphone 667
 @media screen and (max-width: 667px){
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -245px;
+    margin-top: -250px;
   }
 }
 // Smatphone 640
@@ -2787,14 +2798,14 @@ footer {
 // Smartphone 480px
 @media screen and (max-width: 480px){
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -195px;
+    margin-top: -228px;
   }
 }
 
 // Smatphone Iphone Plus
 @media screen and (max-width: 414px){
   .project .content-full-flex-projects .content-projects .content-proj .gifmac{
-    margin-top: -185px;
+    margin-top: -190px;
   }
 }
 
@@ -2803,7 +2814,7 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px;
     .content-proj .gifmac{
-    margin-top: -160px;
+    margin-top: -190px;
     }
   }
 }
@@ -2813,7 +2824,7 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px;
     .content-proj .gifmac{
-    margin-top: -165px;
+    margin-top: -170px;
     }
   }
 }
@@ -2824,7 +2835,7 @@ footer {
     padding-top: 20px;
     .content-proj{
       .gifmac{
-      margin-top: -140px;
+      margin-top: -160px;
       }
     }
   }

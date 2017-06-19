@@ -536,7 +536,7 @@ function normalImg(x){
 
 var imgmac = document.getElementsByClassName('macbook')['0'].height;
 
-var newheightgif = (imgmac - 52);
+var newheightgif = (imgmac - 47);
 
 document.getElementsByClassName('gifmac')['0'].height = newheightgif;
 

@@ -6298,13 +6298,17 @@ footer {
   .contact .content-full-flex-contact .contact-flex {
     width: 70%; } }
 
+@media screen and (max-width: 1366px) {
+  .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+    margin-top: -325px; } }
+
 @media screen and (max-width: 1024px) {
   .about .content-full-flex-about .about-2 .text-about {
     margin-top: 90px; }
   .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2 {
     font-size: 16px; }
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -220px; }
+    margin-top: -225px; }
   .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
     text-align: center; }
   .contact .content-full-flex-contact .contact-flex {
@@ -6728,7 +6732,7 @@ footer {
 
 @media screen and (max-width: 667px) {
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -245px; } }
+    margin-top: -250px; } }
 
 @media screen and (max-width: 640px) {
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
@@ -6746,29 +6750,29 @@ footer {
 
 @media screen and (max-width: 480px) {
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -195px; } }
+    margin-top: -228px; } }
 
 @media screen and (max-width: 414px) {
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -185px; } }
+    margin-top: -190px; } }
 
 @media screen and (max-width: 412px) {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -160px; } }
+      margin-top: -190px; } }
 
 @media screen and (max-width: 375px) {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -165px; } }
+      margin-top: -170px; } }
 
 @media screen and (max-width: 360px) {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -140px; }
+      margin-top: -160px; }
   .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
     text-align: center; } }
 
