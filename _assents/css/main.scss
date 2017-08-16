@@ -1804,11 +1804,17 @@ body {
       	background-color:$main-color-white;
         color: $main-color-blue;
         border: 2px solid $main-color-blue;
+      
+      }
+
+      ::-webkit-input-placeholder {
+        color:white;
       }
 
       // Hover name
       #name:hover{
         background-image: url("../img/nameb.svg");
+
       }
 
       // Hover email

@@ -6159,6 +6159,8 @@ body {
         background-color: #fff;
         color: #1175ee;
         border: 2px solid #1175ee; }
+      .contact .content-full-flex-contact #form-main ::-webkit-input-placeholder {
+        color: white; }
       .contact .content-full-flex-contact #form-main #name:hover {
         background-image: url("../img/nameb.svg"); }
       .contact .content-full-flex-contact #form-main #email:hover {

@@ -546,11 +546,30 @@ var titlePro = document.getElementById('nameproj');
 var descPro = document.getElementById('descproj');
 var linkvproj = document.getElementById('linkviewproj');
 var linkcproj = document.getElementById('linkcodeproj');
+var imgGif =document.getElementsByClassName('gifmac')['0'];
+
+
 
 		for (var i = 0; i < itensImgProj.length; i++) {
 			itensImgProj[i].addEventListener('click', function() {
 				var itenp = this.children[0].name;
 				switch (itenp) {
+
+					case 'MY PROFILE':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "MY PROFILE, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
+						linkvproj.href = "#testeprojectview";
+						linkcproj.href = "#testeprojectCode";
+						imgGif.src = 'img/profileproj.gif';
+						break;
+					case 'SYSTEM FEEDBACK':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "SYSTEM FEEDBACK, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
+						linkvproj.href = "#testeprojectview";
+						linkcproj.href = "#testeprojectCode";
+						imgGif.src = 'img/feedback.gif';
+
+						break;
 					case 'Project Calc':
 						titlePro.innerHTML = itenp;
 						descPro.innerHTML = "Project Calc, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
