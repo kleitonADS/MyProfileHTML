@@ -552,6 +552,10 @@ var linkvproj = document.getElementById('linkviewproj');
 var linkcproj = document.getElementById('linkcodeproj');
 var imgGif =document.getElementsByClassName('gifmac')['0'];
 
+$('.list_tool_feedback').hide();
+$('.list_tool_basefe').hide();
+
+
 var intProj = document.getElementById('count_proj');
 intProj.innerHTML = itensImgProj.length;
 
@@ -568,24 +572,34 @@ intProj.innerHTML = itensImgProj.length;
 
 						descPro.innerHTML = " That webpage has been created using HTML5, JavaScript, SASS, CSS3 with Flexbox for reponsive page, jQuery, Photoshop for designer creation, Git and Github, some JS frameworks to streamline and optimize the coding process, NodeJs, Gulp , Jade, Autoprefixer, Plumber, Uglify, Imagmim and Browser-sync. "
 						linkvproj.href = "#";
-						linkcproj.href = "#git";
+						linkcproj.href = "https://github.com/kleitonADS/profile";
 						imgGif.src = 'img/profileproj.gif';
+
+						$('.list_tool_profile').show('slow');
+						$('.list_tool_feedback').hide('slow');
+						$('.list_tool_basefe').hide('slow');
 						break;
 
 					case 'SYSTEM FEEDBACK':
 						titlePro.innerHTML = itenp;
 						descPro.innerHTML = "SYSTEM FEEDBACK, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
 						linkvproj.href = "https://feedbackproject.000webhostapp.com/";
-						linkcproj.href = "#git";
+						linkcproj.href = "https://github.com/kleitonADS/feedbackphp";
 						imgGif.src = 'img/feedback.gif';
+						$('.list_tool_feedback').show('slow');
+						$('.list_tool_profile').hide('slow');
+						$('.list_tool_basefe').hide('slow');
 						break;
 
 					case 'PROJECT BASE FRONT-END':
 						titlePro.innerHTML = itenp;
 						descPro.innerHTML = "PROJECT BASE FRONT-END, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
-						linkvproj.href = "#testeprojectview";
-						linkcproj.href = "#git";
+						linkvproj.href = "#";
+						linkcproj.href = "https://github.com/kleitonADS/jsBaseProject";
 						imgGif.src = 'img/basefe.gif';
+						$('.list_tool_feedback').hide('slow');
+						$('.list_tool_profile').hide('slow');
+						$('.list_tool_basefe').show('slow');
 						break;
 
 

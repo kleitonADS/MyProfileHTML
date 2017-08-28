@@ -1418,6 +1418,17 @@ body {
             color: $main-color-blue;
           }
         }
+
+        #list_tools_proj2{
+          display: flex;
+          padding-top: 0px;
+          justify-content: center;
+          text-align: center;
+          .pluslist{
+            margin-top: 18px;
+            color: $main-color-blue;
+          }
+        }
       }
 
       .content-desc{

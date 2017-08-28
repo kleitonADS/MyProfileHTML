@@ -5881,6 +5881,18 @@ body {
           .project .content-full-flex-projects .content-projects .content-proj #list_tools_proj .pluslist {
             margin-top: 18px;
             color: #1175ee; }
+        .project .content-full-flex-projects .content-projects .content-proj #list_tools_proj2 {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          padding-top: 0px;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          text-align: center; }
+          .project .content-full-flex-projects .content-projects .content-proj #list_tools_proj2 .pluslist {
+            margin-top: 18px;
+            color: #1175ee; }
       .project .content-full-flex-projects .content-projects .content-desc {
         width: 30%;
         padding-top: 35px;
