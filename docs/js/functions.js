@@ -376,6 +376,10 @@ $(window).scroll(function(){
 // Link Resume
 $('.link-resume').hide();
 
+//hidden buttons select project
+$('.leftlist').hide();
+$('.rightlist').hide();
+
 $(document).ready(function(){
 	$('#showlink').click(function(event){
 		event.preventDefault();
@@ -548,64 +552,46 @@ var linkvproj = document.getElementById('linkviewproj');
 var linkcproj = document.getElementById('linkcodeproj');
 var imgGif =document.getElementsByClassName('gifmac')['0'];
 
-
+var intProj = document.getElementById('count_proj');
+intProj.innerHTML = itensImgProj.length;
 
 		for (var i = 0; i < itensImgProj.length; i++) {
+
 			itensImgProj[i].addEventListener('click', function() {
 				var itenp = this.children[0].name;
+
 				switch (itenp) {
 
 					case 'MY PROFILE':
 						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "MY PROFILE, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
-						linkvproj.href = "#testeprojectview";
-						linkcproj.href = "#testeprojectCode";
+						// descPro.innerHTML = " Minha nova pagina web foi criado ultilizando , HTML5, JavaScript, SASS, CSS3 com flexbox para parte resposiva da página, jQuery , Photoshop para criaçao de designer, Git and Github,  alguns frameworks JS para agilizar e otimizar o processo de codificação, NodeJs, Gulp, Jade, Autoprefixer, Plumbe, uglify, Imagmim and Browser-sync .";
+
+						descPro.innerHTML = " That webpage has been created using HTML5, JavaScript, SASS, CSS3 with Flexbox for reponsive page, jQuery, Photoshop for designer creation, Git and Github, some JS frameworks to streamline and optimize the coding process, NodeJs, Gulp , Jade, Autoprefixer, Plumber, Uglify, Imagmim and Browser-sync. "
+						linkvproj.href = "#";
+						linkcproj.href = "#git";
 						imgGif.src = 'img/profileproj.gif';
 						break;
+
 					case 'SYSTEM FEEDBACK':
 						titlePro.innerHTML = itenp;
 						descPro.innerHTML = "SYSTEM FEEDBACK, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
-						linkvproj.href = "#testeprojectview";
-						linkcproj.href = "#testeprojectCode";
+						linkvproj.href = "https://feedbackproject.000webhostapp.com/";
+						linkcproj.href = "#git";
 						imgGif.src = 'img/feedback.gif';
-
 						break;
-					case 'Project Calc':
+
+					case 'PROJECT BASE FRONT-END':
 						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "Project Calc, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
+						descPro.innerHTML = "PROJECT BASE FRONT-END, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
 						linkvproj.href = "#testeprojectview";
-						linkcproj.href = "#testeprojectCode";
-
-						break;
-
-
-					case 'Project TimeSheet':
-						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "PROJETO TIMESHEEET, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
-
-						break;
-
-					case 'Project X':
-						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "Project X, consectetur adipisicinelitAtque,facilis quo maiores magnam modi ab libero praesentiublanditiis.facilis quo maiores magnam modi ab libero praesentiublanditiis.facilis quo maiores magnam modi ab libero praesentiublanditiis.div.links-desc-proj"
-
-						break;
-
-					case 'Project Y':
-						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "Project Y, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
-
-						break;
-
-					case 'Project Z':
-						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "Project Z, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj"
-
+						linkcproj.href = "#git";
+						imgGif.src = 'img/basefe.gif';
 						break;
 
 
 					default:
-
+						// code
+						break;
 				}
 			});
 		}

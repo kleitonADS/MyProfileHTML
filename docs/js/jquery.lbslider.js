@@ -43,8 +43,13 @@
             var elWidth = el.width()/options.visible;
             el.children('li').css({
                 float: 'left',
-                width: elWidth
+                width: elWidth,
+
+
             });
+
+             el.children('li').addClass('imglist-proj');
+
             var elQuant = el.children('li').length;
             el.width(elWidth * elQuant);
             el.css('left', '-' + elWidth * options.visible + 'px');

@@ -617,6 +617,7 @@ body {
                   border-radius: 30px;
                   padding: 6px 10px 6px 10px;
                   background-color: $main-color-blue;
+                  transition: all ease .5s;
                 }
               }
             }
@@ -740,6 +741,7 @@ body {
               h3{
                 //color: $main-color-white;
                 padding: 0px 0px 0px 5px;
+                transition: all ease .5s;
               }
             }
           }
@@ -976,6 +978,7 @@ body {
                   border-radius: 30px;
                   //padding: 6px 10px 6px 10px;
                   background-color:$main-color-white ;
+                  transition: all ease .5s;
                 }
 
             }
@@ -1228,6 +1231,7 @@ body {
               :hover{
                 background-color: $main-color-blue;
                 border-radius: 30px;
+                transition: all ease .5s;
 
                  svg g {
                   fill: $main-color-white;
@@ -1311,23 +1315,64 @@ body {
       margin-top: 160px;
       margin-bottom: 20px;
       //background-color: $main-color-blue;
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
 
-      .content-proj{
-        width:50%;
-        //border: 2px solid red;
+      .select-projectlist{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
         .title-typeproject{
+          .intProj{
+            border: 2px solid $main-color-blue;
+            border-radius: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: $main-color-blue;
+            font-size: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
 
+          }
           h1{
             font-family: 'futurabt', arial;
             font-size: 20px;
             color: $main-color-white;
-            //text-transform: uppercase;
+            text-transform: uppercase;
             text-align: center;
             padding-top: 50px;
+
+
           }
         }
+        ul {
+
+          display:flex;
+          flex-direction: row;
+          justify-content: center;
+          padding-bottom: 10px;
+            li {
+            //display:flex;
+            margin-left: 10px;
+            //width: 52px;
+            //height: 52px;
+
+
+              img{
+              width: 40px;
+              //margin-bottom: 5px;
+              }
+            }:hover{
+              background-color: rgba(17, 117, 238, 0.5);
+              border-radius: 20px;
+              transition: all ease .5s;
+            }
+        }
+      }
+
+      .content-proj{
+        width: 40%;
 
         .select-project{
           display: flex;
@@ -1337,62 +1382,8 @@ body {
           margin-top: -20px;
           padding-top: 20px;
           padding-bottom: 40px;
-          //background-color: rgba(17, 117, 238, 0.2);
-          //border-radius:20px 20px 0px 0px;
           width: 75%;
           flex-direction:row;
-
-          .leftlist{
-            padding-left:30px;
-            padding-right: 30px;
-            a{
-              border: 2px solid $main-color-white;
-              padding: 8px 12px 8px 12px;
-              display: flex;
-              border-radius: 20px;
-              text-decoration: none;
-              color: $main-color-white;
-            }
-            :hover{
-              color: $main-color-blue;
-              background-color: $main-color-white;
-              border: 2px solid $main-color-blue;
-            }
-          }
-
-          .slider{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            ul li img{
-              display: flex;
-              justify-content: center;
-              width: 40px;
-              margin-left: auto;
-              margin-right: auto;
-
-            }
-          }
-
-          .rightlist{
-            padding-right: 30px;
-            padding-left:30px;
-
-            a{
-              border: 2px solid $main-color-white;
-              padding: 8px 12px 8px 12px;
-              display: flex;
-              border-radius: 20px;
-              text-decoration: none;
-              color: $main-color-white;
-            }
-            :hover{
-              color: $main-color-blue;
-              background-color: $main-color-white;
-              border: 2px solid $main-color-blue;
-            }
-          }
-
 
 
         }
@@ -1402,7 +1393,7 @@ body {
           justify-content: center;
           margin-left: auto;
           margin-right: auto;
-          margin-top: -10px;
+          margin-top: 10px;
           margin-bottom: -60px;
           width: 100%;
         }
@@ -1416,15 +1407,27 @@ body {
           //margin-bottom: -60px;
           width: 75%;
         }
+
+        #list_tools_proj{
+          display: flex;
+          padding-top: 20px;
+          justify-content: center;
+          text-align: center;
+          .pluslist{
+            margin-top: 18px;
+            color: $main-color-blue;
+          }
+        }
       }
 
       .content-desc{
-        width:50%;
+        //width:50%;
+        width:30%;
         //height: 40px;
         //border: 2px solid white;
-        padding-top: 150px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-top: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
 
         .title-des-proj{
           h1{
@@ -1435,6 +1438,8 @@ body {
             text-transform: uppercase;
             text-align: center;
           }
+
+
         }
         .desc-proj-select{
           p{
@@ -1443,7 +1448,9 @@ body {
             font-size: 14px;
             //margin-top: -10px;
             line-height: 20px;
+            text-align: center;
           }
+
 
         }
 
@@ -1466,7 +1473,15 @@ body {
               border-radius: 30px;
               width: 40px;
               height: 40px;
-              padding-top: 10px;}
+              padding-top: 10px;
+
+            }
+
+              :hover{
+                background-color: $main-color-white;
+                color: $main-color-blue;
+                transition: all ease .5s;
+              }
           }
 
         }
@@ -1532,6 +1547,7 @@ body {
                   border-radius: 30px;
                   padding: 6px 10px 6px 10px;
                   background-color: $main-color-blue;
+                  transition: all ease .5s;
                 }
 
           }
@@ -1675,6 +1691,7 @@ body {
           height: 60px;
           padding-top: 12px;
           font-size: 30px;
+
         }
       }
 
@@ -1684,6 +1701,7 @@ body {
         border-color: $main-color-blue;
         background-color: $main-color-white;
         border-radius: 10px;
+        transition: all ease .5s;
       }
     }
 
@@ -1804,7 +1822,8 @@ body {
       	background-color:$main-color-white;
         color: $main-color-blue;
         border: 2px solid $main-color-blue;
-      
+        transition: all ease .5s;
+
       }
 
       ::-webkit-input-placeholder {
@@ -1814,17 +1833,19 @@ body {
       // Hover name
       #name:hover{
         background-image: url("../img/nameb.svg");
-
+        transition: all ease .5s;
       }
 
       // Hover email
       #email:hover{
         background-image: url("../img/emailb.svg");
+        transition: all ease .5s;
       }
 
       // Hover comment
       #comment:hover{
         background-image: url("../img/commentb.svg");
+        transition: all ease .5s;
       }
 
       // Button send mensage
@@ -1855,6 +1876,7 @@ body {
       // Button send hover
       .submit:hover {
       	color: $main-color-blue;
+        transition: all ease .5s;
       }
 
       // Ease
@@ -1962,6 +1984,8 @@ footer {
         font-size: 32px;
         color: $main-color-white;
         padding-left: 10px;
+      }:hover{
+        color:rgba(0, 0, 0, 0.1);
       }
     }
   }
@@ -2011,7 +2035,7 @@ footer {
   .project .content-full-flex-projects .content-projects {
     .content-proj {
       .gifmac{
-      margin-top: -300px;
+      margin-top: -260px;
       }
     }
   }
@@ -2719,7 +2743,7 @@ footer {
   .project .content-full-flex-projects .content-projects{
     flex-direction: column;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 40px;
     .content-proj{
       width: 80%;
       margin-left: auto;
@@ -2728,6 +2752,10 @@ footer {
       .gifmac{
         margin-top: -300px;
       }
+    }
+
+    .select-projectlist{
+      width: 100%;
     }
 
     .content-desc{
@@ -2843,6 +2871,9 @@ footer {
       .gifmac{
       margin-top: -160px;
       }
+    }
+    .select-projectlist{
+      width: 100%;
     }
   }
 
