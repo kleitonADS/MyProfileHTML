@@ -594,7 +594,7 @@ intProj.innerHTML = itensImgProj.length;
 					case 'PROJECT BASE FRONT-END':
 						titlePro.innerHTML = itenp;
 						descPro.innerHTML = "Base project was created used new technologies for the more agility in front-end development, made the project source code cleaner by using various javascripts packages.";
-						linkvproj.href = "#";
+						linkvproj.href = "https://github.com/kleitonADS/jsBaseProject";
 						linkcproj.href = "https://github.com/kleitonADS/jsBaseProject";
 						imgGif.src = 'img/basefe.gif';
 						$('.list_tool_feedback').hide('slow');
@@ -609,5 +609,3 @@ intProj.innerHTML = itensImgProj.length;
 				}
 			});
 		}
-
-		
