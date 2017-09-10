@@ -570,7 +570,7 @@ intProj.innerHTML = itensImgProj.length;
 						titlePro.innerHTML = itenp;
 						// descPro.innerHTML = " Minha nova pagina web foi criado ultilizando , HTML5, JavaScript, SASS, CSS3 com flexbox para parte resposiva da página, jQuery , Photoshop para criaçao de designer, Git and Github,  alguns frameworks JS para agilizar e otimizar o processo de codificação, NodeJs, Gulp, Jade, Autoprefixer, Plumbe, uglify, Imagmim and Browser-sync .";
 
-						descPro.innerHTML = " That webpage has been created using HTML5, JavaScript, SASS, CSS3 with Flexbox for reponsive page, jQuery, Photoshop for designer creation, Git and Github, some JS frameworks to streamline and optimize the coding process, NodeJs, Gulp , Jade, Autoprefixer, Plumber, Uglify, Imagmim and Browser-sync. "
+						descPro.innerHTML = " That webpage has been created using HTML5, JavaScript, SASS, CSS3 with Flexbox for reponsive page, jQuery, Photoshop for designer creation, Git and Github, some JS frameworks to streamline and optimize the coding process, NodeJs, Gulp , Jade, Autoprefixer, Plumber, Uglify, Imagmim and Browser-sync. ";
 						linkvproj.href = "#";
 						linkcproj.href = "https://github.com/kleitonADS/profile";
 						imgGif.src = 'img/profileproj.gif';
@@ -582,7 +582,7 @@ intProj.innerHTML = itensImgProj.length;
 
 					case 'SYSTEM FEEDBACK':
 						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "SYSTEM FEEDBACK, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
+						descPro.innerHTML = "System created to show a system in PHP used MSQL database for data persistence and MVC methodology can add new feedback, list, view, disable, mark as checked, delete, do searches through various parameters.";
 						linkvproj.href = "https://feedbackproject.000webhostapp.com/";
 						linkcproj.href = "https://github.com/kleitonADS/feedbackphp";
 						imgGif.src = 'img/feedback.gif';
@@ -593,7 +593,7 @@ intProj.innerHTML = itensImgProj.length;
 
 					case 'PROJECT BASE FRONT-END':
 						titlePro.innerHTML = itenp;
-						descPro.innerHTML = "PROJECT BASE FRONT-END, consectetur adipisicing elitAtque,facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.facilis quo maiores magnam modi ab libero praesentium blanditiis.div.links-desc-proj";
+						descPro.innerHTML = "Base project was created used new technologies for the more agility in front-end development, made the project source code cleaner by using various javascripts packages.";
 						linkvproj.href = "#";
 						linkcproj.href = "https://github.com/kleitonADS/jsBaseProject";
 						imgGif.src = 'img/basefe.gif';
@@ -609,3 +609,5 @@ intProj.innerHTML = itensImgProj.length;
 				}
 			});
 		}
+
+		
