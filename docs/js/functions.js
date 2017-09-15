@@ -2,7 +2,70 @@
 $('.hamburger').click(function(){
 	$(this).toggleClass('is-active');
 	$('.menu').toggleClass('on');
+
+	$(document).ready(function(){
+		var myLink = ".menu";
+		var nav = ".menu-nav ";
+	    if ($(myLink).hasClass('on')) {
+
+					$(document).ready(function(){
+					if($(nav).hasClass('js-active-transparent')){
+						console.log('aqui');
+						$('.hamburger.is-active').css({
+							'margin-top': '0px',
+							'top': '40px'
+						});
+
+					}else {
+
+						$('.hamburger.is-active').css({
+							'margin-top': '0px',
+							'top': '40px'
+						});
+						console.log('aquiqq');
+
+					}
+
+					});
+
+
+	    }
+
+			// Off menu
+	    else {
+
+				$(document).ready(function(){
+				if($(nav).hasClass('js-active-transparent')){
+					console.log('aqui');
+					$('.hamburger.is-active').css({
+						'margin-top': '0px',
+						'top': '40px'
+					});
+
+				}else {
+
+					$('.hamburger').css({
+						'margin-top': '0px',
+						'top': '0px'
+					});
+					console.log('aquiqq');
+
+				}
+
+				});
+
+	    }
+	});
+
 });
+
+
+
+
+
+
+
+// $( "#iconhamburger" ).hasClass( "hamburger is-active" );
 
 // Select Menu
 $('#laguage').on('change', function() {
@@ -46,6 +109,7 @@ $('.menu-nav').css({
 	'top': '0px'
 });
 
+
 // Define var tmenu
 var tmenu = $('.menu-nav').position().top + $('.menu-nav').data('position');
 $('.menu-nav').css({
@@ -66,9 +130,14 @@ $(window).scroll(function(){
 		$('.menu-nav').addClass('js-active-transparent');
 
 		if(tamanho >= 550){
+
+
 			$('.hamburger').css({
-				'top':'40px'
+					'top':'40px'
 			});
+
+
+
 			$('.menu-nav').css({
 				'margin-top':'42px'
 			});
@@ -147,10 +216,21 @@ $(window).scroll(function(){
     // Add js-action menu
     $('.menu-nav').addClass('js-active');
 
-    // Change top icon menu-nav
-    $('.hamburger').css({
+		$(document).ready(function(){
+			var mylink =".menu";
+			if($(mylink).hasClass('on')){
+
+				$('.hamburger').css({
+				'top':'40px'
+				});
+
+			}else{
+    	// Change top icon menu-nav
+    	$('.hamburger').css({
 			'top':'0px'
-		});
+			});
+		}
+	 });
 
 		$('.menu-nav').css({
 			'margin-top':'0px'
