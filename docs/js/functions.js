@@ -477,8 +477,8 @@ $(document).ready(function(){
 
 		if (nameLink  == 'english_resume'){
 
-			console.log(urlBase);
-			window.open(urlBase+"/file/engResume.pdf", '_blank');
+			//console.log(urlBase);
+			window.open("https://kleitonads.github.io/profile/file/engResume.pdf", '_blank');
 
 
 		}
