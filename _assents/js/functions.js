@@ -10,7 +10,6 @@ $('.hamburger').click(function(){
 
 					$(document).ready(function(){
 					if($(nav).hasClass('js-active-transparent')){
-						console.log('aqui');
 						$('.hamburger.is-active').css({
 							'margin-top': '0px',
 							'top': '40px'
@@ -22,7 +21,6 @@ $('.hamburger').click(function(){
 							'margin-top': '0px',
 							'top': '40px'
 						});
-						console.log('aquiqq');
 
 					}
 
@@ -36,7 +34,7 @@ $('.hamburger').click(function(){
 
 				$(document).ready(function(){
 				if($(nav).hasClass('js-active-transparent')){
-					console.log('aqui');
+
 					$('.hamburger.is-active').css({
 						'margin-top': '0px',
 						'top': '40px'
@@ -48,7 +46,7 @@ $('.hamburger').click(function(){
 						'margin-top': '0px',
 						'top': '0px'
 					});
-					console.log('aquiqq');
+
 
 				}
 
@@ -464,16 +462,25 @@ $(document).ready(function(){
 	$('#showlink').click(function(event){
 		event.preventDefault();
 		var nameLink = document.getElementById('showlink').name;
-		if (nameLink  == 'show'){
+		var urlBase = document.location.href;
+		// if (nameLink  == 'show'){
+		//
+		// 	$('.link-resume').show('slow');
+		// 	document.getElementById('showlink').name = "";
+		//
+		//
+		// }else{
+		//
+		// 	$('.link-resume').hide('slow');
+		// 	document.getElementById('showlink').name = "show";
+		// }
 
-			$('.link-resume').show('slow');
-			document.getElementById('showlink').name = "";
+		if (nameLink  == 'english_resume'){
+
+			console.log(urlBase);
+			window.open(urlBase+"/file/teste.pdf", '_blank');
 
 
-		}else{
-
-			$('.link-resume').hide('slow');
-			document.getElementById('showlink').name = "show";
 		}
 
 
