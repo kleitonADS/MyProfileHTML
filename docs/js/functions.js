@@ -478,7 +478,7 @@ $(document).ready(function(){
 		if (nameLink  == 'english_resume'){
 
 			console.log(urlBase);
-			window.open(urlBase+"file/engResume.pdf", '_blank');
+			window.open(urlBase+"/file/engResume.pdf", '_blank');
 
 
 		}
