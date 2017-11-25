@@ -1878,6 +1878,9 @@ body {
         margin-top:-4px;
         font-weight:700;
         border-radius: 20px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
       }
 
       // Hover button send
