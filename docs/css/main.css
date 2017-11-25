@@ -6232,7 +6232,10 @@ body {
         background-color: #fff;
         -webkit-transition: .3s ease;
         transition: .3s ease;
-        color: #1175ee; }
+        color: #1175ee;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; }
       .contact .content-full-flex-contact #form-main .submit:hover {
         color: #1175ee;
         -webkit-transition: all ease .5s;

@@ -1888,6 +1888,9 @@ body {
         background-color: $main-color-white;
       	transition: .3s ease;
       	color: $main-color-blue;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
       }
 
       // Button send hover
