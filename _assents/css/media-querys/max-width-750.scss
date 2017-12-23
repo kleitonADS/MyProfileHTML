@@ -1,0 +1,36 @@
+// Desktop and Tablets landcaspe
+@media screen and (max-width: 750px) {
+
+
+  .menu li{
+    height: 20%;
+  }
+  .menu li a span {
+    font-size: 20px;
+  }
+
+
+    // ABOUT
+    .about{
+      .content-full-flex-about{
+        .about-2{
+          .text-about{
+            margin-top: 120px;
+          }
+
+          .link-resume{
+            margin-top: -30px;
+          }
+        }
+      }
+    }
+
+    // CONTACT
+    .contact{
+        .content-full-flex-contact {
+            .contact-flex{
+              width: 70%;
+            }
+        }
+    }
+}

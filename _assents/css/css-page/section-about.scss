@@ -1,0 +1,262 @@
+// ABOUT
+.about {
+  background-color: $main-color-white;
+  height: auto;
+  margin-top: -20px;
+
+    // Content Flex About
+    .content-full-flex-about {
+    display: flex;
+    width: 100%;
+
+    // Col Flex 50% Qualifications and Objetives
+    .col-flex1 {
+      display: flex;
+      height: auto;
+      width: calc(100%/2);
+      height: auto;
+      background-color: $main-color-blue;
+
+      // Content Flex Qualifications and Objetives
+      .plus-about {
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding-top: 30px;
+
+        // Flex contet Qualifications and Objectives
+        .flex-obout {
+          display: flex;
+          flex-direction: column;
+          width:80%;
+          height:auto;
+          margin-left: auto;
+          margin-right: auto;
+
+          // Title Qualifications and Objetives
+          h2 {
+            font-family: 'futurabt', arial;
+            font-size: 24px;
+            color:$main-color-white;
+            text-align: center;
+            padding-top: 20px;
+
+          }
+
+          // Paragraph Qualifications and Objetives
+          p {
+            font-family: 'Titillium Web', sans-serif;
+            color:$main-color-white;
+            font-size: 14px;
+            text-align:left;
+            line-height: 20px;
+            margin-top: 20px;
+            padding-bottom: 40px;
+          }
+
+          // Content Objetives ant Qualifications
+          .obj-about .qual-about {
+            width: 100%;
+            height: 50%;
+          }
+        }
+      }
+    }
+
+    // content- Picture About
+    .picture-about {
+
+      // Img picture-about
+      img {
+        padding-top: 140px;
+        width: 100%;
+        height: auto;
+        margin-bottom: -3px;
+      }
+    }
+
+    // Content Flex Picture and About Me
+    .about-2 {
+      display: flex;
+      height: auto;
+      width:100%;
+
+      // Flex 50% Picture and About Me
+      .col-flex2{
+        display: flex;
+        height: auto;
+        width: calc(100%/2);
+      }
+
+      // Content About Me
+      .content-about {
+
+        // Rede Social About Me
+        .social-about {
+          padding-top: 80px;
+          padding-right: 40px;
+          display: flex;
+          justify-content: flex-end;
+
+          // List Icon
+          ul {
+            display:flex;
+
+            // Itens list
+            li{
+              padding: 10px 5px 10px 5px;
+
+              // Link list
+              a{
+
+                // icon list
+                i{
+                  font-size: 32px;
+                    color: $main-color-blue;
+                }
+
+                // hover list icon
+                :hover{
+                  color: $main-color-white;
+                  border-radius: 30px;
+                  padding: 6px 10px 6px 10px;
+                  background-color: $main-color-blue;
+                  transition: all ease .5s;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // Content About Me
+      .text-about {
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:160px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+
+        // Title About Me
+        h1 {
+          font-family: 'futurabt', arial;
+          font-size: 25px;
+          color: $main-color-blue;
+          text-transform: uppercase;
+          text-align: left;
+          padding-top: 30px;
+        }
+
+        // Paragraph About Me
+        p {
+          font-family: 'Titillium Web', sans-serif;
+          color:$main-color-blue;
+          font-size: 14px;
+          margin-top: -10px;
+          line-height: 20px;
+        }
+
+        // Name
+        h2 {
+          font-family: kaufman-bt;
+          font-size: 24px;
+          color: $main-color-blue;
+          text-align: left;;
+          padding-top: 20px;
+          padding-bottom: 10px;
+        }
+
+        // Button Resume
+        input {
+          justify-content: center;
+          width: 100%;
+          height: 50px;
+          max-width: 320px;
+          border: 3px solid $main-color-blue;
+          border-radius: 10px;
+          background-color: $main-color-blue;
+          color: $main-color-white;
+          font-size: 24px;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          margin-top: 15px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+        }
+      }
+
+      // link-resume
+      .link-resume{
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        justify-content: center;
+
+        // list link resume
+        ul{
+          display: flex;
+          flex-direction: row;
+          width: 85%;
+
+          // Itens list resume
+          li{
+
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 2px solid $main-color-blue;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+
+
+            // Icon list resume
+            i{
+              color: $main-color-blue;
+
+            }
+
+            // link-resume
+            a{
+              display: flex;
+              text-decoration: none;
+              color: $main-color-blue;
+              //justify-content: center
+              //text-align: center;
+
+              // text link-resume
+              h3{
+                padding-left: 5px;
+                padding-right: 5px;
+              }
+            }
+
+            // Hover link-resume
+            :hover{
+              //padding: 5px 20px 5px 10px;
+
+              h3{
+                //color: $main-color-white;
+                padding: 0px 0px 0px 5px;
+                transition: all ease .5s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

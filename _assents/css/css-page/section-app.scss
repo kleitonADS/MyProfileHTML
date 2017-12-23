@@ -1,0 +1,78 @@
+// APP
+.app {
+  width: 100%;
+  min-height:300px;
+  background-color: $main-color-white;
+
+  .content-full-flex-app{
+    width: 100%;
+    display: flex;
+
+    .text-link-app{
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 20px;
+      width: 60%;
+
+      h2{
+        display: flex;
+        justify-content: center;
+        font-family: 'futurabt', arial;
+        font-size: 20px;
+        color:$main-color-blue;
+        text-transform: uppercase;
+
+      }
+
+      ul{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+
+
+        li{
+          padding: 10px 5px 10px 5px;
+
+          a{
+              i{
+                font-size: 25px;
+                color: $main-color-blue;
+                //padding-left: 12px;
+                }
+
+                :hover{
+                  color:$main-color-white;
+                  border: 2px solid;
+                  border-radius: 30px;
+                  padding: 6px 10px 6px 10px;
+                  background-color: $main-color-blue;
+                  transition: all ease .5s;
+                }
+
+          }
+
+        }
+
+      }
+    }
+
+    .picture-smartyphone{
+
+      display: flex;
+      justify-content: center;
+      width: 40%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: $main-color-white;
+
+      img{
+        width: 70%;
+        padding-left: 20%;
+        padding-right: 20%;
+        height: 100%;
+      }
+    }
+  }
+}

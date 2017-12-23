@@ -1,0 +1,104 @@
+// HEADER
+.header-action {
+  width: 100%;
+  min-height:800px;
+  background: url('../img/background-home.jpg')center;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+
+  // Content Flex Home
+  .content-flex-home {
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+    // Flex 2 col 50%
+    .col-2flex {
+      width: calc(100%/2);
+      height: auto;
+      margin: 0px;
+    }
+
+    // Texto Home
+    .text-home {
+      margin-left:60px;
+      margin-top: 30px;
+
+      // Name
+      h1 {
+        font-family: 'futurabt', arial;
+        font-size: 40px;
+        color: $main-color-white;
+        text-transform: uppercase;
+        text-align: left;
+        margin-top: 100px;
+        margin-bottom: 0px;
+      }
+
+      // Text Hello
+      h2 {
+        font-size: 34px;
+        text-decoration: underline;
+        font-family: 'Titillium Web', sans-serif;
+        color: $main-color-white;
+      }
+
+      //  Text Profession
+      h3 {
+        margin-top: -25px;
+        font-size: 30px;
+        font-family: 'Titillium Web', sans-serif;
+        color: $main-color-white;
+      }
+    }
+
+    // class Picture Home
+    .picture-perfil-profile {
+      display: flex;
+      flex-direction: row-reverse;
+      padding-right: 60px;
+
+      // imagen picture-perfil-profile
+      img {
+        width: 300px;
+      }
+    }
+  }
+
+  // Content Flex Move Home
+  .content-move {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height:100px;
+    margin-top: 90px;
+
+    // Icon Move
+    .icon-move {
+      text-align: center;
+      font-size: 40px;
+      padding-top: 20px;
+
+      // efeito hover icon move
+      a{
+        color: $main-color-white;
+        :hover{
+          color:$main-color-blue;
+          border: 2px solid;
+          border-radius: 30px;
+          padding: 5px 12px 5px 12px;
+          background-color: white;
+        }
+      }
+    }
+  }
+}

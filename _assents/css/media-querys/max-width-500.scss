@@ -1,0 +1,382 @@
+// SMARTYPHONES
+@media screen and (max-width: 500px) {
+
+  // Icon menu
+  .hamburger{
+    top: 20px;
+    right: 5%;
+  }
+  // Menu
+  .menu-nav {
+
+    margin-top: -18px;
+
+    // Content Menu Flex
+    .content-flex-nav {
+
+      // Logo Menu
+      .logo-header {
+        width: 30%;
+        img{
+          margin-left: -20px;
+        }
+      }
+
+      // Select Menu
+      .select-header select {
+        padding-left: 12px;
+        padding-right: 25px;
+        margin-right: 60px;
+        font-size: 12px;
+      }
+
+      // Name Profile Menu
+      .logo-header .name-menu h2 {
+        display: none;
+      }
+    }
+  }
+
+  .header-action {
+    min-height: 760px;
+    .content-flex-home {
+      margin-top: 90px;
+
+      .col-2flex{
+        .text-home{
+          h3{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .menu li{
+    height: 15%;
+  }
+  .menu li a span {
+    font-size: 20px;
+  }
+
+  // About
+  .about {
+    margin-top: -60px;
+  }
+
+  // Content Flex About
+  .about .content-full-flex-about .about-2 {
+    flex-direction: column-reverse;
+
+    // Content Rede Social
+    .col-flex2 .content-about .social-about {
+      padding-top: 80px;
+
+      ul li i{
+        font-size: 32px;
+      }
+    }
+
+    // Picture About
+    .picture-about img {
+      padding-top: 60px;
+    }
+
+    .link-resume{
+      margin-top: -30px;
+      width: 90%;
+    }
+  }
+
+
+
+  // Carrer
+  .carrer .content-full-flex-carrer {
+
+    .title-flex-carrer {
+    background-color: $main-color-white;
+      h2{
+      color: $main-color-blue;
+      }
+    }
+    .time-line-carrer{
+      padding-top: 0px;
+      width: 90%;
+
+    #timeline {
+    margin: 30px;
+    padding: 0px;
+    width: 90%;
+    &:before {
+      left: 0;
+    }
+
+    .timeline-item {
+      .timeline-content {
+        float: right;
+
+        &:before, &.right:before {
+          left: 10%;
+          margin-left: -6px;
+          border-left: 0;
+          border-right: 7px solid $main-color-blue;
+        }
+
+        .logotime-title{
+
+          .flex-12{
+            width: 20%;
+          }
+
+          .flex-88{
+            width: 75%;
+
+            h2 {
+
+                font-size: 12px;
+                text-align: left;
+                padding-top: 10px;
+                line-height: 15px;
+                padding-right: 10px;
+                padding-left: 5px;
+
+            }
+          }
+        }
+      }
+
+      .timeline-icon {
+        left: 0;
+        }
+
+
+      }
+    }
+
+    }
+    .next-step{
+      width: 65%;
+      margin-bottom: 50px;
+      margin-top: -84px;
+      margin-left: 80px;
+      border: 2px solid $main-color-blue;
+      h1{
+        font-size: 12px;
+      }
+    }
+  }
+  // Skills
+  .skill {
+
+    .content-full-flex-skills{
+
+      .content-skills{
+        padding-top: 20px;
+        .types-skills{
+            flex-direction: column;
+
+          .content-2skills{
+            flex-direction:column-reverse;
+            .col-flex40-skills{
+              width: 100%;
+              .bar-circle {
+                margin-top: 0px;
+              }
+            }
+            .col-flex30-tecs{
+              width: 100%;
+            }
+          }
+          .col-flex30-logos{
+            width: 100%;
+            height: auto;
+            padding-bottom: 20px;
+            padding-top: 30px;
+
+            ul{
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+  // Projects
+  .project {
+    padding-bottom: 10px;
+    .content-full-flex-projects {
+
+    .title-flex-projects-photo{
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+      .col-title-project{
+        height: 100%;
+
+        img{
+          width: 70%;
+          height: 100%;
+          margin-top: -80px;
+        }
+      }
+    }
+
+    .title-flex-projects{
+      height: 200px;
+      margin-top: -125px;
+      flex-direction: column;
+      .col-title-project{
+        width: 100%;
+
+
+        h2{
+          padding-top:140px;
+        }
+      }
+    }
+
+    .content-projects{
+      flex-direction: column;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .content-proj{
+        width: 100%;
+
+        .select-project{
+          width: 90%;
+          .rightlist{
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+
+          .leftlist{
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+        }
+        .gifmac{
+          margin-top: -185px;
+        }
+      }
+
+      .content-desc{
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+      }
+    }
+  }
+  }
+
+  // app
+  .app .content-full-flex-app {
+    flex-direction: column;
+
+    .text-link-app{
+      width: 100%;
+      padding-top: 70px;
+
+      h2{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+      }
+    }
+
+    .picture-smartyphone{
+      width: 100%;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-top: 30px;
+      padding-bottom: 0px;
+
+      img{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 100%;
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  // Contact
+  .contact {
+    min-height:inherit;
+
+    .content-full-flex-contact {
+
+      .contact-flex {
+        width: 90%;
+        margin-top: 20px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        min-height: inherit;
+
+        ul li{
+          padding-left: 0px;
+          justify-content: center;
+
+          i{
+            font-size: inherit;
+          }
+
+          h2{
+            font-size: inherit;
+          }
+        }
+      }
+
+      .text-contact-flex{
+
+        padding-top: 20px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+
+         h3{
+          font-size: inherit;
+         }
+      }
+
+      #form-main{
+        width: 80%;
+      }
+      .button-contact{
+        width: 80%;
+        padding-top: 10px;
+      }
+
+      .moveup-contact{
+        display: none;
+      }
+    }
+  }
+
+  footer .content-full-flex-footer {
+    .left-footer {
+      width: 70%;
+
+      h3{
+        font-size: inherit;
+        margin-top: 18px;
+      }
+    }
+
+    .right-footer {
+      padding-top: 30px;
+    }
+
+  }
+
+
+}

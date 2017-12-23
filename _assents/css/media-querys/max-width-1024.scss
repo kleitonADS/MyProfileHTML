@@ -1,0 +1,45 @@
+// Desktop and Tablets landcaspe
+@media screen and (max-width: 1024px) {
+    // ABOUT
+    .about{
+      .content-full-flex-about{
+        .about-2{
+          .text-about{
+            margin-top: 90px;
+          }
+        }
+      }
+    }
+
+    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2{
+
+      font-size: 16px;
+    }
+
+    .project .content-full-flex-projects .content-projects {
+      .content-proj {
+        .gifmac{
+        margin-top: -225px;
+        }
+      }
+      .content-desc .desc-proj-select p{
+        text-align: center;
+      }
+    }
+
+    // CONTACT
+    .contact{
+        .content-full-flex-contact {
+            .contact-flex{
+              width: 70%;
+
+              ul li{
+                padding-left: 150px;
+              }
+            }
+            .button-contact{
+              width: 60%;
+            }
+        }
+    }
+}

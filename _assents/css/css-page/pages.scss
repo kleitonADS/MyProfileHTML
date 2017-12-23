@@ -1,0 +1,51 @@
+// PAGES
+.pages {
+  position: fixed;
+	z-index: 9;
+	right: 20px;
+	top: 50%	;
+	transform: translateY(-50%);
+	text-align: center;
+
+  // List Pages
+	li {
+		margin: 15px 0;
+
+    // Links Pages
+		a {
+			display: inline-block;
+			width: 14px;
+			height: 14px;
+			background-color: $main-color-white;
+			border-radius: 50%;
+			transition: all ease-in-out .3s;
+			position: relative;
+			transition: all ease .2s;
+        &.is-active {
+				background-color: $main-color-blue;
+        }
+        &:before {
+        position: absolute;
+        content: attr(data-page-title);
+        display: none;
+        color: $main-color-white;
+        width: 100%;
+        background-color: rgba(0,0,0,.8);
+        left: -118px;
+        width: 100px;
+        padding: 4px 4px 4px 10px;
+        border-radius: 8px 10px 2px 8px;
+        text-align: left;
+        height: auto;
+        bottom: 100%;
+        transition: all ease .5s;
+        transform-origin: bottom right;
+        transform: scale(0);
+        }
+        &:hover:before {
+          display: block;
+          transform: scale(1.1);
+        }
+    }
+	}
+}

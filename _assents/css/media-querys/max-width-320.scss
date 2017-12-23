@@ -1,0 +1,206 @@
+// Smatphone 320 Iphone 5
+@media screen and (max-width: 320px) {
+
+  .header-action {
+    min-height: 620px;
+
+    .content-flex-home {
+      margin-top: 90px;
+
+      .col-2flex{
+        .text-home{
+          h1{
+            font-size: 25px;
+            margin-top: 40px;
+          }
+
+          h2{
+            font-size: 25px;
+          }
+          h3{
+            font-size: 16px;
+          }
+
+        }
+      }
+    }
+    .content-move{
+      margin-top: 15px;
+    }
+  }
+
+  // Content Flex About
+  .about .content-full-flex-about .about-2 {
+    flex-direction: column-reverse;
+    .text-about{
+      margin-top: 50px;
+    }
+    // Content Rede Social
+    .col-flex2 .content-about .social-about {
+      padding-top: 50px;
+
+      ul li i{
+        font-size: 32px;
+      }
+    }
+
+    // link-resume
+    .link-resume{
+      margin-top: -30px;
+      width: 80%;
+
+      ul{
+        width: 100%;
+      }
+    }
+
+    // Picture About
+    .picture-about img {
+      padding-top: 60px;
+    }
+  }
+
+  // CARRER
+  .carrer{
+    .content-full-flex-carrer{
+      .time-line-carrer{
+        width: 100%;
+
+        #timeline .timeline-item{
+          .timeline-icon{
+            width: 40px;
+            height: 40px;
+            margin-left: -20px;
+
+            i{
+              top: 10px;
+              font-size: 20px;}
+          }
+          .timeline-content{
+            .logotime-title{
+              padding-top: 15px;
+              .flex-12{
+                width: 20%;
+              }
+              .flex-88 h2{
+                font-size: 12px;
+                padding-top: 10px;
+              }
+            }
+          }
+        }
+      }
+
+      .next-step{
+        width: 75%;
+        margin-bottom: 50px;
+        margin-top: -84px;
+        margin-left: 50px;
+        border: 2px solid $main-color-blue;
+        h1{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  //PROJECTS
+  .project {
+    padding-bottom: 10px;
+    margin-bottom: -30px;
+    .content-full-flex-projects {
+      .title-flex-projects{
+
+        height: 150px;
+        margin-top: -95px;
+
+        .col-title-project{
+          h2{
+            padding-top: 110px;
+            color: $main-color-white;
+          }
+        }
+
+      }
+      .title-flex-projects-photo {
+        .col-title-project{
+          height: 100%;
+
+          img{
+            width: 70%;
+            height: 100%;
+            margin-top: -80px;
+          }
+        }
+      }
+
+      .content-projects{
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .content-proj{
+          width: 100%;
+
+          .select-project{
+            width: 90%;
+            .rightlist{
+              padding-right: 5px;
+              padding-left: 5px;
+            }
+
+            .leftlist{
+              padding-right: 5px;
+              padding-left: 5px;
+            }
+          }
+          .gifmac{
+            margin-top: -155px;
+          }
+        }
+
+        .content-desc{
+          width: 100%;
+          margin-top: -20px;
+          padding-left: 20px;
+          padding-right: 22px;
+          padding-bottom: 40px;
+
+          .desc-proj-select p{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  // APP
+  .app {
+    .content-full-flex-app {
+      .text-link-app{
+        padding-top: 60px;
+
+        ul{
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .contact .content-full-flex-contact {
+    .contact-flex ul li{
+    padding-left: 0px;
+      h2{
+      font-size: 15px;
+      }
+    }
+    .text-contact-flex h3{
+      font-size: 15px;
+    }
+  }
+
+
+
+}

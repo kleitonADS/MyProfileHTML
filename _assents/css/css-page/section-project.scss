@@ -1,0 +1,257 @@
+// PROJECT
+.project {
+  width: 100%;
+  background: url('../img/background-home.jpg')center;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+
+  // content-full-flex-projects
+  .content-full-flex-projects {
+    width: 100%;
+
+    .title-flex-projects-photo {
+      display: flex;
+      .col-title-project{
+        width: calc(100%/3);
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    // Content Title Photo
+    .title-flex-projects-photo{
+
+      .col-title-project {
+        width: 100%;
+        img{
+          display: flex;
+          justify-content: center;
+          margin-top: -120px;
+        }
+      }
+    }
+    // Content Title
+    .title-flex-projects {
+
+      height: 78px;
+      background-color: $main-color-blue;
+      display: flex;
+      margin-top: -200px;
+
+      .col-title-project {
+        width: calc(100%/3);
+        h2 {
+          font-family: 'futurabt', arial;
+          font-size: 24px;
+          color: $main-color-white;
+          text-transform: uppercase;
+          text-align: center;
+          padding-top: 30px;
+        }
+      }
+    }
+
+    // Content Project
+    .content-projects {
+
+      width: 100%;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 40px;
+      padding-bottom:0px;
+      margin-top: 160px;
+      margin-bottom: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+
+      .select-projectlist{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
+        .title-typeproject{
+          .intProj{
+            border: 2px solid $main-color-blue;
+            border-radius: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: $main-color-blue;
+            font-size: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+          }
+          h1{
+            font-family: 'futurabt', arial;
+            font-size: 20px;
+            color: $main-color-white;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 50px;
+
+
+          }
+        }
+        ul {
+
+          display:flex;
+          flex-direction: row;
+          justify-content: center;
+          padding-bottom: 10px;
+            li {
+              margin-left: 10px;
+
+              img{
+                width: 40px;
+              }
+
+            }:hover{
+              background-color: rgba(17, 117, 238, 0.5);
+              border-radius: 20px;
+              transition: all ease .5s;
+            }
+        }
+      }
+
+      // Content proj
+      .content-proj{
+        width: 40%;
+
+        // Select project
+        .select-project{
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: -20px;
+          padding-top: 20px;
+          padding-bottom: 40px;
+          width: 75%;
+          flex-direction:row;
+
+        }
+
+        // Imag macbook
+        .macbook{
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10px;
+          margin-bottom: -60px;
+          width: 100%;
+        }
+
+        // Gif projects
+        .gifmac{
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: -300px;
+          //margin-bottom: -60px;
+          width: 75%;
+        }
+
+        // List tools project
+        #list_tools_proj{
+          display: flex;
+          padding-top: 20px;
+          justify-content: center;
+          text-align: center;
+          .pluslist{
+            margin-top: 18px;
+            color: $main-color-blue;
+          }
+        }
+
+        // List tools project
+        #list_tools_proj2{
+          display: flex;
+          padding-top: 0px;
+          justify-content: center;
+          text-align: center;
+          .pluslist{
+            margin-top: 18px;
+            color: $main-color-blue;
+          }
+        }
+      }
+
+      // Contet description
+      .content-desc{
+        width:30%;
+        padding-top: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        // Title Project
+        .title-des-proj{
+          h1{
+            font-family: 'futurabt', arial;
+            font-size: 20px;
+            color: $main-color-white;
+            text-transform: uppercase;
+            text-align: center;
+          }
+
+
+        }
+
+        // Description project
+        .desc-proj-select{
+          p{
+            font-family: 'Titillium Web', sans-serif;
+            color: $main-color-white;
+            font-size: 14px;
+            //margin-top: -10px;
+            line-height: 20px;
+            text-align: center;
+          }
+
+
+        }
+
+        // Links projects
+        .links-desc-proj{
+          margin-top: 30px;
+          ul{
+            //padding-bottom: 30px;
+            text-align: center;
+          }
+          li{
+            display: inline-block;
+            padding-right: 10px
+          }
+
+          a{
+            color: $main-color-white;
+
+            i{
+              border: 2px solid $main-color-white;
+              border-radius: 30px;
+              width: 40px;
+              height: 40px;
+              padding-top: 10px;
+
+            }
+
+              :hover{
+                background-color: $main-color-white;
+                color: $main-color-blue;
+                transition: all ease .5s;
+              }
+          }
+
+        }
+
+
+      }
+    }
+
+  }
+
+}
