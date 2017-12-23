@@ -36,6 +36,11 @@ $('#laguage').on('change', function() {
 	}
 });
 
+// Define var tmenu
+ 	var tmenu = $('.menu-nav').position().top + $('.menu-nav').data('position');
+ 		$('.menu-nav').css({
+ 			'top': tmenu
+ 		});
 
 // Action Scroll nav
 $(window).scroll(function(){
