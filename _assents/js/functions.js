@@ -56,8 +56,26 @@ $('.hamburger').click(function(){
 	});
 
 });
+$('#mensage_send').hide();
+var submitted = false;
 
+$('#form1').on('submit', function(e) {
+  console.log(submitted);
+	var submitted = false;
+	console.log(submitted);
+	//$('#form1 *').fadeOut(2000);
+	$('#form-main').hide('slow');
+	$('#mensage_send').show('slow');
+	$('#name').val('');
+	$('#email').val('');
+	$('#comment').val('');
 
+	var name = document.getElementById('showform').name;
+	document.getElementById('showform').name = "show";
+
+  //$('#form1').prepend('Your submission has been processed...');
+	//var submitted = false;
+  });
 
 
 
@@ -488,7 +506,7 @@ $(document).ready(function(){
 
 });
 
-// Formulari
+// Formulario
 $('#form-main').hide();
 
 $(document).ready(function(){
@@ -499,6 +517,7 @@ $(document).ready(function(){
 		if(name == 'show'){
 
 			$('#form-main').show('slow');
+			$('#mensage_send').hide();
 			document.getElementById('showform').name = "";
 
 

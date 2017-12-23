@@ -1678,6 +1678,21 @@ body {
       }
     }
 
+    // Content text contact
+    .text-contact-msm-flex{
+      display: flex;
+      justify-content: center;
+      //padding-top: 50px;
+
+      // Text contact
+      h3{
+        font-family: 'futurabt', arial;
+        font-size: 30px;
+        color: $main-color-white;
+        text-transform: uppercase;
+      }
+    }
+
     // Button contact
     .button-contact{
       display: flex;
@@ -1734,7 +1749,7 @@ body {
 
       // Div Form
       #form-div {
-      	padding-top:35px;
+      	//padding-top:35px;
       	padding-bottom:50px;
       	width: 100%;
         display: flex;

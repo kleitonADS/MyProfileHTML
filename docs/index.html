@@ -1244,28 +1244,36 @@
         </ul>
       </div>
       <div class="text-contact-flex">
-        <h3>Any question or suggestion</br>send me a message, thanks</h3>
-      </div>
-      <div class="text-contact-flex">
-        <h3 id="mensage_send">Thank for message  </h3>
+        <h3>Any question or suggestion</br>send me a message, thanks.</h3>
       </div>
       <div class="button-contact"><a href="" id="showform" name="show"><i aria-hidden="true" class="fa fa-envelope"></i></a></div>
+      <div class="text-contact-msm-flex">   
+        <h3 id="mensage_send">Thanks for message  </h3>
+      </div>
       <div id="form-main">
         <div id="form-div">
-          <form id="form1" method="POST" action="http://formspree.io/kleiton.ads@hotmail.com" class="form">
+          <form id="form1" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSePaRE4vwcvptRUS7J61M1hDv7fBQnlkrXQxGtoLGTzKSc4dA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" class="form">
             <p class="name">
-              <input id="name" name="name" type="text" placeholder="Name" class="feedback-input validate[required,custom[onlyLetter],length[0,100]]">
+              <input id="name" name="entry.925714318" type="text" placeholder="Name" required="" class="feedback-input validate[required,custom[onlyLetter],length[0,100]]">
             </p>
             <p class="email">
-              <input id="email" name="email" type="email" placeholder="Email" class="feedback-input">
+              <input id="email" name="entry.573725565" type="email" placeholder="Email" required="" class="feedback-input">
             </p>
             <p class="text">
-              <textarea id="comment" name="text" placeholder="Comment" class="feedback-input validate[required,length[6,300]]"></textarea>
+              <textarea id="comment" name="entry.135057298" placeholder="Comment" required="" class="feedback-input validate[required,length[6,300]]"></textarea>
             </p>
             <div class="submit">
               <input id="button-blue" type="submit" value="SEND">
-              <input type="hidden" name="_next" value="profile/#contact-li">
-              <input type="text" name="_gotcha" style="display:none">
+              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){}"> </iframe>
+            </div>
+            <div class="text-contact-flex">
+              <!--h3#mensage_send Thank for message  usp=pp_url    -->
+              <!--input(type="hidden" name="_next" value="profile/#contact-li") -->
+              <!--input(type="text" name="_gotcha" style="display:none")-->
+              
+              
+              
+              
             </div>
           </form>
         </div>

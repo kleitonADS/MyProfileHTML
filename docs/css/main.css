@@ -6070,6 +6070,18 @@ body {
         font-size: 30px;
         color: #fff;
         text-transform: uppercase; }
+    .contact .content-full-flex-contact .text-contact-msm-flex {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .contact .content-full-flex-contact .text-contact-msm-flex h3 {
+        font-family: 'futurabt', arial;
+        font-size: 30px;
+        color: #fff;
+        text-transform: uppercase; }
     .contact .content-full-flex-contact .button-contact {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -6123,7 +6135,6 @@ body {
       .contact .content-full-flex-contact #form-main #feedback-page {
         text-align: center; }
       .contact .content-full-flex-contact #form-main #form-div {
-        padding-top: 35px;
         padding-bottom: 50px;
         width: 100%;
         display: -webkit-box;
