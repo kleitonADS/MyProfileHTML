@@ -1,12 +1,12 @@
 // CHARSET
 @charset "UTF-8";
 
-// IMPORTS TOOLS
+// IMPORTS TOOLS ////////////////////////
 @import "tools/reset";
 @import "tools/fontawesome/font-awesome";
 @import "tools/animate";
 
-// IMPORT CSS PAGE
+// IMPORT CSS PAGE //////////////////////
 @import "css-page/colors";
 @import "css-page/fonts";
 @import "css-page/body";
@@ -23,16 +23,41 @@
 @import "css-page/section-contact";
 @import "css-page/footer";
 
-// IMPORT MEDIA QUERYS
+// IMPORT MEDIA QUERYS ////////////////////
+
+// Chromebox 30
+@import "media-querys/max-width-2560";
+// Surface book
+@import "media-querys/max-width-1500";
+// Mac book
+@import "media-querys/max-width-1440";
+// Surface Pro
+@import "media-querys/max-width-1368";
+// Ipad Pro
 @import "media-querys/max-width-1366";
+// Sony tablet
+@import "media-querys/max-width-1280";
+// Nexus 9
 @import "media-querys/max-width-1024";
+// Other
 @import "media-querys/max-width-979";
+// Xperia Z3
+@import "media-querys/max-width-960";
+// Sansug tablet 10
+@import "media-querys/max-width-800";
+// Ipad
 @import "media-querys/max-width-768";
+//
 @import "media-querys/max-width-750";
+//
 @import "media-querys/max-width-736";
+//
 @import "media-querys/max-width-732";
+//
 @import "media-querys/max-width-667";
+//
 @import "media-querys/max-width-640";
+// 
 @import "media-querys/max-width-568";
 @import "media-querys/max-width-500";
 @import "media-querys/max-width-480";

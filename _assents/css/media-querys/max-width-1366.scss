@@ -1,9 +1,21 @@
 // Ipad pro landscap
 @media screen and (max-width: 1366px) {
+
+  .header-action {
+    min-height: 800px;
+  }
+
+  .header-action .content-move .icon-move {
+    padding-top: 0px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 200px;
+  }
   .project .content-full-flex-projects .content-projects {
     .content-proj {
       .gifmac{
-      margin-top: -260px;
+      margin-top: -280px;
       }
     }
   }

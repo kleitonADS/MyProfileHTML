@@ -1,6 +1,17 @@
 // Smatphone Ipad mimi
 @media screen and (max-width: 768px){
 
+  .header-action .content-move {
+    margin-top: 140px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 280px;
+  }
+  .header-action {
+    min-height: 1100px;
+  }
+  
   .project .content-full-flex-projects .content-projects{
     flex-direction: column;
     justify-content: center;

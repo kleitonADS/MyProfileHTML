@@ -1,0 +1,132 @@
+@media screen and (max-width: 2560px) {
+
+  .hamburger {
+    right: 2%;
+  }
+
+  .header-action {
+    min-height: 770px;
+  }
+
+  .about {
+
+    display: flex;
+    justify-content: center;
+
+    .content-full-flex-about {
+    width: 100%;
+
+      .about-2 .text-about p {
+        font-size: 25px;
+        line-height: 30px;
+      }
+
+      .col-flex1 .plus-about .flex-obout p {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .about .content-full-flex-about .picture-about img {
+    padding-left: 250px;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about input {
+
+    margin-top: 50px;
+
+  }
+
+  .about .content-full-flex-about .about-2 .text-about {
+    margin-top: 60px;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about h2 {
+    font-size: 35px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2 {
+    font-size: 25px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h1 {
+
+    font-size: 25px;
+  }
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title .flex-12 {
+    width: 6%;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content p {
+    font-size: 25px;
+    padding-bottom: 70px;
+  }
+
+  .carrer .content-full-flex-carrer .next-step h1 {
+    font-size: 25px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer ul {
+    padding-bottom: 70px;
+
+  }
+
+  .skill .content-full-flex-skills .content-skills .types-skills .col-flex30-logos {
+    height: 380px;
+  }
+
+  .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs ul li {
+    font-size: 25px;
+  }
+
+  .project .content-full-flex-projects .content-projects {
+    .content-proj {
+      .gifmac{
+      margin-top: -570px;
+      }
+    }
+  }
+
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .project .content-full-flex-projects .content-projects .content-desc .title-des-proj h1 {
+    font-size: 25px;
+  }
+
+  .project .content-full-flex-projects .content-projects .select-projectlist .title-typeproject h1 {
+    font-size: 25px;
+  }
+
+
+  .project .content-full-flex-projects .content-projects .select-projectlist .title-typeproject .intProj {
+
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .project .content-full-flex-projects .content-projects .select-projectlist .title-typeproject h1 {
+    padding-top: 300px;
+  }
+
+  .project .content-full-flex-projects .content-projects .content-desc {
+    padding-top: 200px;
+  }
+
+  .contact .content-full-flex-contact .contact-flex ul li {
+    justify-content: center;
+  }
+
+
+}

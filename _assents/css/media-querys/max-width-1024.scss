@@ -5,21 +5,38 @@
       .content-full-flex-about{
         .about-2{
           .text-about{
-            margin-top: 90px;
+            margin-top: 0px;
           }
         }
       }
     }
 
-    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2{
-
-      font-size: 16px;
+    .about .content-full-flex-about .about-2 .text-about input {
+    margin-top: 20px;
     }
 
+    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2{
+
+      font-size: 14px;
+    }
+
+    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title {
+    padding-top: 30px;
+    padding-left: 20px;
+    }
+
+    .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title .flex-12 {
+    width: 15%;
+    }
+
+    .about .content-full-flex-about .about-2 .content-about .social-about {
+    padding-top: 30px;
+
+    }
     .project .content-full-flex-projects .content-projects {
       .content-proj {
         .gifmac{
-        margin-top: -225px;
+        margin-top: -200px;
         }
       }
       .content-desc .desc-proj-select p{
@@ -33,9 +50,6 @@
             .contact-flex{
               width: 70%;
 
-              ul li{
-                padding-left: 150px;
-              }
             }
             .button-contact{
               width: 60%;

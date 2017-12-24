@@ -1,0 +1,58 @@
+// Ipad pro landscap
+@media screen and (max-width: 1280px) {
+
+  .header-action {
+    min-height: 820px;
+  }
+
+  .header-action .content-move .icon-move {
+    padding-top: 0px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 200px;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .about .content-full-flex-about .col-flex1 .plus-about .flex-obout p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h1 {
+    font-size: 20px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content p {
+      font-size: 20px;
+      padding-bottom: 70px;
+  }
+
+  .carrer .content-full-flex-carrer .next-step h1 {
+    font-size: 20px;
+  }
+
+  .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs ul li {
+   font-size: 20px;
+  }
+
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2 {
+    font-size: 18px;
+  }
+  .project .content-full-flex-projects .content-projects {
+    .content-proj {
+      .gifmac{
+      margin-top: -260px;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@media screen and (max-width: 1500px) {
+
+  .header-action {
+    min-height: 1024px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 300px;
+  }
+
+  .header-action .content-move .icon-move {
+    padding-top: 200px;
+  }
+  .about .content-full-flex-about {
+    width: 100%;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about {
+    margin-top: 20px;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about .content-full-flex-about .col-flex1 .plus-about .flex-obout p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .about .content-full-flex-about .picture-about img {
+    padding-left: 0px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2 {
+    font-size: 20px;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title .flex-12 {
+    width: 10%;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content p {
+    font-size: 22px;
+    padding-bottom: 70px;
+  }
+  .project .content-full-flex-projects .content-projects {
+    .content-proj {
+      .gifmac{
+      margin-top: -315px;
+      }
+    }
+  }
+
+  .project .content-full-flex-projects .content-projects .select-projectlist .title-typeproject h1 {
+    padding-top: 100px;
+  }
+
+  .project .content-full-flex-projects .content-projects .content-desc {
+    padding-top: 50px;
+  }
+}
