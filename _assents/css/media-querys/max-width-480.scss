@@ -1,5 +1,29 @@
 // Smartphone 480px
 @media screen and (max-width: 480px){
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title .flex-88 h2 {
+    font-size: 14px;
+  }
+
+  .contact .content-full-flex-contact .contact-flex ul li h2 {
+    font-size: 20px;
+  }
+
+  .contact .content-full-flex-contact .text-contact-flex h3 {
+    font-size: 20px;
+  }
+
+  .header-action {
+    min-height: 920px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 170px;
+  }
+
+  .carrer .content-full-flex-carrer .next-step h1 {
+    font-size: 14px;
+  }
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
     margin-top: -252px;
   }

@@ -1,0 +1,36 @@
+// Smartphne 568
+@media screen and (max-width: 600px){
+
+  .header-action {
+    min-height: 1000px;
+  }
+
+  .about .content-full-flex-about .about-2 {
+    flex-direction: column-reverse;
+  }
+
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2 {
+    font-size: 16px;
+  }
+
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .carrer .content-full-flex-carrer .next-step {
+    margin-top: -80px;
+  }
+
+
+  .project .content-full-flex-projects .content-projects .content-desc {
+    width: 100%;
+  }
+  .project .content-full-flex-projects .content-projects .content-proj {
+
+    width: 90%;
+    .gifmac {
+     margin-top: -248px;
+    }
+  }
+}

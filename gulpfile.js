@@ -64,6 +64,8 @@ gulp.task('jade', function(){
 gulp.task('watch', function(){
 
   gulp.watch("_assents/css/*.scss", ['sass']);
+  gulp.watch("_assents/css/css-page/*.scss", ['sass']);
+  gulp.watch("_assents/css/media-querys/*.scss", ['sass']);
   gulp.watch("jadeFiles/*.jade", ['jade']).on('change', browserSync.reload);
   gulp.watch("jadeFiles/inc/*.jade", ['jade']).on('change', browserSync.reload);
   gulp.watch("_assents/js/*.js", ['js']).on('change', browserSync.reload);
