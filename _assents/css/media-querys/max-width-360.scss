@@ -4,7 +4,7 @@
     padding-top: 20px;
     .content-proj{
       .gifmac{
-      margin-top: -160px;
+      margin-top: -180px;
       }
     }
     .select-projectlist{
@@ -34,5 +34,29 @@
 
   .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p{
     text-align: center;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about p {
+    text-align: center;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about h1 {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .about .content-full-flex-about .about-2 .text-about h2 {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .about .content-full-flex-about .col-flex1 .plus-about .flex-obout p {
+    text-align: center;
+  }
+
+  .contact .content-full-flex-contact .text-contact-msm-flex h3 {
+    font-size: 22px;
+    padding-bottom: 50px;
+    
   }
 }

@@ -2,7 +2,7 @@
 @media screen and (max-width: 320px) {
 
   .header-action {
-    min-height: 620px;
+    min-height: 540px;
 
     .content-flex-home {
       margin-top: 90px;
@@ -10,22 +10,23 @@
       .col-2flex{
         .text-home{
           h1{
-            font-size: 25px;
-            margin-top: 40px;
+            font-size: 20px;
+            margin-top: 30px;
           }
 
           h2{
-            font-size: 25px;
+            font-size: 20px;
           }
           h3{
             font-size: 16px;
+            padding-top: 10px;
           }
 
         }
       }
     }
     .content-move{
-      margin-top: 15px;
+      margin-top: 35px;
     }
   }
 
@@ -199,6 +200,12 @@
     .text-contact-flex h3{
       font-size: 15px;
     }
+  }
+
+  .header-action .content-flex-home .picture-perfil-profile img {
+    width: 170px;
+    height: 200px;
+    padding-top: 20px;
   }
 
 
