@@ -7557,7 +7557,7 @@ footer {
     height: 200px;
     padding-top: 20px; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 214px) {
   .menu-nav .content-flex-nav {
     display: none; }
   .hamburger {
