@@ -12,6 +12,8 @@ $(document).ready(function(){
 
 		}else {
 
+			window.open("https://kleitonads.github.io/profile/file/portResume.pdf", '_blank');
+
 		}
 
 	});
