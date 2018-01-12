@@ -7054,6 +7054,39 @@ footer {
   .contact .content-full-flex-contact .contact-flex ul li {
     padding-left: 0px; } }
 
+@media screen and (max-width: 753px) {
+  .header-action .content-move {
+    margin-top: 140px; }
+  .header-action .content-flex-home {
+    margin-top: 280px; }
+  .header-action {
+    min-height: 1100px; }
+  .project .content-full-flex-projects .content-projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 40px; }
+    .project .content-full-flex-projects .content-projects .content-proj {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto; }
+      .project .content-full-flex-projects .content-projects .content-proj .gifmac {
+        margin-top: -290px; }
+    .project .content-full-flex-projects .content-projects .select-projectlist {
+      width: 100%; }
+    .project .content-full-flex-projects .content-projects .content-desc {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto; }
+  .app .content-full-flex-app .picture-smartyphone img {
+    width: 90%; }
+  .contact .content-full-flex-contact .contact-flex ul li {
+    padding-left: 0px; } }
+
 @media screen and (max-width: 750px) {
   .menu li {
     height: 20%; }
