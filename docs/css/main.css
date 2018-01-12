@@ -7362,7 +7362,10 @@ footer {
   .carrer .content-full-flex-carrer .next-step h1 {
     font-size: 14px; }
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -252px; } }
+    margin-top: -252px; }
+  .contact .content-full-flex-contact .text-contact-msm-flex h3 {
+    font-size: 30px;
+    padding-bottom: 40px; } }
 
 @media screen and (max-width: 414px) {
   .header-action .content-flex-home {
@@ -7378,13 +7381,19 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -190px; } }
+      margin-top: -210px; }
+  .contact .content-full-flex-contact .text-contact-msm-flex h3 {
+    font-size: 25px;
+    padding-bottom: 30px; } }
 
 @media screen and (max-width: 411px) {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -212px; } }
+      margin-top: -212px; }
+  .contact .content-full-flex-contact .text-contact-msm-flex h3 {
+    font-size: 25px;
+    padding-bottom: 30px; } }
 
 @media screen and (max-width: 384px) {
   .header-action .content-flex-home {
@@ -7398,7 +7407,11 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -195px; } }
+      margin-top: -200px; }
+  .contact .content-full-flex-contact .text-contact-msm-flex h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-bottom: 30px; } }
 
 @media screen and (max-width: 375px) {
   .header-action {
@@ -7406,7 +7419,11 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -190px; } }
+      margin-top: -190px; }
+  .contact .content-full-flex-contact .text-contact-msm-flex h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-bottom: 30px; } }
 
 @media screen and (max-width: 360px) {
   .project .content-full-flex-projects .content-projects {
