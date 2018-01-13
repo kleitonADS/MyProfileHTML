@@ -3,7 +3,7 @@ $('.menu-nav').css({
 	'top': '0px'
 });
 
-// Select nav
+// Select idioma nav
 $('#laguage').on('change', function() {
 	var nameSelect  = this.value;
 

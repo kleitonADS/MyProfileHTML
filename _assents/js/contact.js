@@ -1,4 +1,4 @@
-// Form
+// Submit form
 
 var submitted = false;
 
@@ -15,7 +15,7 @@ $('#form1').on('submit', function(e) {
 
 });
 
-// Efect form
+// Efect show form
 $(document).ready(function(){
 	$('#showform').click(function(event){
 		event.preventDefault();

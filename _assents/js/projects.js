@@ -56,6 +56,40 @@ intProj.innerHTML = itensImgProj.length;
 						$('.list_tool_basefe').show('slow');
 						break;
 
+					case 'MEU PERFIL':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = " Essa página foi criada usando HTML5, JavaScript, SASS, CSS3 com Flexbox para páginas reponsivas, jQuery, Photoshop para criação de designers, Git e Github, algumas estruturas JS para racionalizar e otimizar o processo de codificação, NodeJs, Gulp, Jade, Autoprefixer, Plumber , Uglify, Imagmim e Browser-sync. ";
+						linkvproj.href = "#";
+						linkcproj.href = "https://github.com/kleitonADS/profile";
+						imgGif.src = 'img/profileproj.gif';
+
+						$('.list_tool_profile').show('slow');
+						$('.list_tool_feedback').hide('slow');
+						$('.list_tool_basefe').hide('slow');
+						break;
+
+					case 'SISTEMA DE FEEDBACK':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "Sistema criado para mostrar um sistema PHP com banco de dados MSQL utilizado para a persistência de dados e a metodologia MVC podem adicionar novos comentários, listar, visualizar, desativar, marcar como verificado, excluir, fazer pesquisas através de vários parâmetros.";
+						linkvproj.href = "https://feedbackproject.000webhostapp.com/";
+						linkcproj.href = "https://github.com/kleitonADS/feedbackphp";
+						imgGif.src = 'img/feedback.gif';
+						$('.list_tool_feedback').show('slow');
+						$('.list_tool_profile').hide('slow');
+						$('.list_tool_basefe').hide('slow');
+						break;
+
+					case 'PROJETO BASE FRONT-END':
+						titlePro.innerHTML = itenp;
+						descPro.innerHTML = "O projeto base foi criado com novas tecnologias usadas para maior agilidade no desenvolvimento de front-end, tornando o código-fonte do projeto mais limpo usando vários pacotes de javascripts.";
+						linkvproj.href = "https://github.com/kleitonADS/jsBaseProject";
+						linkcproj.href = "https://github.com/kleitonADS/jsBaseProject";
+						imgGif.src = 'img/basefe.gif';
+						$('.list_tool_feedback').hide('slow');
+						$('.list_tool_profile').hide('slow');
+						$('.list_tool_basefe').show('slow');
+						break;
+
 
 					default:
 						// code

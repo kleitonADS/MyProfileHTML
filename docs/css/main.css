@@ -6488,25 +6488,34 @@ footer {
   .header-action .content-flex-home {
     margin-top: 200px; }
   .about .content-full-flex-about .about-2 .text-about p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px; }
   .about .content-full-flex-about .col-flex1 .plus-about .flex-obout p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px; }
   .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h1 {
-    font-size: 20px; }
+    font-size: 18px; }
   .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content p {
-    font-size: 20px;
-    padding-bottom: 70px; }
-  .carrer .content-full-flex-carrer .next-step h1 {
-    font-size: 20px; }
-  .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs ul li {
-    font-size: 20px; }
-  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
-    font-size: 20px;
+    font-size: 18px;
+    padding-bottom: 70px;
     line-height: 30px; }
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content .logotime-title {
+    padding-top: 50px;
+    padding-left: 30px; }
+  .carrer .content-full-flex-carrer .next-step h1 {
+    font-size: 18px; }
+  .content-skills .types-skills .content-2skills .col-flex30-tecs .flex100content-tecs ul li {
+    font-size: 18px; }
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px; }
   .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h2 {
     font-size: 18px; }
+  .project .content-full-flex-projects .content-projects .select-projectlist .title-typeproject h1 {
+    font-size: 20px; }
+  .project .content-full-flex-projects .content-projects .content-desc .title-des-proj h1 {
+    font-size: 20px; }
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
     margin-top: -260px; } }
 
@@ -7436,7 +7445,15 @@ footer {
   .header-action .content-move {
     margin-top: 100px; }
   .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-    margin-top: -215px; } }
+    margin-top: -215px; }
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    font-size: 18px; }
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content p {
+    font-size: 18px;
+    padding-bottom: 50px;
+    line-height: 30px; }
+  .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h1 {
+    font-size: 20px; } }
 
 @media screen and (max-width: 384px) {
   .header-action .content-flex-home {
@@ -7472,11 +7489,14 @@ footer {
   .project .content-full-flex-projects .content-projects {
     padding-top: 20px; }
     .project .content-full-flex-projects .content-projects .content-proj .gifmac {
-      margin-top: -150px; }
+      margin-top: -180px; }
     .project .content-full-flex-projects .content-projects .select-projectlist {
       width: 100%; }
   .carrer .content-full-flex-carrer .time-line-carrer #timeline .timeline-item .timeline-content h1 {
     padding-top: 60px; }
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    text-align: center;
+    line-height: 30px; }
   .carrer .content-full-flex-carrer .next-step h1 {
     font-size: 12px; }
   .list_tool_profile {
