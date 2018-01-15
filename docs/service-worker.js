@@ -8,7 +8,14 @@ var cacheFiles = [
   './index-br.html',
 	// './js/app.js',
 	'./css/main.css',
-	// './css/style.css',
+	'./js/jquery.js',
+  './js/button-resume.js',
+  './js/contact.js',
+  './js/functions.js',
+  './js/nav-toggle.js',
+  './js/nav.js',
+  './js/progess-skills.js',
+  './js/projects.js',
 	// 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic'
 ]
 
