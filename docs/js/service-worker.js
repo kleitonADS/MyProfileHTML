@@ -24,7 +24,7 @@ const PRECACHE_URLS = [
     'index-br.html',
     'manifest.json',
     'css/main.css',
-    'js/jquery.min.js',
+    'js/jquery.js',
     'js/functions.js',
 
 ];
