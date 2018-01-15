@@ -253,11 +253,6 @@
       padding-left: 0px;
     }
 
-    .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
-      font-size: 15px;
-      line-height: 20px;
-    }
-
     .project .content-full-flex-projects .content-projects .content-desc .title-des-proj h1 {
       font-size: 20px;
     }
@@ -285,4 +280,9 @@
         }
       }
     }
+
+    .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

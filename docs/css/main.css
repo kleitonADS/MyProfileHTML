@@ -6837,9 +6837,6 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     padding-left: 0px; }
-  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
-    font-size: 15px;
-    line-height: 20px; }
   .project .content-full-flex-projects .content-projects .content-desc .title-des-proj h1 {
     font-size: 20px; }
   .project .content-full-flex-projects .content-projects .select-projectlist .title-typeproject h1 {
@@ -6858,7 +6855,10 @@ footer {
   .contact .content-full-flex-contact #form-main {
     width: 70%; }
   .contact .content-full-flex-contact .button-contact {
-    width: 70%; } }
+    width: 70%; }
+  .project .content-full-flex-projects .content-projects .content-desc .desc-proj-select p {
+    font-size: 18px;
+    line-height: 30px; } }
 
 @media screen and (max-width: 800px) {
   .menu-nav .content-flex-nav .select-header select {
