@@ -20,7 +20,7 @@ const RUNTIME = 'runtime';
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
     // '/',
-    './profile/index.html',
+    '/../profile/index.html',
     // 'index-br.html',
     // 'manifest.json',
     // 'css/main.css',
@@ -61,6 +61,7 @@ self.addEventListener('fetch', event => {
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
         if (cachedResponse) {
+          va
           return cachedResponse;
         }
 
