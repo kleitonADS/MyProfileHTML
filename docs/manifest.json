@@ -3,21 +3,24 @@
   "name": "Profile - Kleiton Azevedo",
   "icons": [
     {
-      "src": "img/logo-headerf.png",
+      "src": "img/logo-headerf48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "img/logo-headerf.png",
+      "src": "img/logo-headerf96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "img/logo-headerf.png",
+      "src": "img/logo-headerf192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
   ],
   "start_url": "index.html?launcher=true",
-  "background_color": "#fff"
+  "background_color": "#fff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1175ee"
 }
