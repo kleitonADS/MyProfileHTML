@@ -16,6 +16,10 @@ var cacheFiles = [
   './js/nav.js',
   './js/progess-skills.js',
   './js/projects.js',
+  './img/logoheaderf.png',
+  './img/profileproj.gif',
+  './img/feedback.gif',
+  './img/basefe.gif',
 	// 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic'
 ]
 
