@@ -18,9 +18,9 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "/",
+  "start_url": "/profile",
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#1175ee"  
+  "theme_color": "#1175ee"
 }
