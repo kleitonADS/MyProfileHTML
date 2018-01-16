@@ -18,7 +18,7 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "/",
+  "start_url": "/profile/index.html",
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",
