@@ -18,7 +18,6 @@
       "sizes": "192x192"
     }
   ],
-  "Scope": "/",
   "start_url": "/profile/index.html",
   "background_color": "#fff",
   "display": "standalone",
