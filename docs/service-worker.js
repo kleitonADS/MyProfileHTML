@@ -6,7 +6,6 @@ var cacheFiles = [
 	'./',
 	'./index.html',
   './index-br.html',
-	// './js/app.js',
 	'./css/main.css',
 	'./js/jquery.js',
   './js/button-resume.js',
@@ -20,7 +19,6 @@ var cacheFiles = [
   './img/profileproj.gif',
   './img/feedback.gif',
   './img/basefe.gif'
-	// 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic'
 ]
 
 
