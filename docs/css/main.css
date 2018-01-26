@@ -7061,7 +7061,11 @@ footer {
   .app .content-full-flex-app .picture-smartyphone img {
     width: 90%; }
   .contact .content-full-flex-contact .contact-flex ul li {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+  .about .content-full-flex-about .col-flex1 .plus-about .flex-obout p {
+    padding-bottom: 60px; }
+  .carrer .content-full-flex-carrer .next-step {
+    margin-top: -80px; } }
 
 @media screen and (max-width: 753px) {
   .header-action .content-move {
@@ -7426,7 +7430,11 @@ footer {
       margin-top: -210px; }
   .contact .content-full-flex-contact .text-contact-msm-flex h3 {
     font-size: 25px;
-    padding-bottom: 30px; } }
+    padding-bottom: 30px; }
+  .about .content-full-flex-about .about-2 .text-about h1 {
+    text-align: center; }
+  .about .content-full-flex-about .about-2 .text-about p {
+    text-align: center; } }
 
 @media screen and (max-width: 411px) {
   .project .content-full-flex-projects .content-projects {

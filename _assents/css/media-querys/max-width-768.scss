@@ -11,7 +11,7 @@
   .header-action {
     min-height: 1100px;
   }
-  
+
   .project .content-full-flex-projects .content-projects{
     flex-direction: column;
     justify-content: center;
@@ -43,6 +43,14 @@
 
   .contact .content-full-flex-contact .contact-flex ul li {
     padding-left: 0px;
+  }
+
+  .about .content-full-flex-about .col-flex1 .plus-about .flex-obout p {
+    padding-bottom: 60px;
+  }
+
+  .carrer .content-full-flex-carrer .next-step {
+    margin-top: -80px;
   }
 
 }
