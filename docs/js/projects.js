@@ -22,7 +22,7 @@ intProj.innerHTML = itensImgProj.length;
 
 				switch (itenp) {
 
-					case 'MY PROFILE':
+					case 'MY WEBPAGE':
 						titlePro.innerHTML = itenp;
 						descPro.innerHTML = " That webpage has been created using HTML5, JavaScript, SASS, CSS3 with Flexbox for reponsive page, jQuery, Photoshop for designer creation, Git and Github, some JS frameworks to streamline and optimize the coding process, NodeJs, Gulp , Jade, Autoprefixer, Plumber, Uglify, Imagmim and Browser-sync. ";
 						linkvproj.href = "#";
@@ -56,7 +56,7 @@ intProj.innerHTML = itensImgProj.length;
 						$('.list_tool_basefe').show('slow');
 						break;
 
-					case 'MEU PERFIL':
+					case 'MEU SITE':
 						titlePro.innerHTML = itenp;
 						descPro.innerHTML = " Essa página foi criada usando HTML5, JavaScript, SASS, CSS3 com Flexbox para páginas reponsivas, jQuery, Photoshop para criação de designers, Git e Github, algumas estruturas JS para racionalizar e otimizar o processo de codificação, NodeJs, Gulp, Jade, Autoprefixer, Plumber , Uglify, Imagmim e Browser-sync. ";
 						linkvproj.href = "#";
