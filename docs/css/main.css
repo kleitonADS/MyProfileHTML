@@ -3665,7 +3665,7 @@ body {
 .header-action {
   width: 100%;
   min-height: 800px;
-  background: url("../img/background-home.jpg") center;
+  background: url("../img/background-home.png") center;
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
@@ -4122,7 +4122,7 @@ body {
 
 .skill {
   width: 100%;
-  background: url("../img/background-home.jpg") center;
+  background: url("../img/background-home.png") center;
   background-size: cover; }
   .skill .content-full-flex-skills {
     width: 100%; }
@@ -4252,7 +4252,7 @@ body {
 
 .project {
   width: 100%;
-  background: url("../img/background-home.jpg") center;
+  background: url("../img/background-home.png") center;
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
@@ -4496,7 +4496,7 @@ body {
 .contact {
   width: 100%;
   min-height: 800px;
-  background: url("../img/background-home.jpg") center;
+  background: url("../img/background-home.png") center;
   background-size: cover;
   display: -ms-flexbox;
   display: flex; }
